@@ -44,6 +44,32 @@ shape[i].rotateZ((e.y-(Canvas.height/2))/10000);
 }
 }
 });
+//Touch controls
+Canvas.addEventListener("touchstart", function (e) {
+if(e.touches.length > 1){
+click.grab = 3;
+}
+else{
+click.grab = 1;
+}
+});
+Canvas.addEventListener("touchend", function (e) {
+click.grab = 0;
+});
+Canvas.addEventListener("touchmove", function (e) {
+if(click.grab == 1){
+for(var i = 0; i < shape.length; i++){
+shape[i].x += ((e.touches[0].screenX - (Canvas.width/2))/100);
+shape[i].y -= ((e.touches[0].screenY - (Canvas.height/2))/100);	
+}
+}
+else if(click.grab == 3){
+for(var i = 0; i < shape.length; i++){
+shape[i].rotateY((e.touches[0].screenX-(Canvas.width/2))/10000);	
+shape[i].rotateZ((e.touches[0].screenY-(Canvas.height/2))/10000);	
+}
+}
+});
 
 
 //Keyboard controls

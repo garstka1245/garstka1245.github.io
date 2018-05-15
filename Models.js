@@ -77,7 +77,7 @@ wolf
 fox
 deer
 */
-asyncCall(2,"animals/wolf");
+asyncCall(200,"basic/cube");
 /*
 For multiple models, i need to keep seperate arrays of vectors and faces
 function shape(Vectors,Faces){
@@ -112,10 +112,7 @@ for(var i = 0; i < shape.length; i++){
 }		
 }
 
-setTimeout(function(){console.log(shape);},1000);
-setTimeout(function(){console.log(faces);},1000);
-setTimeout(function(){adjustView();},1000);
-//setTimeout(function(){adjustView2();},2000);
+
 
 
 

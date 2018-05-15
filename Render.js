@@ -8,7 +8,8 @@ var faces = [];
 setInterval(function() {
  ctx.fillStyle = "black";
  ctx.fillRect(0,0,Canvas.width,Canvas.height);
-rotate();
+//rotate();
+
 
 for(i=0;i<faces.length;i++){
 faces[i].z = (shape[faces[i].vA].z + shape[faces[i].vB].z + shape[faces[i].vC].z)/3;
@@ -25,10 +26,11 @@ faces.sort(function(a, b){
   }
   return 0;
 });
-//console.log(faces[0].z);
-//faces.reverse();
-getPerspectivePoints(100);
-//getIsoPoints();
+faces.reverse();
+
+getIsoPoints();
+//getPerspectivePoints(100);
+
 for(i=0;i<faces.length;i++){
 	renderTri(faces[i].vA,faces[i].vB,faces[i].vC,faces[i].C);
 }
@@ -97,7 +99,7 @@ return U.multiplyVector(V);
 }
 
 function renderTri(vA,vB,vC,color){
-//if(getNorm(vA,vB,vC).z > 0){
+if(getNorm(vA,vB,vC).z > 0){
 ctx.beginPath();
 ctx.moveTo(x[vA],y[vA]);
 ctx.lineTo(x[vB],y[vB]);
@@ -109,7 +111,7 @@ ctx.fillStyle = shadeColor(color, (angle+lightA)*(40/Math.PI));
 ctx.strokeStyle = shadeColor(color,(angle+lightA)*(40/Math.PI));;
 ctx.stroke();
 ctx.fill();
-//}
+}
 }
 
 function renderQuad(vA,vB,vC,vD,color){

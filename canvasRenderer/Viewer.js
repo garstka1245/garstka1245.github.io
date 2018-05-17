@@ -2,10 +2,8 @@
 
 var click={
 grab:0,
-xdiff:[],
-ydiff:[],
-xinit:[],
-yinit:[]	
+xinit:0,
+yinit:0	
 };
 var up = new vector(0,100,0);
 
@@ -13,64 +11,59 @@ var up = new vector(0,100,0);
 Canvas.addEventListener ("mousedown", function (e) {
 if(e.which == 1){
 click.grab = 1;
+click.xinit = e.x;
+click.yinit = e.y;
 }
 if(e.which == 2){
 click.grab = 2;
+click.xinit = e.x;
+click.yinit = e.y;
 }
 if(e.which == 3){
 click.grab = 3;
+click.xinit = e.x;
+click.yinit = e.y;
 }
 });
 Canvas.addEventListener ("mouseup", function (e) {
 click.grab = 0;
 });
-Canvas.addEventListener ("mousemove", function (e) {
+setInterval(function() {
 
 if(click.grab == 1){
 for(var i = 0; i < shape.length; i++){
-shape[i].x += ((e.x - (Canvas.width/2))/100);
-shape[i].y -= ((e.y - (Canvas.height/2))/100);	
+shape[i].x += ((click.xinit - (Canvas.width/2))/100);
+shape[i].y -= ((click.yinit - (Canvas.height/2))/100);	
 }
 }
 else if(click.grab == 2){
 for(var i = 0; i < shape.length; i++){
-shape[i].z+= ((e.y - (Canvas.height/2))/100);
+shape[i].z+= ((click.yinit - (Canvas.height/2))/100);
 }	
 }
 else if(click.grab == 3){
 for(var i = 0; i < shape.length; i++){
-shape[i].rotateY((e.x-(Canvas.width/2))/10000);	
-shape[i].rotateZ((e.y-(Canvas.height/2))/10000);	
+shape[i].rotateY((click.xinit-(Canvas.width/2))/10000);	
+shape[i].rotateZ((click.yinit-(Canvas.height/2))/10000);	
 }
 }
-});
+},20);
 //Touch controls
 Canvas.addEventListener("touchstart", function (e) {
 if(e.touches.length > 1){
 click.grab = 3;
+click.xinit = e.touches[0].screenX;
+click.yinit = e.touches[0].screenY;
 }
 else{
 click.grab = 1;
+click.xinit = e.touches[0].screenX;
+click.yinit = e.touches[0].screenY;
 }
 });
 Canvas.addEventListener("touchend", function (e) {
 click.grab = 0;
 });
-Canvas.addEventListener("touchmove", function (e) {
-if(click.grab == 1){
-for(var i = 0; i < shape.length; i++){
-shape[i].x += ((e.touches[0].screenX - (Canvas.width/2))/100);
-shape[i].y -= ((e.touches[0].screenY - (Canvas.height/2))/100);	
-}
-}
-else if(click.grab == 3){
-for(var i = 0; i < shape.length; i++){
-shape[i].rotateY((e.touches[0].screenX-(Canvas.width/2))/10000);	
-shape[i].rotateZ((e.touches[0].screenY-(Canvas.height/2))/10000);	
-}
-}
-});
-
 
 //Keyboard controls
 var controls={

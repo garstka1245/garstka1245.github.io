@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>3D</title>
+    <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      border: 0px;
+      overflow: hidden; /*  Disable scrollbars */
+      display: block;  /* No floating content on sides */
+    }
+    </style>
+</head>
+
+<body style="background-color:#000">
+
+    <!--<input type="text" id="input" value=""> </input>
+	<style>
+	#input {
+    width: 1000px;
+	position:absolute;
+    }
+	</style>-->
+	
+	<button type="button" onclick="Cube()">Cube</button>
+	<button type="button" onclick="Monkey()">Monkey</button>
+	<button type="button" onclick="Wolf()">Wolf</button>
+	<button type="button" onclick="Sphere()">Sphere</button>
+
+    <canvas id='game' style='position:absolute; left:0px; top:40px; width:100%; height:100%;'>
+    </canvas>
+	<script>
+	document.addEventListener('contextmenu', event => event.preventDefault());//Dis-Rightclick
+	Canvas = document.getElementById('game'),
+	Canvas.width = window.innerWidth;
+	Canvas.height = window.innerHeight;
+	ctx = Canvas.getContext('2d');
+	ctx.miterLimit = 1;//edges of paths don't freak out on sharp turns
+	</script>
+	
+	<script language="javascript" src="Coordinate.js"></script>
+	<script language="javascript" src="Render.js"></script>
+	<script language="javascript" src="Models.js"></script>
+	<script language="javascript" src="Viewer.js"></script>
+
+</body> 
+
+</html>

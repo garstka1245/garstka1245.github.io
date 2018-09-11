@@ -39,7 +39,7 @@ async function asyncCall(S,name) {
 		var A = parseInt(lines[i].substr(1,result.length).split(" ")[1]) - 1;
 		var B = parseInt(lines[i].substr(1,result.length).split(" ")[2]) - 1;
 		var C = parseInt(lines[i].substr(1,result.length).split(" ")[3]) - 1;
-		faces.push(new face(A,B,C,"#000000"));
+		faces.push(new face(A,B,C,"#660000"));
 		//quads
 		if(!isNaN(parseInt(lines[i].substr(1,result.length).split(" ")[4]))){
 		var D = parseInt(lines[i].substr(1,result.length).split(" ")[4]) - 1;

@@ -5,23 +5,18 @@
     <title>3D</title>
 </head>
 
-<body style="background-color:#fff; overflow: hidden;margin: 1px; border: 0px;"  onload="startGL();"> 
+<body style="background-color:#fff; overflow: hidden;margin: 1px; border: 0px;" onload=startProg();> 
     <canvas id='glCanvas' width="1920px" height="1080px" style='position:absolute; left:0px; top:0px; width:100%; height:100%;'></canvas>
     <input type="text" id="input" value="" style="width:1000px;position:absolute;"></input>
 	
-	<!--All credits for these texture go to BloodMagic, https://minecraft.curseforge.com/projects/blood-magic, amazing mod, amazing textures that i am using for testing, and making no money off of so I beleive I'm fine.-->
-	<img id="bm-fire" src="textures/bloodmagic_fireritualstone.png" width="0" height="0"></img>
-	<img id="bm-air" src="textures/bloodmagic_airritualstone.png" width="0" height="0"></img>
-	<img id="bm-water" src="textures/bloodmagic_waterritualstone.png" width="0" height="0"></img>
-	<img id="bm-earth" src="textures/bloodmagic_earthritualstone.png" width="0" height="0"></img>
-	<img id="bm-dusk" src="textures/bloodmagic_duskritualstone.png" width="0" height="0"></img>
-	<img id="bm-light" src="textures/bloodmagic_lightritualstone.png" width="0" height="0"></img>
-	<img id="bm-ethereal" src="textures/bloodmagic_etherealopaquemimic.png" width="0" height="0"></img>
-	<img id="bm-imperfect" src="textures/bloodmagic_imperfectritualstone.png" width="0" height="0"></img>
-		
+	<img id="bluestone" src="textures/bluestone.png" width="0" height="0"></img>
+	<img id="square_illusion" src="textures/square_illusion.png" width="0" height="0"></img>
+	<img id="black_square" src="textures/black_square.png" width="0" height="0"></img>
+
 
 	<script language="javascript" src="lib/gl-matrix.js"></script>
 	
+	<script language="javascript" src="models.js"></script>
 	<script language="javascript" src="render.js"></script>
 	<script language="javascript" src="console.js"></script>
 		

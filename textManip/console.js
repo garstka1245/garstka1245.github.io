@@ -61,18 +61,24 @@ function type(subm){
 	var audio2 = new Audio('keyboard_click.mp3');
 
 	var b = 0;
-	setInterval(function(){
-	if(b <= subm.length){
-		document.getElementById("output").value = subm.substr(0, b);
-		b++;
-			if(b%2){
+	var typeloop = setInterval(
+	function(){
+	if(b < subm.length){
+		if(b%2){
 				audio.play();
 			}
 			else{
 				audio2.play();
 			}
 		}
-	}, 150);
+		else{
+			console.log("Returned: " + subm + " :typed");
+			clearInterval(typeloop);
+		}
+		b++;
+		document.getElementById("output").value = subm.substr(0, b);
+	}
+	, 150);
 }
 
 

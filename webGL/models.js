@@ -40,7 +40,6 @@ async function loadObj(name) {
     console.log(lines);
   for(var i=0;i<lines.length;i++){
    if(lines[i].includes("VT ")){
-	  console.log("textured");
 	  textured[a] = true;
    }
   }
@@ -102,24 +101,22 @@ async function loadObj(name) {
   a++;
 }
 
-
 function getPng(path) {
     return new Promise(function(resolve, reject) {
         var image = new Image();
         image.onload = function() {
-			resolve(image.src);//work
+			resolve(image);//work
         };
-        img.src = src;
+        image.src = path;
     });
 }
 
 
 async function loadImg(name) {
 	var result = await getPng("textures/" + name + ".png");
-	
+	loadedImgs.push(result);
 }
 
-//loadImg("textures/bloodmagic_fireritualstone.png");
 
 
 

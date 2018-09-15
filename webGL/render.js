@@ -38,10 +38,10 @@ var gl;
 var ModelIndex = 0;
 
 var startProg = function(){
-	Promise.all([loadObj("basic/cube_textured"),loadObj("basic/cube")]).then(function(){
+	Promise.all([loadObj("basic/cube_textured"),loadObj("basic/cube"),loadImg("bluestone")]).then(function(){
 		//Successfully loaded
 		console.log("Assets loaded.");
-		startGL(loadedVertices[ModelIndex], loadedFaces[ModelIndex], loadedUvs[ModelIndex], textured[ModelIndex]);
+		startGL(loadedVertices[ModelIndex], loadedFaces[ModelIndex], loadedUvs[ModelIndex], textured[ModelIndex], loadedImgs[ModelIndex]);
 	}, function(){	
 		//One or more failed
 		console.log("Failed loading assets, please refresh or try a different browser? *shrug*");
@@ -52,7 +52,7 @@ var refreshProg = function(){
 	startGL(loadedVertices[ModelIndex], loadedFaces[ModelIndex], loadedUvs[ModelIndex], textured[ModelIndex]);
 }
 
-var startGL = function (loadV, loadF, loadUV, textured){
+var startGL = function (loadV, loadF, loadUV, textured, loadedImg){
 		
 var canvas = document.querySelector("#glCanvas");
 gl = canvas.getContext("webgl");
@@ -105,8 +105,8 @@ gl = canvas.getContext("webgl");
 	}
 
 	// Manually fill buffer
-   	var vertices = loadV;
-
+   	var vertices = loadV; //createFlattenedVertices(gl, primitives.createCubeVertices(1));
+	
     var indices = loadF;
     
 	var uvs = loadUV;
@@ -159,7 +159,7 @@ gl = canvas.getContext("webgl");
 	gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
 	gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
 	gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
-	gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA,gl.UNSIGNED_BYTE,document.getElementById('black_square'));
+	gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA,gl.UNSIGNED_BYTE, loadedImg);
 	gl.bindTexture(gl.TEXTURE_2D, null);
 	}
 	else{
@@ -209,21 +209,30 @@ gl = canvas.getContext("webgl");
 	
 	var xRotationMatrix = new Float32Array(16);
 	var yRotationMatrix = new Float32Array(16);
-	  
+	var zRotationMatrix = new Float32Array(16);
+	 
 	var angle = 0;
     var identityMatrix = new Float32Array(16);
     mat4.identity(identityMatrix);
+	var i = 0;
+	var lookDist = 5;
 	
 //Loop
 var loop = function(){
-	//console.log("work damn it");
+	refreshControls();
 	
-	mat4.rotate(yRotationMatrix, identityMatrix, angle, [0, 1, 0]);
-	mat4.rotate(xRotationMatrix, identityMatrix, angle / 4, [1, 0, 0]);
-	mat4.mul(worldMatrix, yRotationMatrix, xRotationMatrix);
+	//World
+	mat4.rotate(xRotationMatrix, identityMatrix, xRotVel, [0, 1, 0]);
+	mat4.rotate(yRotationMatrix, identityMatrix, yRotVel, [1, 0, 0]);
+	mat4.rotate(zRotationMatrix, identityMatrix, zRotVel, [0, 0, 1]);
+	mat4.mul(worldMatrix, yRotationMatrix, xRotationMatrix, zRotationMatrix);
 	gl.uniformMatrix4fv(matWorldUniformLocation, gl.FALSE, worldMatrix);
 	
+	//Camera
+	mat4.lookAt(viewMatrix, [xCameraPos, yCameraPos, zCameraPos], [Math.sin(xCameraRot) + xCameraPos, (yCameraRot) + yCameraPos, Math.cos(zCameraRot) + zCameraPos], [0, 1, 0]);
+	gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, viewMatrix);
 	
+
 	// Draw scene
 	gl.clearColor(0.0, 0.0, 0.0, 1.0);  // Clear color
 	//gl.clearDepth(1.0);                 // Clear depth  
@@ -237,6 +246,7 @@ var loop = function(){
 	gl.activeTexture(gl.TEXTURE0);
 	}
     gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_SHORT, 0);
+	
   //Loops after drawn
 requestAnimationFrame(loop);
 }

@@ -61,8 +61,15 @@ function glsub(subm){
 		backgroundColor.b = (c & 0x0000FF)/255;
 		console.log("color set to: " + backgroundColor.r + "," + backgroundColor.g + "," + backgroundColor.b);
 	}
-	else if(subm.substr(1,11) == "background "){
-		
+	else if(subm.substr(1,8) == "texture "){
+		TextureIndex = parseInt(subm.substr(8,subm.length));
+		console.log("Loaded texture: " + parseInt(subm.substr(8,subm.length)));
+		refreshProg();
+	}
+	else if(subm.substr(1,6) == "model "){
+		ModelIndex = parseInt(subm.substr(6,subm.length));
+		console.log("Loaded model: " + parseInt(subm.substr(6,subm.length)));
+		refreshProg();
 	}
 	else{
 		print(glSubCommands,"red");

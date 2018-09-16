@@ -41,7 +41,7 @@ var TextureIndex = 1;
 var startProg = function(){
 	Promise.all([
 	loadObj("basic/cube_textured"),loadObj("basic/cube"),loadObj("basic/cube_indented"),loadObj("basic/level4"),loadObj("basic/monkey"),loadObj("basic/perfection"),loadObj("basic/pyramid"), loadObj("basic/tetrahedron")
-	,loadObj("animals/cat")
+	,loadObj("animals/cat"),loadObj("animals/deer"),loadObj("animals/fox"),loadObj("animals/spider"),loadObj("animals/wolf")
 	,loadImg("bluestone"),loadImg("black_square"),loadImg("square_illusion")
 	]).then(function(){
 		//Successfully loaded
@@ -226,6 +226,7 @@ gl = canvas.getContext("webgl");
 //Loop
 var loop = function(){
 	refreshControls();
+	//debugDisp();
 	
 	//World
 	mat4.rotate(xRotationMatrix, identityMatrix, xRotVel, [0, 1, 0]);
@@ -235,7 +236,7 @@ var loop = function(){
 	gl.uniformMatrix4fv(matWorldUniformLocation, gl.FALSE, worldMatrix);
 	
 	//Camera
-	mat4.lookAt(viewMatrix, [xCameraPos, yCameraPos, zCameraPos], [Math.sin(xCameraRot) + xCameraPos, (yCameraRot) + yCameraPos, Math.cos(zCameraRot) + zCameraPos], [0, 1, 0]);
+	mat4.lookAt(viewMatrix, [xCameraPos, yCameraPos, zCameraPos], [Math.sin(xCameraRot) + xCameraPos, (yCameraRot)  + yCameraPos, Math.cos(zCameraRot) + zCameraPos], [0, 1, 0]);
 	gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, viewMatrix);
 	
 

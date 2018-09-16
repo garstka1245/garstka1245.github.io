@@ -55,6 +55,7 @@ document.addEventListener('webkitpointerlockchange', outOfFocus(), false);
 document.addEventListener("mousemove", function (e){
 	xCameraRot -= e.movementX/(1000*(1/MouseSensitivity));	
 	zCameraRot += e.movementX/(1000*(1/MouseSensitivity));
+	
 	yCameraRot -= e.movementY/(1000*(1/MouseSensitivity));
 }, false);
 
@@ -82,13 +83,20 @@ glCanvas.addEventListener ("mouseup", function (e) {
 	
 	var cameraSpeed = 0.1;
 	
- /*//Debug 
-setInterval(function(){
-	//console.log("xCamRot: " + (Math.sin(xCameraRot) + xCameraPos));
-	//console.log("zCamRot: " + (Math.cos(zCameraRot) + zCameraPos));
-	//console.log("yCamRot: " + (yCameraRot + yCameraPos));
-}, 100);
-*/
+//Debug loop
+function debugDisp(){
+	document.getElementById("debug").innerHTML = 
+			"xCamRot: " + Math.sin(xCameraRot).toFixed(3) + 
+	"<br> yCamRot: " + yCameraRot.toFixed(3) + 
+	"<br> zCamRot: " + Math.cos(zCameraRot).toFixed(3) +
+	"<br> " + 
+	"<br> yLookingAt: " + (yCameraRot  + yCameraPos).toFixed(3) + 
+	"<br> " +
+	"<br> xCamPos: " +  xCameraPos.toFixed(3) +
+	"<br> yCamPos: " +  yCameraPos.toFixed(3) +
+	"<br> zCamPos: " +  zCameraPos.toFixed(3);
+}
+//Controls loop
 function refreshControls(){
 	if(keyPressed("w")){
 		zCameraPos += Math.cos(zCameraRot)*cameraSpeed;

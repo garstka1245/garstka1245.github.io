@@ -77,6 +77,8 @@ glCanvas.addEventListener ("mouseup", function (e) {
 	var xCameraRot = 0;
 	var yCameraRot = 0;
 	
+	var cameraSpeed = 0.1;
+	
  /*//Debug 
 setInterval(function(){
 	//console.log("xCamRot: " + (Math.sin(xCameraRot) + xCameraPos));
@@ -86,49 +88,57 @@ setInterval(function(){
 */
 function refreshControls(){
 	if(keyPressed("w")){
-		yRotVel += 0.1;
+		zCameraPos += Math.cos(zCameraRot)*cameraSpeed;
+		xCameraPos += Math.sin(xCameraRot)*cameraSpeed;
 	}
 	else if(keyPressed("s")){
-		yRotVel -= 0.1;
+		zCameraPos -= Math.cos(zCameraRot)*cameraSpeed;
+		xCameraPos -= Math.sin(xCameraRot)*cameraSpeed;
 	}
 	if(keyPressed("a")){
-		xRotVel += 0.1;
+		xCameraPos += Math.cos(zCameraRot)*cameraSpeed;
+		zCameraPos -= Math.sin(xCameraRot)*cameraSpeed;
 	}
 	else if(keyPressed("d")){
-		xRotVel -= 0.1;
+		xCameraPos -= Math.cos(zCameraRot)*cameraSpeed;
+		zCameraPos += Math.sin(xCameraRot)*cameraSpeed;
 	}
 	if(keyPressed("r")){
-		zRotVel += 0.1;
+		yCameraPos += cameraSpeed;
 	}
 	else if(keyPressed("f")){
-		zRotVel -= 0.1;
+		yCameraPos -= cameraSpeed;
 	}
 	
 	if(keyPressed("ArrowUp")){
-		zCameraPos += Math.cos(zCameraRot)/10;
-		xCameraPos += Math.sin(xCameraRot)/10;
+		yRotVel += 0.01;
 	}
 	if(keyPressed("ArrowDown")){
-		zCameraPos -= Math.cos(zCameraRot)/10;
-		xCameraPos -= Math.sin(xCameraRot)/10;
+		yRotVel -= 0.01;
 	}
 	if(keyPressed("ArrowLeft")){
-		xCameraPos += Math.cos(zCameraRot)/10;
-		zCameraPos -= Math.sin(xCameraRot)/10;
+		xRotVel += 0.01;
 	}
 	if(keyPressed("ArrowRight")){
-		xCameraPos -= Math.cos(zCameraRot)/10;
-		zCameraPos += Math.sin(xCameraRot)/10;
+		xRotVel -= 0.01;
 	}
 	if(keyPressed("PageUp")){
-		yCameraPos += 0.1;
+		zRotVel += 0.01;
 	}
 	if(keyPressed("PageDown")){
-		yCameraPos -= 0.1;
+		zRotVel -= 0.01;
 	}
 }
-
-
+//Change camera speed
+document.addEventListener("wheel", function (e) {
+	//console.log(e.deltaY);
+	if(cameraSpeed > 0){
+	cameraSpeed -= e.deltaY/40;
+	}
+	else{
+	cameraSpeed = 0.1;
+	}
+});
 //Touch control
 glCanvas.addEventListener("touchstart", function (e) {
 if(e.touches.length > 1){

@@ -11,7 +11,7 @@ var m;
 
 //Text returned to Console.
 var availableCommands = ["gl [subcommand]",""]
-var glSubCommands = ["background [color]"]
+var glSubCommands = ["background [color]","texture [texture index]",""]
 var invalidMsg = ["Invalid command, try again",""]
 
 ////
@@ -32,63 +32,43 @@ function spaceString(m,after,space){
 return m.substr(after,m.length).split(' ')[space]
 }
 
-////
-/*
-can i make this with 
-objects as commands, eg.
-command, 
-function,
-layer
-
-and can i parse that with layers?
-
-
-
-*/
-
-
-
 function parse(m){
 console.log("Parsing: " + m);
 if(m.substr(0,4) == "help"){
-	help();
-}
-else if(m.substr(0,2) == "gl"){
-	gl(m.substr(2,m.length));
-}
-else{
-	invalid();
-}
-}
-
-function help(){
 	print(availableCommands,"green");
 }
-
-function invalid(){
+else if(m.substr(0,2) == "gl"){
+	glsub(m.substr(2,m.length));
+}
+else{
 	print(invalidMsg,"red");
 }
+}
 
-function gl(subm){
-	console.log(subm.substr(1,10));
+
+	var backgroundColor = {
+		r:0.0,
+		g:0.0,
+		b:0.0
+	}
+
+function glsub(subm){
 	if(subm.substr(1,11) == "background "){
-		var c = spaceString(subm,12,0);
-		print(["color set to" + c],c);
+		//#123456
+		var c = parseInt(subm.substr(13,19),16);
+		backgroundColor.r = (c >> 16)/255;
+		backgroundColor.g = (c >> 8 & 0x00FF)/255;
+		backgroundColor.b = (c & 0x0000FF)/255;
+		console.log("color set to: " + backgroundColor.r + "," + backgroundColor.g + "," + backgroundColor.b);
+	}
+	else if(subm.substr(1,11) == "background "){
 		
-
 	}
 	else{
-		invalid();
+		print(glSubCommands,"red");
 	}
-	
 }
 
-
-
-function command(input){
-	this.input=input;
-}
-command.prototype.result
 
 
 

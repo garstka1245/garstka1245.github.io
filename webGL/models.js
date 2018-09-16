@@ -36,8 +36,8 @@ async function loadObj(name) {
   loadedFaces[a] = new Array();
   loadedUvs[a] = new Array();
   textured[a] = false;
-	console.log("ModelIndex: " + a);
-    console.log(lines);
+	//console.log("ModelIndex: " + a);
+    //console.log(lines);
   for(var i=0;i<lines.length;i++){
    if(lines[i].includes("VT ")){
 	  textured[a] = true;
@@ -65,9 +65,9 @@ async function loadObj(name) {
 		loadedVertices[a].push(b);
 		}
 		else if(textured[a] == false){
-		loadedVertices[a].push(1.0);
-		loadedVertices[a].push(1.0);
-		loadedVertices[a].push(1.0);
+		loadedVertices[a].push(Math.random()*0.5 + 0.5);
+		loadedVertices[a].push(Math.random()*0.5 + 0.5);
+		loadedVertices[a].push(Math.random()*0.5 + 0.5);
 		}
 	  }
 	  else if(lines[i].substr(0,2) == "F "){

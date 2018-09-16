@@ -35,13 +35,18 @@ var fragmentShaderText = `
   `;
   
 var gl;
-var ModelIndex = 0;
+var ModelIndex = 8;
+var TextureIndex = 2;
 
 var startProg = function(){
-	Promise.all([loadObj("basic/cube_textured"),loadObj("basic/cube"),loadImg("bluestone")]).then(function(){
+	Promise.all([
+	loadObj("basic/cube_textured"),loadObj("basic/cube"),loadObj("basic/cube_indented"),loadObj("basic/level4"),loadObj("basic/monkey"),loadObj("basic/perfection"),loadObj("basic/pyramid"), loadObj("basic/tetrahedron")
+	,loadObj("animals/cat")
+	,loadImg("bluestone"),loadImg("black_square"),loadImg("square_illusion")
+	]).then(function(){
 		//Successfully loaded
 		console.log("Assets loaded.");
-		startGL(loadedVertices[ModelIndex], loadedFaces[ModelIndex], loadedUvs[ModelIndex], textured[ModelIndex], loadedImgs[ModelIndex]);
+		startGL(loadedVertices[ModelIndex], loadedFaces[ModelIndex], loadedUvs[ModelIndex], textured[ModelIndex], loadedImgs[TextureIndex]);
 	}, function(){	
 		//One or more failed
 		console.log("Failed loading assets, please refresh or try a different browser? *shrug*");
@@ -49,7 +54,7 @@ var startProg = function(){
 }
 
 var refreshProg = function(){
-	startGL(loadedVertices[ModelIndex], loadedFaces[ModelIndex], loadedUvs[ModelIndex], textured[ModelIndex]);
+	startGL(loadedVertices[ModelIndex], loadedFaces[ModelIndex], loadedUvs[ModelIndex], textured[ModelIndex], loadedImgs[TextureIndex]);
 }
 
 var startGL = function (loadV, loadF, loadUV, textured, loadedImg){
@@ -216,6 +221,7 @@ gl = canvas.getContext("webgl");
     mat4.identity(identityMatrix);
 	var i = 0;
 	var lookDist = 5;
+
 	
 //Loop
 var loop = function(){
@@ -234,7 +240,7 @@ var loop = function(){
 	
 
 	// Draw scene
-	gl.clearColor(0.0, 0.0, 0.0, 1.0);  // Clear color
+	gl.clearColor(backgroundColor.r, backgroundColor.g, backgroundColor.b, 1.0);  // Clear color
 	//gl.clearDepth(1.0);                 // Clear depth  
 	gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT); // Clear buffer
 

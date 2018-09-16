@@ -18,6 +18,9 @@ function keyPressed(target) {
 	else if(target == "PageDown"){
 		return controls[34];
 	}
+	else if(target == "Shift"){
+		return controls[16];
+	}
 	else{
     return controls[target.toUpperCase().charCodeAt(0)];
 	}
@@ -103,10 +106,10 @@ function refreshControls(){
 		xCameraPos -= Math.cos(zCameraRot)*cameraSpeed;
 		zCameraPos += Math.sin(xCameraRot)*cameraSpeed;
 	}
-	if(keyPressed("r")){
+	if(keyPressed(" ")){
 		yCameraPos += cameraSpeed;
 	}
-	else if(keyPressed("f")){
+	else if(keyPressed("Shift")){
 		yCameraPos -= cameraSpeed;
 	}
 	

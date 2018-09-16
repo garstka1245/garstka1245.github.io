@@ -35,8 +35,8 @@ var fragmentShaderText = `
   `;
   
 var gl;
-var ModelIndex = 8;
-var TextureIndex = 2;
+var ModelIndex = 0;
+var TextureIndex = 1;
 
 var startProg = function(){
 	Promise.all([

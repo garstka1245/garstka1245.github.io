@@ -12,7 +12,7 @@ var availableCommands = ["type [msg]",""]
 var glSubCommands = ["background [color]"]
 var invalidMsg = ["Invalid command, try again",""]
 
-////
+//// Parsing
 var a=0;
 
 
@@ -25,13 +25,16 @@ function parse(m){
 	else if(m.substr(0,4) == "type"){
 		type(m.substr(5,m.length));
 	}
+	else if(m.substr(0,3) == "pin"){
+		pinmsg(m.substr(3,m.length));
+	}
 	else{
 		invalid();
 	}
 }
 
 
-////
+////  Functions
 
 
 function print(msg,c){
@@ -79,6 +82,47 @@ function type(subm){
 		document.getElementById("output").value = subm.substr(0, b);
 	}
 	, 150);
+}
+
+function pinmsg(subm){
+	if(subm.substr(0,1) == " "){
+		setPin(subm.substr(1,subm.length));
+	}
+	else{
+		getPin();
+		document.getElementById("output").value = "";
+		document.getElementById("output").value = "Pinned Msg: " + pinnedmsg;
+	}
+}
+
+//Database
+	var config = {
+		apiKey: "AIzaSyDEIx3Lp_UiBOTfJK28hGFiwhVRECDbm-w",
+		authDomain: "chriswiztk.firebaseapp.com",
+		databaseURL: "https://chriswiztk.firebaseio.com",
+		projectId: "chriswiztk",
+		storageBucket: "chriswiztk.appspot.com",
+		messagingSenderId: "781761041218"
+	};
+	firebase.initializeApp(config);
+
+var database = firebase.database();
+
+var pin = database.ref();
+//.on listener, .once to get once
+var pinnedmsg;
+function getPin(){
+	pin.once('value', function(snapshot) {
+		pinnedmsg = snapshot.val().pin;
+		console.log("Returned: " + pinnedmsg);
+	});
+}
+
+function setPin(string) {
+	console.log("Set pin.");
+  database.ref().set({
+    pin: string
+  });
 }
 
 

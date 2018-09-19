@@ -21,6 +21,9 @@ function keyPressed(target) {
 	else if(target == "Shift"){
 		return controls[16];
 	}
+	else if(target == "`"){
+		return controls[192];
+	}
 	else{
     return controls[target.toUpperCase().charCodeAt(0)];
 	}
@@ -83,6 +86,8 @@ glCanvas.addEventListener ("mouseup", function (e) {
 	
 	var cameraSpeed = 0.1;
 	
+	var debugDispToggle = true;
+	
 //Debug loop
 function debugDisp(){
 	document.getElementById("debug").innerHTML = 
@@ -94,7 +99,8 @@ function debugDisp(){
 	"<br> " +
 	"<br> xCamPos: " +  xCameraPos.toFixed(3) +
 	"<br> yCamPos: " +  yCameraPos.toFixed(3) +
-	"<br> zCamPos: " +  zCameraPos.toFixed(3);
+	"<br> zCamPos: " +  zCameraPos.toFixed(3) +
+	"<br> <br> w a s d to move around, space up, shift down, click to lock mouse, esc to get out, commands to type in the box on top: gl background #660000 sets background color to a hex value; gl model 8 changes models 0-12 i think i have; gl texture 0-2 changes textures; ~ to toggle this.";
 }
 //Controls loop
 function refreshControls(){
@@ -138,6 +144,15 @@ function refreshControls(){
 	}
 	if(keyPressed("PageDown")){
 		zRotVel -= 0.01;
+	}
+	if(keyPressed("`")){
+		if(debugDispToggle){
+		console.log(debugDispToggle);
+			setTimeout(function(){debugDispToggle = false;},200);
+		}
+		else{
+			setTimeout(function(){debugDispToggle = true;},200);
+		}
 	}
 }
 //Change camera speed

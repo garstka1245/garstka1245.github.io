@@ -2,13 +2,32 @@
 <html lang="en">
 <meta charset="utf-8"/>
 <body style="background-color:#000">
-  <link rel="stylesheet" href="style.css">
-  <title>TextManip</title>
-  <input type="text" id="input" value="" style="width:1000px;position:absolute;"></input>
-  <textarea type="text" id="output" value="" style="width:1000px; height:100px; position:absolute;top: 40px"></textarea>
+	<link rel="stylesheet" href="style.css">
+	<title>TextManip</title>
+	<input type="text" id="input" value="" style="width:1000px;position:absolute;"></input>
+	<textarea type="text" id="output" value="" style="width:1000px; height:100px; position:absolute;top: 40px"></textarea>
+  
+	<script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+	<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyDEIx3Lp_UiBOTfJK28hGFiwhVRECDbm-w",
+		authDomain: "chriswiztk.firebaseapp.com",
+		databaseURL: "https://chriswiztk.firebaseio.com",
+		projectId: "chriswiztk",
+		storageBucket: "chriswiztk.appspot.com",
+		messagingSenderId: "781761041218"
+	};
+	firebase.initializeApp(config);
+	</script>
 	
-  <script src="console.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script>
+	
+	
+	<script src="console.js"></script>
 	
 
-  </body>
+</body>
 </html>

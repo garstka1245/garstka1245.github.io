@@ -226,7 +226,12 @@ gl = canvas.getContext("webgl");
 //Loop
 var loop = function(){
 	refreshControls();
-	//debugDisp();
+	if(debugDispToggle){
+		if(performance.now()%20 == 0){
+		debugDisp();
+		}
+	}
+	else{document.getElementById("debug").innerHTML = ""}
 	
 	//World
 	mat4.rotate(xRotationMatrix, identityMatrix, xRotVel, [0, 1, 0]);

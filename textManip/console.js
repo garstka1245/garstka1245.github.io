@@ -8,7 +8,7 @@ if (event.keyCode === 13) {
 var m;
 
 //Text returned to Console.
-var availableCommands = ["type [msg]",""]
+var availableCommands = ["type [msg]","pin [msg/none to read]",""]
 var glSubCommands = ["background [color]"]
 var invalidMsg = ["Invalid command, try again",""]
 
@@ -90,8 +90,6 @@ function pinmsg(subm){
 	}
 	else{
 		getPin();
-		document.getElementById("output").value = "";
-		document.getElementById("output").value = "Pinned Msg: " + pinnedmsg;
 	}
 }
 
@@ -115,6 +113,7 @@ function getPin(){
 	pin.once('value', function(snapshot) {
 		pinnedmsg = snapshot.val().pin;
 		console.log("Returned: " + pinnedmsg);
+		document.getElementById("output").value = "Pinned Msg: " + pinnedmsg;
 	});
 }
 

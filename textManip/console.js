@@ -2,8 +2,16 @@ document.getElementById("input").addEventListener("keydown", function(event) {
 if (event.keyCode === 13) {
 	m = document.getElementById("input").value;
     parse(m);
+	
 }
 });
+document.getElementById("chatin").addEventListener("keydown", function(event) {
+if (event.keyCode === 13) {
+	chat(document.getElementById("chatin").value);
+	document.getElementById("chatin").value = "";
+}
+});
+
 
 var m;
 
@@ -84,9 +92,19 @@ function type(subm){
 	, 150);
 }
 
+function chat(msg){
+	if(chatMsgs.length <= 10){
+		addChat(":: " + msg.substr(0,255));
+	}
+	else{
+		delChat();
+		addChat(":: " + msg.substr(0,255));
+	}
+}
+
 function pinmsg(subm){
 	if(subm.substr(0,1) == " "){
-		setPin(subm.substr(1,subm.length));
+		setPin(subm.substr(1,255));
 	}
 	else{
 		getPin();
@@ -106,11 +124,11 @@ function pinmsg(subm){
 
 var database = firebase.database();
 
-var pin = database.ref();
+var data = database.ref();
 //.on listener, .once to get once
 var pinnedmsg;
 function getPin(){
-	pin.once('value', function(snapshot) {
+	data.once('value', function(snapshot) {
 		pinnedmsg = snapshot.val().pin;
 		console.log("Returned: " + pinnedmsg);
 		document.getElementById("output").value = "Pinned Msg: " + pinnedmsg;
@@ -124,6 +142,28 @@ function setPin(string) {
   });
 }
 
+var chatMsgs = [];
+
+
+function getChat(){
+	data.on('value', function(snapshot) {
+		chatMsgs = snapshot.val().chat;
+		document.getElementById("chat").value = chatMsgs.join("\n");
+	});
+}
+	getChat();
+
+function addChat(msg){
+	chatMsgs.push(msg);
+	console.log("Added chat.");
+  database.ref().set({
+    chat: chatMsgs
+  });
+}
+
+function delChat(){
+	chatMsgs.shift()
+}
 
 
 

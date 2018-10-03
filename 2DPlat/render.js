@@ -41,7 +41,7 @@ var startProg = function(){
 	Promise.all([loadObj("basic/triangle"),loadObj("basic/cube")]).then(function(){
 		//Successfully loaded
 		console.log("Assets loaded.");
-		startGL(loadedVertices[ModelIndex], loadedFaces[ModelIndex], loadedUvs[ModelIndex], textured[ModelIndex]);
+		startGL(loadedVertices, loadedFaces, loadedUvs, textured);
 	}, function(){	
 		//One or more failed
 		console.log("Failed loading assets, please refresh or try a different browser? *shrug*");
@@ -105,27 +105,45 @@ gl = canvas.getContext("webgl");
 	}
 
 	// Manually fill buffer
-   	var vertices = loadV;
+   	var vertices = []; 
+	for(var i = 0; i < loadV.length; i++){
+	vertices[i] = loadV[i];
+	}
 
-    var indices = loadF;
-    
-	var uvs = loadUV;
+    var indices = [];
+	for(var i = 0; i < loadV.length; i++){
+	indices[i] = loadF[i];
+	}
+
+	var uvs = [];
+	for(var i = 0; i < loadV.length; i++){
+	uvs[i] = loadUV[i];
+	}
+
 	
 	//Create buffers
     var VertexBufferObject = gl.createBuffer();
 	gl.bindBuffer(gl.ARRAY_BUFFER, VertexBufferObject);
-	gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
+	gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices[0]), gl.STATIC_DRAW);
+	//bind multiple things? how to render multiple things
+	var VertexBufferObject2 = gl.createBuffer();
+	gl.bindBuffer(gl.ARRAY_BUFFER, VertexBufferObject2);
+	gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices[0]), gl.STATIC_DRAW);
+	
 
 	var IndexBufferObject = gl.createBuffer();
 	gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, IndexBufferObject);
-	gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint16Array(indices), gl.STATIC_DRAW);
+	gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint16Array(indices[0]), gl.STATIC_DRAW);		
+	
 	
 	if(textured == true){
 	var UvsBufferObject = gl.createBuffer();
 	gl.bindBuffer(gl.ARRAY_BUFFER, UvsBufferObject);
-	gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(uvs), gl.STATIC_DRAW);
+	gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(uvs[0]), gl.STATIC_DRAW);
 
+	
 	gl.bindBuffer(gl.ARRAY_BUFFER, VertexBufferObject);
+	gl.bindBuffer(gl.ARRAY_BUFFER, VertexBufferObject2);
 	var positionAttribLocation = gl.getAttribLocation(program, 'vertPosition');
 	gl.vertexAttribPointer(
 		positionAttribLocation, // Attribute location
@@ -195,12 +213,13 @@ gl = canvas.getContext("webgl");
 	var worldMatrix = new Float32Array(16);
 	var viewMatrix = new Float32Array(16);
 	var projMatrix = new Float32Array(16);
+	
 	mat4.identity(worldMatrix);
 	//Camera default -8 in z
 	mat4.lookAt(viewMatrix, [0, 0, -6], [0, 0, 0], [0, 1, 0]);
 	//Perspective matrix; FOV, Aspect, zNear, zFar, ProjMat
 	mat4.perspective(projMatrix, glMatrix.toRadian(45), canvas.clientWidth / canvas.clientHeight, 0.1, 1000.0);
-
+		
 	gl.uniformMatrix4fv(matWorldUniformLocation, gl.FALSE, worldMatrix);
 	gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, viewMatrix);
 	gl.uniformMatrix4fv(matProjUniformLocation, gl.FALSE, projMatrix);

@@ -56,10 +56,10 @@ document.addEventListener('webkitpointerlockchange', outOfFocus(), false);
 
 // Hook mouse move events
 document.addEventListener("mousemove", function (e){
-	xCameraRot -= e.movementX/(1000*(1/MouseSensitivity));	
-	zCameraRot += e.movementX/(1000*(1/MouseSensitivity));
-	
-	yCameraRot -= e.movementY/(1000*(1/MouseSensitivity));
+	if(document.pointerLockElement === glCanvas || document.mozPointerLockElement === glCanvas){
+		alphaCameraRot += e.movementX/(1000*(1/MouseSensitivity));
+		betaCameraRot -= e.movementY/(1000*(1/MouseSensitivity));
+	}
 }, false);
 
 	
@@ -80,6 +80,9 @@ glCanvas.addEventListener ("mouseup", function (e) {
 	var xCameraPos = 0;
 	var yCameraPos = 0;
 	
+	var alphaCameraRot = Math.PI/2;
+	var betaCameraRot = 0;
+	
 	var zCameraRot = 0;
 	var xCameraRot = 0;
 	var yCameraRot = 0;
@@ -91,11 +94,10 @@ glCanvas.addEventListener ("mouseup", function (e) {
 //Debug loop
 function debugDisp(){
 	document.getElementById("debug").innerHTML = 
-			"xCamRot: " + Math.sin(xCameraRot).toFixed(3) + 
-	"<br> yCamRot: " + yCameraRot.toFixed(3) + 
-	"<br> zCamRot: " + Math.cos(zCameraRot).toFixed(3) +
+			"alphaCamRot: " + Math.sin(alphaCameraRot).toFixed(3) + 
+	"<br> betaCamRot: " + betaCameraRot.toFixed(3) + 
 	"<br> " + 
-	"<br> yLookingAt: " + (yCameraRot  + yCameraPos).toFixed(3) + 
+	"<br> yLookingAt: " + (betaCameraRot  + yCameraPos).toFixed(3) + 
 	"<br> " +
 	"<br> xCamPos: " +  xCameraPos.toFixed(3) +
 	"<br> yCamPos: " +  yCameraPos.toFixed(3) +
@@ -104,54 +106,56 @@ function debugDisp(){
 }
 //Controls loop
 function refreshControls(){
-	if(keyPressed("w")){
-		zCameraPos += Math.cos(zCameraRot)*cameraSpeed;
-		xCameraPos += Math.sin(xCameraRot)*cameraSpeed;
-	}
-	else if(keyPressed("s")){
-		zCameraPos -= Math.cos(zCameraRot)*cameraSpeed;
-		xCameraPos -= Math.sin(xCameraRot)*cameraSpeed;
-	}
-	if(keyPressed("a")){
-		xCameraPos += Math.cos(zCameraRot)*cameraSpeed;
-		zCameraPos -= Math.sin(xCameraRot)*cameraSpeed;
-	}
-	else if(keyPressed("d")){
-		xCameraPos -= Math.cos(zCameraRot)*cameraSpeed;
-		zCameraPos += Math.sin(xCameraRot)*cameraSpeed;
-	}
-	if(keyPressed(" ")){
-		yCameraPos += cameraSpeed;
-	}
-	else if(keyPressed("Shift")){
-		yCameraPos -= cameraSpeed;
-	}
-	
-	if(keyPressed("ArrowUp")){
-		yRotVel += 0.01;
-	}
-	if(keyPressed("ArrowDown")){
-		yRotVel -= 0.01;
-	}
-	if(keyPressed("ArrowLeft")){
-		xRotVel += 0.01;
-	}
-	if(keyPressed("ArrowRight")){
-		xRotVel -= 0.01;
-	}
-	if(keyPressed("PageUp")){
-		zRotVel += 0.01;
-	}
-	if(keyPressed("PageDown")){
-		zRotVel -= 0.01;
-	}
-	if(keyPressed("`")){
-		if(debugDispToggle){
-		console.log(debugDispToggle);
-			setTimeout(function(){debugDispToggle = false;},200);
+	if(document.pointerLockElement === glCanvas || document.mozPointerLockElement === glCanvas){
+		if(keyPressed("w")){
+			zCameraPos += Math.sin(alphaCameraRot)*cameraSpeed;
+			xCameraPos += Math.cos(alphaCameraRot)*cameraSpeed;
 		}
-		else{
-			setTimeout(function(){debugDispToggle = true;},200);
+		else if(keyPressed("s")){
+			zCameraPos -= Math.sin(alphaCameraRot)*cameraSpeed;
+			xCameraPos -= Math.cos(alphaCameraRot)*cameraSpeed;
+		}
+		if(keyPressed("a")){
+			xCameraPos += Math.sin(alphaCameraRot)*cameraSpeed;
+			zCameraPos -= Math.cos(alphaCameraRot)*cameraSpeed;
+		}
+		else if(keyPressed("d")){
+			xCameraPos -= Math.sin(alphaCameraRot)*cameraSpeed;
+			zCameraPos += Math.cos(alphaCameraRot)*cameraSpeed;
+		}
+		if(keyPressed(" ")){
+			yCameraPos += cameraSpeed;
+		}
+		else if(keyPressed("Shift")){
+			yCameraPos -= cameraSpeed;
+		}
+		
+		if(keyPressed("ArrowUp")){
+			yRotVel += 0.01;
+		}
+		if(keyPressed("ArrowDown")){
+			yRotVel -= 0.01;
+		}
+		if(keyPressed("ArrowLeft")){
+			xRotVel += 0.01;
+		}
+		if(keyPressed("ArrowRight")){
+			xRotVel -= 0.01;
+		}
+		if(keyPressed("PageUp")){
+			zRotVel += 0.01;
+		}
+		if(keyPressed("PageDown")){
+			zRotVel -= 0.01;
+		}
+		if(keyPressed("`")){
+			if(debugDispToggle){
+			console.log(debugDispToggle);
+				setTimeout(function(){debugDispToggle = false;},200);
+			}
+			else{
+				setTimeout(function(){debugDispToggle = true;},200);
+			}
 		}
 	}
 }

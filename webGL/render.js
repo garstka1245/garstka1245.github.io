@@ -110,7 +110,8 @@ gl = canvas.getContext("webgl");
 	}
 
 	// Manually fill buffer
-   	var vertices = loadV; //createFlattenedVertices(gl, primitives.createCubeVertices(1));
+	//createFlattenedVertices(gl, primitives.createCubeVertices(1));
+   	var vertices = loadV;
 	
     var indices = loadF;
     
@@ -221,14 +222,19 @@ gl = canvas.getContext("webgl");
     mat4.identity(identityMatrix);
 	var i = 0;
 	var lookDist = 5;
-
+	
+	var xTranslationMatrix = new Float32Array(16);
+	var yTranslationMatrix = new Float32Array(16);
+	var zTranslationMatrix = new Float32Array(16);
+	
+	var rotMatrix = new Float32Array(16);
 	
 //Loop
 var loop = function(){
 	refreshControls();
 	if(debugDispToggle){
 		if(performance.now()%20 == 0){
-		debugDisp();
+		//debugDisp();
 		}
 	}
 	else{document.getElementById("debug").innerHTML = ""}
@@ -241,23 +247,43 @@ var loop = function(){
 	gl.uniformMatrix4fv(matWorldUniformLocation, gl.FALSE, worldMatrix);
 	
 	//Camera
-	mat4.lookAt(viewMatrix, [xCameraPos, yCameraPos, zCameraPos], [Math.sin(xCameraRot) + xCameraPos, (yCameraRot)  + yCameraPos, Math.cos(zCameraRot) + zCameraPos], [0, 1, 0]);
+	if(betaCameraRot < -1.566) betaCameraRot = -1.566;
+	if(betaCameraRot > 1.566)betaCameraRot = 1.566;
+	
+	
+	mat4.lookAt(viewMatrix, [xCameraPos, yCameraPos, zCameraPos], [Math.cos(alphaCameraRot)*Math.cos(betaCameraRot) + xCameraPos, Math.sin(betaCameraRot)  + yCameraPos, Math.sin(alphaCameraRot)*Math.cos(betaCameraRot) + zCameraPos], [0, 1, 0]);
 	gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, viewMatrix);
 	
 
 	// Draw scene
 	gl.clearColor(backgroundColor.r, backgroundColor.g, backgroundColor.b, 1.0);  // Clear color
-	//gl.clearDepth(1.0);                 // Clear depth  
+	gl.clearDepth(1.0);                 // Clear depth  
 	gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT); // Clear buffer
-
-	angle = performance.now() / 1000 / 6 *2 * Math.PI;
 	
-		
+	// bind and draw first 
 	if(textured == true){
 	gl.bindTexture(gl.TEXTURE_2D, texture);
 	gl.activeTexture(gl.TEXTURE0);
 	}
     gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_SHORT, 0);
+	
+	angle = performance.now() / 1000 / 6 *2 * Math.PI;
+	
+	//Draw right next to first
+	for(var z = 1; z < 5; z++){
+		mat4.translate(zTranslationMatrix, viewMatrix, [0, 0, 2*z]);
+		for(var y = 1; y < 5; y++){
+			mat4.translate(yTranslationMatrix, zTranslationMatrix, [0, 2*y, 0]);
+			for(var x = 1; x < 5; x++){
+				mat4.translate(xTranslationMatrix, yTranslationMatrix, [2*x, 0, 0]);
+				mat4.rotate(rotMatrix, xTranslationMatrix, angle, [1, 1, 0]);
+				gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, rotMatrix);
+				gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_SHORT, 0);
+			}
+		}
+	}
+	
+	
 	
   //Loops after drawn
 requestAnimationFrame(loop);

@@ -32,7 +32,7 @@ function keyPressed(target) {
 var controls=[];
 
 //Mouse controls
-var MouseSensitivity = 6;
+var MouseSensitivity = 3;
 
 var havePointerLock = 'pointerLockElement' in document ||
     'mozPointerLockElement' in document ||
@@ -62,11 +62,26 @@ document.addEventListener("mousemove", function (e){
 	}
 }, false);
 
+var glcanvas = document.getElementById("glCanvas");
+
+function resize(){
+	glcanvas.width  = window.innerWidth;
+	glcanvas.height = window.innerHeight;
+}
 	
 glCanvas.addEventListener ("mousedown", function (e) {
 	//Lock pointer controls
 	glCanvas.requestPointerLock();
-
+	//Fullscreen
+	//why are the pixels so off?
+	if(e.x > 1536 - 50 && e.y > 686 - 50){
+	//glcanvas.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+	glcanvas.mozRequestFullScreen();
+	glcanvas.msRequestFullscreen();
+	glcanvas.requestFullscreen();
+	glcanvas.width  = window.innerWidth;
+	glcanvas.height = window.innerHeight;
+	}
 });
 glCanvas.addEventListener ("mouseup", function (e) {
 

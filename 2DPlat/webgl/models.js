@@ -29,7 +29,7 @@ var a,x,y,A,B,C,D,E,F,Color,U,V,r,g,b;
 var textured = [];
 
 async function loadObj(name) {
-  var result = await getObj("models/" + name + ".obj");
+  var result = await getObj("webgl/models/" + name + ".obj");
   //Parsing attempt
   var lines = result.toUpperCase().substr(0,result.length).split(/\r?\n/);
   loadedVertices[a] = new Array();

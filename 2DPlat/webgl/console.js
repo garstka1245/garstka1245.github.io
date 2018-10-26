@@ -10,8 +10,7 @@ if (event.keyCode === 13) {
 var m;
 
 //Text returned to Console.
-var availableCommands = ["gl [subcommand]",""]
-var glSubCommands = ["background [color]"]
+var availableCommands = ["lvl [subcommand]",""]
 var invalidMsg = ["Invalid command, try again",""]
 
 ////

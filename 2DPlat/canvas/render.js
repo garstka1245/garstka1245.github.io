@@ -17,34 +17,48 @@ function block(x, y, w, h){
 	this.xv = 0;
 	this.m = 10;
 	this.grounded = false;
+	this.texture;
 }
 block.prototype.dispose = function() {
 	return this.numInstances -= 1;
 }
 block.prototype.draw = function (){
-	ctx.strokeWidth = 2;
-	ctx.strokeStyle = "#000000";
-	ctx.fillStyle = "#fff0f0";
-	ctx.fillRect(this.x ,c.height -this.w - this.y, this.w , this.h);
-	ctx.strokeRect(this.x ,c.height -this.w - this.y, this.w , this.h);
-
+	if(this.texture == null){
+		ctx.strokeWidth = 2;
+		ctx.strokeStyle = "#000000";
+		ctx.fillStyle = "#fff0f0";
+		ctx.fillRect(this.x ,c.height -this.w - this.y, this.w , this.h);
+		ctx.strokeRect(this.x ,c.height -this.w - this.y, this.w , this.h);
+	}
+	else{
+		this.texture.setAttribute("width", this.w);
+        this.texture.setAttribute("height", this.h);
+		ctx.drawImage(this.texture, this.x, 100 );
+		console.log(this.y);
+	}
+}
+block.prototype.addtexture = function (path){
+	this.texture = document.createElement("IMG");
+    this.texture.setAttribute("src", "canvas/textures/" + path + ".png");
+    this.texture.setAttribute("alt", "NoTexture");
 }
 
 // Init World Objects
 var world = [];
 function physTest1(){
-var test = new block(100, 50, 90, 100);
-var test2 = new block(1000, 50, 90, 100);
-var test3 = new block(1000, 1000, 90, 100);
-test.xv = 5;
+var test = new block(1000, 50, 90, 100);
+test.addtexture("g");
+//var test2 = new block(1000, 500, 90, 100);
+//var test3 = new block(1000, 1000, 90, 100);
+/*test.xv = 5;
 test.yv = 10;
 test2.xv = -5;
 test2.yv = 18;
 test3.xv = -2;
-test3.yv = 0;
+test3.yv = 0;*/
 world.push(test);
-world.push(test2);
-world.push(test3);
+//world.push(test2);
+//world.push(test3);
 }
 
 // Draw World
@@ -55,6 +69,7 @@ function drawWorld(){
 		world[i].draw();
 	}
 }
+
 
 // World Phys.
 

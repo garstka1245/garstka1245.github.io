@@ -1,15 +1,25 @@
+//Canvas
+{
 var c = document.getElementById("Canvas");
 var ctx = c.getContext("2d");
 
 window.onresize = function(e) {
+	//Adjusting canvas to window size breaks 1:1 pixel ratio ei c.width != x.style.width
+	refreshSize();
+}
+
+function refreshSize(){
 	c.style.width = window.innerWidth;
+	c.width = window.innerWidth;
 	c.style.height = window.innerHeight;
+	c.height = window.innerHeight;
 }
 
 var loadedImgs = [];
 var editor = true;
 
 function startProg(){
+	refreshSize();
 	if(editor)makeEditorElements();
 
 	setInterval(doWorld, 20);
@@ -17,9 +27,9 @@ function startProg(){
 	
 	init(physTest1());
 }
-
+}
 // Objects
-
+{
 /*
 Square 
 >GSquare
@@ -29,6 +39,7 @@ Square
 
 */ 
 //square
+
 function square(x, y, w, h){
 	world.push(this);
 	this.x = x;
@@ -38,6 +49,10 @@ function square(x, y, w, h){
 	this.yv = 0;
 	this.xv = 0;
 	this.texture;
+	//Editor
+	this.selected = false;
+	this.selectX = 0;
+	this.selectY = 0;
 }
 square.prototype.dispose = function(squareObj) {
 	for(var i = 0; i < world.length; i++){
@@ -51,8 +66,8 @@ square.prototype.draw = function (){
 		ctx.strokeWidth = 2;
 		ctx.strokeStyle = "#000000";
 		ctx.fillStyle = "#fff0f0";
-		ctx.fillRect(this.x ,c.height -this.w - this.y, this.w , this.h);
-		ctx.strokeRect(this.x ,c.height -this.w - this.y, this.w , this.h);
+		ctx.fillRect(this.x ,c.height - this.w - this.y, this.w , this.h);
+		ctx.strokeRect(this.x ,c.height - this.w - this.y, this.w , this.h);
 	}
 	else{
 		ctx.drawImage(this.texture, this.x, c.height - this.y - this.h, this.w, this.h);
@@ -81,10 +96,11 @@ function player(sx, sy){
 // Extends gsquare
 player.prototype = gsquare.prototype;
 player.prototype.constructor = player;
-
+}
 
 
 //Textures
+{
 function getPng(path) {
     return new Promise(function(resolve, reject) {
         var image = new Image();
@@ -108,8 +124,10 @@ function init(level){
 		console.log("Failed loading assets, please refresh or try a different browser? *shrug*");
 	});
 }
+}
 
 // Init World Objects
+{
 var world = [];
 
 function clearLvl(){
@@ -119,14 +137,13 @@ function clearLvl(){
 function physTest1(){
 var test = new gsquare(1000, 50, 100, 100);
 test.addtexture(loadedImgs[0]);
-var test2 = new gsquare(1000, 500, 100, 100);
-var test3 = new player(1000, 1000);
+var test2 = new gsquare(1000, 200, 100, 100);
 test.xv = 5;
 test.yv = 10;
 test2.xv = -5;
 test2.yv = 18;
 }
-
+}
 // Draw World
 
 function drawWorld(){
@@ -146,7 +163,7 @@ so it should accelerate a 2/5 of a pixel every 20ms loop
 
 mv = m1v1 + m2v2
 */
-
+{
 function collides(i, a){
 	if(
 	// Right x Axis check
@@ -166,9 +183,7 @@ function collides(i, a){
 }
 
 function collidesPoint(x, y, a){
-	console.log(x);
-	console.log(a.x);
-	if(x > a.x && x < a.x + a.w ){//%& y > a.y && y < a.y + a.h){
+	if(x > a.x && x < a.x + a.w && y > a.y && y < a.y + a.h){
 		return true;
 	}
 	else{
@@ -219,17 +234,20 @@ function doWorld(){
 	}
 	}
 }
+}
 
+// Editor menu
+{
 var squareBtn;
 var moveBtn;
 var resizeBtn;
 
 var buttonsList = [];
 
-// Editor menu
 function makeButton(name, element){
 	element = document.createElement("button");
 	element.innerHTML = name;
+	element.id = name.toLowerCase();
 	element.style.position = "absolute";
 	element.style.top = (buttonsList.length * 50) + 30;
 	element.style.left = "2px";
@@ -266,33 +284,60 @@ function deleteEditorElements(){
 }
 
 //Editing
-c.addEventListener("click", function(e) {
-	doEdit(e);
-}, false);
 
+var mouse = { clicked: false, downX:0, downY:0, x:0, y:0, upX:0, upY:0, differenceX:0, differenceY:0};
 
-function doEdit(e){
+var SquaresList = [];
+
+c.addEventListener("mousedown", function(e) {
 	if(editor){
-		//Square
-		if(buttonsList[0].disabled){
-			
-		}
-		//Move
-		else if(buttonsList[1].disabled){
-			console.log("move!")
-			for(var i = 0; i < world.length; i++){
-				if(collidesPoint(e.x, e.y, world[i])){
-					console.log("grabed object!");
-				}
+	mouse.downX = e.pageX;
+	mouse.downY = c.height - e.pageY;
+	mouse.clicked = true;
+	if(document.getElementById("square").disabled){
+		 SquaresList.push(new gsquare(mouse.downX, mouse.downY, 10, 10));
+	}
+	if(document.getElementById("move").disabled){
+		for(var i = 0; i < world.length; i++){
+			if(collidesPoint(mouse.downX, mouse.downY, world[i])){
+				world[i].selected = true;
+				world[i].selectX = world[i].x - mouse.downX;
+				world[i].selectY = world[i].y - mouse.downY;
 			}
 		}
-		//Resize
-		else if(buttonsList[2].disabled){
+	}
+	}
+}, false);
+
+c.addEventListener("mousemove", function(e) {
+	if(editor){
+	mouse.x = e.pageX;
+	mouse.y = c.height - e.pageY;	
+	
+	for(var i = 0; i < world.length; i++){
+		//if selected items
+		if(world[i].selected){
+			world[i].x = mouse.x + world[i].selectX;
+			world[i].y = mouse.y + world[i].selectY;
 			
 		}
 	}
-}
+	}
+}, false);
 
+c.addEventListener("mouseup", function(e) {
+	if(editor){
+	mouse.upX = e.pageX;
+	mouse.upY = c.height - e.pageY;
+	mouse.clicked = false;
+	
+	for(var i = 0; i < world.length; i++){
+		world[i].selected = false;
+	}
+	}
+}, false);
+	
+}
 
 
 

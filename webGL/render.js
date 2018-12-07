@@ -270,11 +270,11 @@ var loop = function(){
 	angle = performance.now() / 1000 / 6 *2 * Math.PI;
 	
 	//Draw right next to first
-	for(var z = 1; z < 20; z++){
+	for(var z = 1; z < 4; z++){
 		mat4.translate(zTranslationMatrix, viewMatrix, [0, 0, 5*z]);
-		for(var y = 1; y < 20; y++){
+		for(var y = 1; y < 4; y++){
 			mat4.translate(yTranslationMatrix, zTranslationMatrix, [0, 5*y, 0]);
-			for(var x = 1; x < 20; x++){
+			for(var x = 1; x < 4; x++){
 				mat4.translate(xTranslationMatrix, yTranslationMatrix, [5*x, 0, 0]);
 				mat4.rotate(rotMatrix, xTranslationMatrix, angle, [1, 1, 0]);
 				gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, rotMatrix);

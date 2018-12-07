@@ -187,6 +187,8 @@ document.addEventListener("wheel", function (e) {
 //Touch control
 var TouchXS = 0;
 var TouchYS = 0;
+var movementX = 0;
+var movementY = 0;
 
 glCanvas.addEventListener("touchstart", function (e) {
 	//Multiple fingers
@@ -201,18 +203,15 @@ else{
 });
 
 glCanvas.addEventListener("touchmove", function (e) {
-	
-	var movementX = (TouchXS - e.touches[0].screenX)/10
-	var movementY = (TouchYS - e.touches[0].screenY)/10
-		console.log(movementX);
-		alphaCameraRot += (movementX)/(1000*(MouseSensitivity));
-		betaCameraRot -= (movementY)/(1000*(MouseSensitivity));
-
+	movementX = -Math.min(Math.max((TouchXS - e.touches[0].screenX), -100), 100);
+	movementY = -Math.min(Math.max((TouchYS - e.touches[0].screenY), -100), 100);
+	alphaCameraRot += (movementX)/(1000*(1/MouseSensitivity));
+	betaCameraRot -= (movementY)/(1000*(1/MouseSensitivity));
+	TouchXS = e.touches[0].screenX;
+	TouchYS = e.touches[0].screenY;
 });
 
 glCanvas.addEventListener("touchend", function (e) {
-		TouchXS = 0;
-		TouchYS = 0;
 });
 
 window.onkeydown = function(e) {

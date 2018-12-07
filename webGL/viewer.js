@@ -185,21 +185,34 @@ document.addEventListener("wheel", function (e) {
 	}
 });
 //Touch control
+var TouchXS = 0;
+var TouchYS = 0;
+
 glCanvas.addEventListener("touchstart", function (e) {
+	//Multiple fingers
 if(e.touches.length > 1){
-click.grab = 3;
-click.xinit = e.touches[0].screenX;
-click.yinit = e.touches[0].screenY;
+
 }
+	//One
 else{
-click.grab = 1;
-click.xinit = e.touches[0].screenX;
-click.yinit = e.touches[0].screenY;
+  TouchXS = e.touches[0].screenX;
+  TouchYS = e.touches[0].screenY;
 }
 });
 
+glCanvas.addEventListener("touchmove", function (e) {
+	
+	var movementX = (TouchXS - e.touches[0].screenX)/10
+	var movementY = (TouchYS - e.touches[0].screenY)/10
+		console.log(movementX);
+		alphaCameraRot += (movementX)/(1000*(MouseSensitivity));
+		betaCameraRot -= (movementY)/(1000*(MouseSensitivity));
+
+});
+
 glCanvas.addEventListener("touchend", function (e) {
-click.grab = 0;
+		TouchXS = 0;
+		TouchYS = 0;
 });
 
 window.onkeydown = function(e) {

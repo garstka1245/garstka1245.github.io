@@ -173,6 +173,11 @@ function refreshControls(){
 			}
 		}
 	}
+	// Touch Movement
+	if(TouchXS < window.innerWidth/2 && TouchXS < window.innerHeight/2 && touchdown){
+	xCameraPos -= (movementX)/(1000*(10/MouseSensitivity));
+	zCameraPos -= (movementZ)/(1000*(10/MouseSensitivity));
+	}
 }
 //Change camera speed
 document.addEventListener("wheel", function (e) {
@@ -188,31 +193,54 @@ document.addEventListener("wheel", function (e) {
 var TouchXS = 0;
 var TouchYS = 0;
 var movementX = 0;
-var movementY = 0;
+var movementZ = 0;
+var lookX = 0;
+var lookY = 0;
+var touchdown = false;
 
 glCanvas.addEventListener("touchstart", function (e) {
+	touchdown = true;
 	//Multiple fingers
 if(e.touches.length > 1){
 
 }
-	//One
+//One
+TouchXS = e.touches[0].screenX;
+TouchYS = e.touches[0].screenY;
+//Lower left corner
+if(e.touches[0].screenX < window.innerWidth/2 && e.touches[0].screenY < window.innerHeight/2){
+//Move controls
+}		
 else{
-  TouchXS = e.touches[0].screenX;
-  TouchYS = e.touches[0].screenY;
+//Look controls
+
 }
 });
 
 glCanvas.addEventListener("touchmove", function (e) {
+//Movement controls
+if(TouchXS < window.innerWidth/2 && TouchXS < window.innerHeight/2){
 	movementX = -Math.min(Math.max((TouchXS - e.touches[0].screenX), -100), 100);
-	movementY = -Math.min(Math.max((TouchYS - e.touches[0].screenY), -100), 100);
-	alphaCameraRot += (movementX)/(1000*(1/MouseSensitivity));
-	betaCameraRot -= (movementY)/(1000*(1/MouseSensitivity));
+	movementZ = -Math.min(Math.max((TouchYS - e.touches[0].screenY), -100), 100);
+}
+//Look controls
+else{
+	lookX = -Math.min(Math.max((TouchXS - e.touches[0].screenX), -100), 100);
+	lookY = -Math.min(Math.max((TouchYS - e.touches[0].screenY), -100), 100);
+	alphaCameraRot += (lookX)/(1000*(1/MouseSensitivity));
+	betaCameraRot -= (lookY)/(1000*(1/MouseSensitivity));
 	TouchXS = e.touches[0].screenX;
 	TouchYS = e.touches[0].screenY;
+}
 });
 
 glCanvas.addEventListener("touchend", function (e) {
+	touchdown = false;
 });
+
+
+
+
 
 window.onkeydown = function(e) {
    var key = e.keyCode ? e.keyCode : e.which;

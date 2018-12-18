@@ -46,7 +46,7 @@ var startProg = function(){
 	]).then(function(){
 		//Successfully loaded
 		console.log("Assets loaded.");
-		startGL(loadedVertices[ModelIndex], loadedFaces[ModelIndex], loadedUvs[ModelIndex], textured[ModelIndex], loadedImgs[TextureIndex]);
+		startGL(loadedVertices, loadedFaces, loadedUvs, textured[ModelIndex], loadedImgs[TextureIndex]);
 	}, function(){	
 		//One or more failed
 		console.log("Failed loading assets, please refresh or try a different browser? *shrug*");
@@ -54,7 +54,7 @@ var startProg = function(){
 }
 
 var refreshProg = function(){
-	startGL(loadedVertices[ModelIndex], loadedFaces[ModelIndex], loadedUvs[ModelIndex], textured[ModelIndex], loadedImgs[TextureIndex]);
+	startGL(loadedVertices, loadedFaces, loadedUvs, textured[ModelIndex], loadedImgs[TextureIndex]);
 }
 
 var startGL = function (loadV, loadF, loadUV, textured, loadedImg){
@@ -109,15 +109,18 @@ gl = canvas.getContext("webgl");
 		console.error('ERROR validating program!', gl.getProgramInfoLog(program));
 	}
 
-	// Manually fill buffer
-	//createFlattenedVertices(gl, primitives.createCubeVertices(1));
-   	var vertices = loadV;
-	
-    var indices = loadF;
-    
-	var uvs = loadUV;
+	// Buffers
+	//Object 1
+   	var vertices = loadV[0];
+    var indices = loadF[0];
+	var uvs = loadUV[0];
+	//Object 2
+	var vertices1 = loadV[1];
+    var indices1 = loadF[1];
+	var uvs1 = loadUV[1];
 	
 	//Create buffers
+	//Object1
     var VertexBufferObject = gl.createBuffer();
 	gl.bindBuffer(gl.ARRAY_BUFFER, VertexBufferObject);
 	gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
@@ -126,70 +129,57 @@ gl = canvas.getContext("webgl");
 	gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, IndexBufferObject);
 	gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint16Array(indices), gl.STATIC_DRAW);
 	
-	if(textured == true){
-	var UvsBufferObject = gl.createBuffer();
-	gl.bindBuffer(gl.ARRAY_BUFFER, UvsBufferObject);
-	gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(uvs), gl.STATIC_DRAW);
-
-	gl.bindBuffer(gl.ARRAY_BUFFER, VertexBufferObject);
-	var positionAttribLocation = gl.getAttribLocation(program, 'vertPosition');
-	gl.vertexAttribPointer(
-		positionAttribLocation, // Attribute location
-		3, // Number of elements per attribute
-		gl.FLOAT, // Type of elements
-		gl.FALSE,
-		3 * Float32Array.BYTES_PER_ELEMENT, // Size of an individual vertex
-		0 // Offset from the beginning of a single vertex to this attribute
-	);
-	gl.enableVertexAttribArray(positionAttribLocation);
+		//Object 2
+	var VertexBufferObject1 = gl.createBuffer();
+	gl.bindBuffer(gl.ARRAY_BUFFER, VertexBufferObject1);
+	gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices1), gl.STATIC_DRAW);
+	
+	var IndexBufferObject1 = gl.createBuffer();
+	gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, IndexBufferObject1);
+	gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint16Array(indices1), gl.STATIC_DRAW);
 	
 
-	gl.bindBuffer(gl.ARRAY_BUFFER, UvsBufferObject);
-	var texCoordAttribLocation = gl.getAttribLocation(program, 'vertTexCoord');
-	gl.vertexAttribPointer(
-		texCoordAttribLocation, // Attribute location
-		2, // Number of elements per attribute
-		gl.FLOAT, // Type of elements
-		gl.FALSE,
-		2 * Float32Array.BYTES_PER_ELEMENT, // Size of an individual vertex
-		0 * Float32Array.BYTES_PER_ELEMENT  // Offset from the beginning of a single vertex to this attribute
-	);
+	if(textured == true){	
+		var UvsBufferObject = gl.createBuffer();
+		gl.bindBuffer(gl.ARRAY_BUFFER, UvsBufferObject);
+		gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(uvs), gl.STATIC_DRAW);
+	
+		var UvsBufferObject1 = gl.createBuffer();
+		gl.bindBuffer(gl.ARRAY_BUFFER, UvsBufferObject1);
+		gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(uvs1), gl.STATIC_DRAW);
 
-	gl.enableVertexAttribArray(texCoordAttribLocation);
 
-	 // Texture
-	var texture = gl.createTexture();
-	gl.bindTexture(gl.TEXTURE_2D, texture);
-	gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
-	gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
-	gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
-	gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
-	gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
-	gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA,gl.UNSIGNED_BYTE, loadedImg);
-	gl.bindTexture(gl.TEXTURE_2D, null);
+		gl.bindBuffer(gl.ARRAY_BUFFER, VertexBufferObject);
+		var positionAttribLocation = gl.getAttribLocation(program, 'vertPosition');
+		gl.vertexAttribPointer(positionAttribLocation, 3, gl.FLOAT, gl.FALSE, 3 * Float32Array.BYTES_PER_ELEMENT,0);
+		gl.enableVertexAttribArray(positionAttribLocation);	
+	
+		gl.bindBuffer(gl.ARRAY_BUFFER, UvsBufferObject);
+		var texCoordAttribLocation = gl.getAttribLocation(program, 'vertTexCoord');
+		gl.vertexAttribPointer(texCoordAttribLocation, 2, gl.FLOAT, gl.FALSE, 2 * Float32Array.BYTES_PER_ELEMENT, 0 * Float32Array.BYTES_PER_ELEMENT);
+
+		gl.enableVertexAttribArray(texCoordAttribLocation);
+
+		// Texture
+		var texture = gl.createTexture();
+		gl.bindTexture(gl.TEXTURE_2D, texture);
+		gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
+		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
+		gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA,gl.UNSIGNED_BYTE, loadedImg);
+		gl.bindTexture(gl.TEXTURE_2D, null);
 	}
 	else{
-	var positionAttribLocation = gl.getAttribLocation(program, 'vertPosition');
-	var colorAttribLocation = gl.getAttribLocation(program, 'vertColor');
-	gl.vertexAttribPointer(
-		positionAttribLocation, // Attribute location
-		3, // Number of elements per attribute
-		gl.FLOAT, // Type of elements
-		gl.FALSE,
-		6 * Float32Array.BYTES_PER_ELEMENT, // Size of an individual vertex
-		0 // Offset from the beginning of a single vertex to this attribute
-	);
-	gl.vertexAttribPointer(
-		colorAttribLocation, // Attribute location
-		3, // Number of elements per attribute
-		gl.FLOAT, // Type of elements
-		gl.FALSE,
-		6 * Float32Array.BYTES_PER_ELEMENT, // Size of an individual vertex
-		3 * Float32Array.BYTES_PER_ELEMENT // Offset from the beginning of a single vertex to this attribute
-	);
+		var positionAttribLocation = gl.getAttribLocation(program, 'vertPosition');
+		var colorAttribLocation = gl.getAttribLocation(program, 'vertColor');
+	
+		gl.vertexAttribPointer(positionAttribLocation, 3, gl.FLOAT, gl.FALSE, 6 * Float32Array.BYTES_PER_ELEMENT, 0);
+		gl.vertexAttribPointer(colorAttribLocation, 3, gl.FLOAT,gl.FALSE, 6 * Float32Array.BYTES_PER_ELEMENT, 3 * Float32Array.BYTES_PER_ELEMENT);
 
-	gl.enableVertexAttribArray(positionAttribLocation);
-    gl.enableVertexAttribArray(colorAttribLocation);
+		gl.enableVertexAttribArray(positionAttribLocation);
+		gl.enableVertexAttribArray(colorAttribLocation);
 	}
   	// Use this program
 	gl.useProgram(program);
@@ -265,11 +255,33 @@ var loop = function(){
 	gl.bindTexture(gl.TEXTURE_2D, texture);
 	gl.activeTexture(gl.TEXTURE0);
 	}
+	
+
+	//Draw1
+	gl.bindBuffer(gl.ARRAY_BUFFER, VertexBufferObject);
+	gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, IndexBufferObject);
+	gl.bindBuffer(gl.ARRAY_BUFFER, UvsBufferObject);
+	
     gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_SHORT, 0);
+	
+
+	//Draw2
+	mat4.translate(xTranslationMatrix, viewMatrix, [5, 0, 0]);
+	gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, xTranslationMatrix);
+	
+	gl.bindBuffer(gl.ARRAY_BUFFER, VertexBufferObject1);
+	gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, IndexBufferObject1);
+	gl.bindBuffer(gl.ARRAY_BUFFER, UvsBufferObject1);
+	
+    gl.drawElements(gl.TRIANGLES, indices1.length, gl.UNSIGNED_SHORT, 0);
+
+	
+	
+	
 	
 	angle = performance.now() / 1000 / 6 *2 * Math.PI;
 	
-	//Draw right next to first
+	//Draw matrix of 1
 	for(var z = 1; z < 4; z++){
 		mat4.translate(zTranslationMatrix, viewMatrix, [0, 0, 5*z]);
 		for(var y = 1; y < 4; y++){
@@ -278,7 +290,11 @@ var loop = function(){
 				mat4.translate(xTranslationMatrix, yTranslationMatrix, [5*x, 0, 0]);
 				mat4.rotate(rotMatrix, xTranslationMatrix, angle, [1, 1, 0]);
 				gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, rotMatrix);
-				gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_SHORT, 0);
+				
+				//gl.bindBuffer(gl.ARRAY_BUFFER, VertexBufferObject);
+				//gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, IndexBufferObject);
+				//gl.bindBuffer(gl.ARRAY_BUFFER, UvsBufferObject);
+				//gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_SHORT, 0);
 			}
 		}
 	}

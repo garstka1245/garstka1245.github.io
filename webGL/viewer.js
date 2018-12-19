@@ -175,8 +175,9 @@ function refreshControls(){
 	}
 	// Touch Movement
 	if(TouchXS < window.innerWidth/2 && TouchXS < window.innerHeight/2 && touchdown){
-	xCameraPos -= (movementX)/(1000*(10/MouseSensitivity));
-	zCameraPos -= (movementZ)/(1000*(10/MouseSensitivity));
+		movementRad = Math.atan2(movementZ, movementX);
+		zCameraPos -= Math.cos(alphaCameraRot+movementRad)*cameraSpeed;
+		xCameraPos += Math.sin(alphaCameraRot+movementRad)*cameraSpeed;
 	}
 }
 //Change camera speed
@@ -188,6 +189,10 @@ document.addEventListener("wheel", function (e) {
 	else{
 	cameraSpeed = 0.1;
 	}
+	/*
+	if (e.ctrlKey == true) {
+       e.preventDefault();
+    }*/
 });
 //Touch control
 var TouchXS = 0;
@@ -213,22 +218,21 @@ if(e.touches[0].screenX < window.innerWidth/2 && e.touches[0].screenY < window.i
 }		
 else{
 //Look controls
-
 }
 });
 
 glCanvas.addEventListener("touchmove", function (e) {
 //Movement controls
 if(TouchXS < window.innerWidth/2 && TouchXS < window.innerHeight/2){
-	movementX = -Math.min(Math.max((TouchXS - e.touches[0].screenX), -100), 100);
-	movementZ = -Math.min(Math.max((TouchYS - e.touches[0].screenY), -100), 100);
+	movementX = (Math.min(Math.max((TouchXS - e.touches[0].screenX), -100), 100)* MouseSensitivity)/ 10000;
+	movementZ = (Math.min(Math.max((TouchYS - e.touches[0].screenY), -100), 100)* MouseSensitivity)/ 10000;
 }
 //Look controls
 else{
-	lookX = -Math.min(Math.max((TouchXS - e.touches[0].screenX), -100), 100);
-	lookY = -Math.min(Math.max((TouchYS - e.touches[0].screenY), -100), 100);
-	alphaCameraRot += (lookX)/(1000*(1/MouseSensitivity));
-	betaCameraRot -= (lookY)/(1000*(1/MouseSensitivity));
+	lookX = Math.min(Math.max((TouchXS - e.touches[0].screenX), -100), 100);
+	lookY = Math.min(Math.max((TouchYS - e.touches[0].screenY), -100), 100);
+	alphaCameraRot -= (lookX)/(1000*(1/MouseSensitivity));
+	betaCameraRot += (lookY)/(1000*(1/MouseSensitivity));
 	TouchXS = e.touches[0].screenX;
 	TouchYS = e.touches[0].screenY;
 }
@@ -250,6 +254,9 @@ window.onkeydown = function(e) {
 			controls[i]= true;
 		}
 	}
+	/*if(e.ctrlKey==true && (e.which == '61') || (e.which == '173')){
+		e.preventDefault();
+	}*/
 };
 
 window.onkeyup = function(e) {

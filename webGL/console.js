@@ -3,6 +3,7 @@
 document.getElementById("input").addEventListener("keydown", function(event) {
 if (event.keyCode === 13) {
 	m = document.getElementById("input").value;
+	m.toLowerCase();
     parse(m);
 }
 });
@@ -10,7 +11,7 @@ if (event.keyCode === 13) {
 var m;
 
 //Text returned to Console.
-var availableCommands = ["gl [subcommand]",""]
+var availableCommands = ["gl [subcommand]","speed [num]",""]
 var glSubCommands = ["background [color]","texture [texture index]",""]
 var invalidMsg = ["Invalid command, try again",""]
 
@@ -37,8 +38,11 @@ console.log("Parsing: " + m);
 if(m.substr(0,4) == "help"){
 	print(availableCommands,"green");
 }
-else if(m.substr(0,2) == "gl"){
-	glsub(m.substr(2,m.length));
+else if(m.substr(0,3) == "gl "){
+	glsub(m.substr(3,m.length));
+}
+else if(m.substr(0,6) == "speed "){
+	cameraSpeed =  parseInt(m.substr(6,m.length));
 }
 else{
 	print(invalidMsg,"red");
@@ -46,14 +50,14 @@ else{
 }
 
 
-	var backgroundColor = {
-		r:0.0,
-		g:0.0,
-		b:0.0
-	}
+var backgroundColor = {
+	r:0.0,
+	g:0.0,
+	b:0.0
+}
 
 function glsub(subm){
-	if(subm.substr(1,11) == "background "){
+	if(subm.substr(0,11) == "background "){
 		//#123456
 		var c = parseInt(subm.substr(13,19),16);
 		backgroundColor.r = (c >> 16)/255;
@@ -61,12 +65,12 @@ function glsub(subm){
 		backgroundColor.b = (c & 0x0000FF)/255;
 		console.log("color set to: " + backgroundColor.r + "," + backgroundColor.g + "," + backgroundColor.b);
 	}
-	else if(subm.substr(1,8) == "texture "){
+	else if(subm.substr(0,8) == "texture "){
 		TextureIndex = parseInt(subm.substr(8,subm.length));
 		console.log("Loaded texture: " + parseInt(subm.substr(8,subm.length)));
 		refreshProg();
 	}
-	else if(subm.substr(1,6) == "model "){
+	else if(subm.substr(0,6) == "model "){
 		ModelIndex = parseInt(subm.substr(6,subm.length));
 		console.log("Loaded model: " + parseInt(subm.substr(6,subm.length)));
 		refreshProg();

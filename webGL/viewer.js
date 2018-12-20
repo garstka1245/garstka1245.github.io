@@ -68,6 +68,38 @@ function resize(){
 	glcanvas.width  = window.innerWidth;
 	glcanvas.height = window.innerHeight;
 }
+
+function fullscreen() {
+    var isInFullScreen = (document.fullscreenElement && document.fullscreenElement !== null) ||
+        (document.webkitFullscreenElement && document.webkitFullscreenElement !== null) ||
+        (document.mozFullScreenElement && document.mozFullScreenElement !== null) ||
+        (document.msFullscreenElement && document.msFullscreenElement !== null);
+
+    var docElm = document.documentElement;
+    if (!isInFullScreen) {
+        if (docElm.requestFullscreen) {
+            docElm.requestFullscreen();
+        } else if (docElm.mozRequestFullScreen) {
+            docElm.mozRequestFullScreen();
+        } else if (docElm.webkitRequestFullScreen) {
+            docElm.webkitRequestFullScreen();
+        } else if (docElm.msRequestFullscreen) {
+            docElm.msRequestFullscreen();
+        }
+    } else {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        }
+    }
+	
+	
+}
 	
 glCanvas.addEventListener ("mousedown", function (e) {
 	//Lock pointer controls
@@ -76,11 +108,7 @@ glCanvas.addEventListener ("mousedown", function (e) {
 	//why are the pixels so off?
 	if(e.x > 1536 - 50 && e.y > 686 - 50){
 	//glcanvas.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
-	glcanvas.mozRequestFullScreen();
-	glcanvas.msRequestFullscreen();
-	glcanvas.requestFullscreen();
-	glcanvas.width  = window.innerWidth;
-	glcanvas.height = window.innerHeight;
+	fullscreen();
 	}
 });
 glCanvas.addEventListener ("mouseup", function (e) {
@@ -212,9 +240,10 @@ if(e.touches.length > 1){
 //One
 TouchXS = e.touches[0].screenX;
 TouchYS = e.touches[0].screenY;
-//Lower left corner
+//Upper left corner
 if(e.touches[0].screenX < window.innerWidth/2 && e.touches[0].screenY < window.innerHeight/2){
-//Move controls
+//Fullscreen
+	fullscreen();
 }		
 else{
 //Look controls

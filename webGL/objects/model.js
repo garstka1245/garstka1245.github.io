@@ -1,5 +1,5 @@
 
-function triangle(vertices, indices, uvs, img){
+function model(vertices, indices, uvs, img){
 	this.vertices = vertices;
 	this.indices = indices;
 	this.uvs = uvs;
@@ -33,7 +33,7 @@ function triangle(vertices, indices, uvs, img){
 	gl.bindTexture(gl.TEXTURE_2D, null);
 }
 
-triangle.prototype.draw = function(program){
+model.prototype.draw = function(program){
 	gl.useProgram(program);
 		
 	var positionAttribLocation = gl.getAttribLocation(program, 'vertPosition');
@@ -55,6 +55,24 @@ triangle.prototype.draw = function(program){
     gl.drawElements(gl.TRIANGLES, this.indices.length, gl.UNSIGNED_SHORT, 0);
 }
 
+function draw(model, ModelData, s, x, y, z, alpha, beta){
+	mat4.translate(ModelData.translationMatrix, ModelData.viewMatrix, [x, y, z]);
+	mat4.scale(ModelData.scaleMatrix, ModelData.translationMatrix, [s, s, s]);
+	mat4.rotate(ModelData.rotMatrix, ModelData.scaleMatrix, alpha * (Math.PI/180), [0, 1, 0]);
+	mat4.rotate(ModelData.drawMatrix, ModelData.rotMatrix, beta * (Math.PI/180), [1, 0, 0]);
+	gl.uniformMatrix4fv(gl.getUniformLocation(ModelData.program, 'mView'), gl.FALSE, ModelData.drawMatrix);
+	model.draw(ModelData.program);
+}
+
+function grid(model, ModelData, spacing, px, py, pz, lx, ly, lz){
+	for(var z = 1; z < lx + 1; z++){
+		for(var y = 1; y < ly + 1; y++){
+			for(var x = 1; x < lz + 1; x++){
+				draw(model, ModelData, 1, x*spacing + px, y*spacing + py, z*spacing + pz, 0, 0);
+			}
+		}
+	}
+}
 
 
 

@@ -41,7 +41,7 @@ var TextureIndex = 1;
 var startProg = function(){
 	Promise.all([
 	loadObj("basic/cube_textured"),loadObj("animals/cat"),loadObj("animals/deer"),loadObj("animals/fox"),loadObj("animals/spider"),loadObj("animals/wolf")
-	,loadImg("bluestone"),loadImg("black_square"),loadImg("square_illusion")
+	,loadImg("fur"),loadImg("black_square"),loadImg("square_illusion")
 	]).then(function(){
 		//Successfully loaded
 		console.log("Assets loaded.");
@@ -128,48 +128,38 @@ gl = canvas.getContext("webgl");
 	gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, viewMatrix);
 	gl.uniformMatrix4fv(matProjUniformLocation, gl.FALSE, projMatrix);
 
-	//Done with GL setup, Rotation matrices
-	
-	var xRotationMatrix = new Float32Array(16);
-	var yRotationMatrix = new Float32Array(16);
-	var zRotationMatrix = new Float32Array(16);
-	 
+	//Done with GL setup, Matrices
+
 	var angle = 0;
-    var identityMatrix = new Float32Array(16);
-    mat4.identity(identityMatrix);
 	
-	var xTranslationMatrix = new Float32Array(16);
-	var yTranslationMatrix = new Float32Array(16);
-	var zTranslationMatrix = new Float32Array(16);
+	var ModelData = {
+		program: program,
+		viewMatrix: viewMatrix,
+		scaleMatrix: new Float32Array(16),
+		translationMatrix: new Float32Array(16),
+		rotMatrix: new Float32Array(16),
+		drawMatrix: new Float32Array(16)
+		};
 	
-	var rotMatrix = new Float32Array(16);
-	
-	var Draw1 = new triangle(loadV[1], loadF[1], loadUV[1], loadedImg);
-	var Draw2 = new triangle(loadV[2], loadF[2], loadUV[2], loadedImg);
-	var Draw3 = new triangle(loadV[5], loadF[5], loadUV[5], loadedImg);
+	var Draw1 = new model(loadV[0], loadF[0], loadUV[0], loadedImg);
+	var Draw2 = new model(loadV[2], loadF[2], loadUV[2], loadedImg);
+	var Draw3 = new model(loadV[5], loadF[5], loadUV[5], loadedImg);
 	
 	
 //Loop
 var loop = function(){
 	refreshControls();
-	if(debugDispToggle){
+	if(!debugDispToggle){
 		if(performance.now()%20 == 0){
-		//debugDisp();
+		   //debugDisp();
 		}
 	}
 	else{document.getElementById("debug").innerHTML = ""}
 	gl.useProgram(program)
-	//World
-	mat4.rotate(xRotationMatrix, identityMatrix, xRotVel, [0, 1, 0]);
-	mat4.rotate(yRotationMatrix, identityMatrix, yRotVel, [1, 0, 0]);
-	mat4.rotate(zRotationMatrix, identityMatrix, zRotVel, [0, 0, 1]);
-	mat4.mul(worldMatrix, yRotationMatrix, xRotationMatrix, zRotationMatrix);
-	gl.uniformMatrix4fv(matWorldUniformLocation, gl.FALSE, worldMatrix);
 	
 	//Camera
 	if(betaCameraRot < -1.566) betaCameraRot = -1.566;
 	if(betaCameraRot > 1.566)betaCameraRot = 1.566;
-	
 	
 	mat4.lookAt(viewMatrix, [xCameraPos, yCameraPos, zCameraPos], [Math.cos(alphaCameraRot)*Math.cos(betaCameraRot) + xCameraPos, Math.sin(betaCameraRot)  + yCameraPos, Math.sin(alphaCameraRot)*Math.cos(betaCameraRot) + zCameraPos], [0, 1, 0]);
 	gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, viewMatrix);
@@ -180,43 +170,16 @@ var loop = function(){
 	gl.clearDepth(1.0);                 // Clear depth  
 	gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT); // Clear buffer
 
+	angle = performance.now() / 40;
 	
-	mat4.translate(zTranslationMatrix, viewMatrix, [0, 0, 750]);
-	mat4.rotate(rotMatrix, zTranslationMatrix, Math.PI/2, [0, 1, 0]);
-	gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, rotMatrix);
-	Draw1.draw(program);	
+	draw(Draw1, ModelData, 1, 0, 0, 20, 0, 0);
 	
+	draw(Draw2, ModelData, 0.015, -3, 0, 20, 180, 0);
 	
-	mat4.translate(zTranslationMatrix, viewMatrix, [0, 0, 750]);
-	mat4.rotate(rotMatrix, zTranslationMatrix, Math.PI, [0, 1, 0]);
-	mat4.translate(xTranslationMatrix, rotMatrix, [200, 0, 0]);
-	gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, xTranslationMatrix);
-	Draw2.draw(program);
+	draw(Draw3, ModelData, 0.005, 3, 0, 20, 90, 0);
 	
-	
-	mat4.translate(zTranslationMatrix, viewMatrix, [0, 0, 1200]);
-	mat4.rotate(rotMatrix, zTranslationMatrix, Math.PI/2, [0, 1, 0]);
-	mat4.translate(zTranslationMatrix, rotMatrix, [0, 0, 400]);
-	gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, zTranslationMatrix);
-	Draw3.draw(program);	
-	
-	angle = performance.now() / 1000 / 6 *2 * Math.PI;
-	
-	//Draw matrix of 1
-	for(var z = 1; z < 4; z++){
-		mat4.translate(zTranslationMatrix, viewMatrix, [0, 0, 5*z]);
-		for(var y = 1; y < 4; y++){
-			mat4.translate(yTranslationMatrix, zTranslationMatrix, [0, 5*y, 0]);
-			for(var x = 1; x < 4; x++){
-				mat4.translate(xTranslationMatrix, yTranslationMatrix, [5*x, 0, 0]);
-				mat4.rotate(rotMatrix, xTranslationMatrix, angle, [1, 1, 0]);
-				gl.uniformMatrix4fv(matViewUniformLocation, gl.FALSE, rotMatrix);
-				
-				//Draw1.draw(program);	
-			}
-		}
-	}
-	
+	//grid(Draw1, ModelData, 2, 0, 0, 30, 20, 1, 20);
+
 	
 	
   //Loops after drawn

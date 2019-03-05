@@ -1,0 +1,192 @@
+newmtl "dangercanyon_0"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_0.tga"
+
+newmtl "dangercanyon_1"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_1.tga"
+
+newmtl "dangercanyon_2"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_2.tga"
+
+newmtl "dangercanyon_3"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_3.tga"
+
+newmtl "dangercanyon_4"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_4.tga"
+
+newmtl "dangercanyon_5"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_5.tga"
+
+newmtl "dangercanyon_6"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_6.tga"
+
+newmtl "dangercanyon_7"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_7.tga"
+
+newmtl "dangercanyon_8"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_8.tga"
+
+newmtl "dangercanyon_9"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_9.tga"
+
+newmtl "dangercanyon_10"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_10.tga"
+
+newmtl "dangercanyon_11"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_11.tga"
+
+newmtl "dangercanyon_12"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_12.tga"
+
+newmtl "dangercanyon_13"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_13.tga"
+
+newmtl "dangercanyon_14"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_14.tga"
+
+newmtl "dangercanyon_15"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_15.tga"
+
+newmtl "dangercanyon_16"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_16.tga"
+
+newmtl "dangercanyon_17"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_17.tga"
+
+newmtl "dangercanyon_18"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_18.tga"
+
+newmtl "dangercanyon_19"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_19.tga"
+
+newmtl "dangercanyon_20"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_20.tga"
+
+newmtl "dangercanyon_21"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_21.tga"
+
+newmtl "dangercanyon_22"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_22.tga"
+
+newmtl "dangercanyon_23"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\dangercanyon_23.tga"
+

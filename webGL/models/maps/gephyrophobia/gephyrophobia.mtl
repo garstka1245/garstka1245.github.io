@@ -1,0 +1,2112 @@
+newmtl "tech dense circuits"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\tech dense circuits.tga"
+
+newmtl "geph_metal_panels_generic_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "geph_bridgeramp_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_bridgeramp_blue.tga"
+
+newmtl "geph_metal_plate_floor_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal strips decorative narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips decorative narrow.tga"
+
+newmtl "b40_bridgeramp_mid"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_bridgeramp_mid.tga"
+
+newmtl "geph_bridgeramp_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_bridgeramp_red.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "geph_cliff_wall"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_cliff_wall.tga"
+
+newmtl "geph_metal_panels_generic_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "geph_metal_plate_floor_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "geph_cliff_wall"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_cliff_wall.tga"
+
+newmtl "geph_ground_snow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_cliff_snow.tga"
+
+newmtl "geph_cliff_wall_underfog"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_cliff_wall.tga"
+
+newmtl "geph_metal_panels_generic_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "geph_metal_plate_floor_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "geph_cliff_wall"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_cliff_wall.tga"
+
+newmtl "geph_cliff_wall_underfog"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_cliff_wall.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "metal strips wide"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips wide.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "metal strips wide"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips wide.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "metal strips wide"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips wide.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "metal strips wide"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips wide.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal strips decorative narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips decorative narrow.tga"
+
+newmtl "b40_bridgeramp_mid"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_bridgeramp_mid.tga"
+
+newmtl "geph_bridgeramp_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_bridgeramp_red.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "flagstand"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\flagstand.tga"
+
+newmtl "geph_grate_walkway"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_grate_walkway.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "geph_bridgeramp_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_bridgeramp_blue.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal strips decorative narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips decorative narrow.tga"
+
+newmtl "b40_bridgeramp_mid"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_bridgeramp_mid.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "flagstand"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\flagstand.tga"
+
+newmtl "geph_grate_walkway"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_grate_walkway.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "geph_cliff_wall"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_cliff_wall.tga"
+
+newmtl "geph_cliff_wall_underfog"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_cliff_wall.tga"
+
+newmtl "geph_ground_snow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_cliff_snow.tga"
+
+newmtl "geph_cliff_wall_underfog"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_cliff_wall.tga"
+
+newmtl "geph_metal_panels_generic_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "geph_metal_panels_generic_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "geph_metal_panels_generic_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "geph_metal_panels_generic_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "geph_metalpanels_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_metalpanels_generic.tga"
+
+newmtl "geph_metal_panels_generic_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "geph_metalpanels_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_metalpanels_generic.tga"
+
+newmtl "geph_metal_panels_generic_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "geph_metalpanels_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_metalpanels_generic.tga"
+
+newmtl "geph_metal_panels_generic_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "geph_metalpanels_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_metalpanels_generic.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal strips decorative narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips decorative narrow.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_purple_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_purple_lights.tga"
+
+newmtl "geph_energy_rope"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_energyrope.tga"
+
+newmtl "geph_energy_rope"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_energyrope.tga"
+
+newmtl "geph_energy_rope"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_energyrope.tga"
+
+newmtl "geph_energy_rope"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_energyrope.tga"
+
+newmtl "geph_energy_rope"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_energyrope.tga"
+
+newmtl "geph_energy_rope"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_energyrope.tga"
+
+newmtl "geph_energy_rope"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_energyrope.tga"
+
+newmtl "geph_energy_rope"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_energyrope.tga"
+
+newmtl "geph_energy_rope"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_energyrope.tga"
+
+newmtl "geph_energy_rope"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_energyrope.tga"
+
+newmtl "geph_energy_rope"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_energyrope.tga"
+
+newmtl "geph_energy_rope"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b40\bitmaps\b40_energyrope.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_blue.tga"
+
+newmtl "geph_symbol_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_symbol_blue.tga"
+
+newmtl "geph_symbol_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_symbol_blue.tga"
+
+newmtl "geph_symbol_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_symbol_blue.tga"
+
+newmtl "geph_symbol_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_symbol_blue.tga"
+
+newmtl "geph_symbol_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_symbol_blue.tga"
+
+newmtl "geph_symbol_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_symbol_blue.tga"
+
+newmtl "geph_symbol_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_symbol_red.tga"
+
+newmtl "geph_symbol_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_symbol_red.tga"
+
+newmtl "geph_symbol_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_symbol_red.tga"
+
+newmtl "geph_symbol_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_symbol_red.tga"
+
+newmtl "geph_symbol_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_symbol_red.tga"
+
+newmtl "geph_symbol_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_symbol_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\gephyrophobia\bitmaps\geph_lights_red.tga"
+
+newmtl "geph_halogen_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\a10\bitmaps\light.tga"
+
+newmtl "geph_halogen_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\a10\bitmaps\light.tga"
+
+newmtl "geph_halogen_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\a10\bitmaps\light.tga"
+
+newmtl "geph_halogen_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\a10\bitmaps\light.tga"
+
+newmtl "geph_halogen_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\a10\bitmaps\light.tga"
+
+newmtl "geph_halogen_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\a10\bitmaps\light.tga"
+
+newmtl "geph_halogen_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\a10\bitmaps\light.tga"
+
+newmtl "geph_halogen_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\a10\bitmaps\light.tga"
+
+newmtl "geph_halogen_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\a10\bitmaps\light.tga"
+
+newmtl "geph_halogen_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\a10\bitmaps\light.tga"
+
+newmtl "geph_halogen_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\a10\bitmaps\light.tga"
+
+newmtl "geph_halogen_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\a10\bitmaps\light.tga"
+
+newmtl "geph_teleporter_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+
+newmtl "geph_teleporter_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+
+newmtl "geph_teleporter_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+
+newmtl "geph_teleporter_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+
+newmtl "geph_teleporter_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+
+newmtl "geph_teleporter_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+
+newmtl "geph_teleporter_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+
+newmtl "geph_teleporter_lights"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+

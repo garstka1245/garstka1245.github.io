@@ -1,0 +1,343 @@
+# Created using Aether
+# Scenery Markers
+# 
+n warehouse_window
+p -10.09 19.1084 1.91985
+re 0 0 0
+
+n warehouse_window
+p -10.09 18.151 1.91947
+re 0 0 0
+
+n warehouse_window
+p -10.09 20.073 1.91947
+re 0 0 0
+
+n warehouse_window
+p 10.09 20.0624 1.92021
+re 0 0 0
+
+n warehouse_window
+p 10.09 19.1046 1.92021
+re 0 0 0
+
+n warehouse_window
+p 10.09 18.1501 1.92021
+re 0 0 0
+
+n warehouse_bridge
+p 6.54578 19.50302 1.685398
+re -180 3.530599E-07 -3.425925
+
+n warehouse_bridge
+p 6.54578 14.8 1.827092
+re -180 0 0
+
+n warehouse_container_large
+p 5.93 12.2402 0.01124382
+re 90 0 0
+
+n warehouse_container_large
+p 4.18461 12.2402 0.01124382
+re 90 0 0
+
+n warehouse_container_large
+p 6.81 11.3276 1.83086
+re 0 0 0
+
+n warehouse_wall
+p 4.18 11.3333 1.75824
+re 90 0 0
+
+n warehouse_wall
+p 4.281315 14.0603 0.01099969
+re 90 0 0
+
+n warehouse_container_large
+p -0.23 10.497 0.01124382
+re 0 0 0
+
+n warehouse_container_small
+p -0.0790261 12.2191 0.0109997
+re 0 0 0
+
+n warehouse_fence
+p 3.17685E-09 12.15 1.76104
+re -180 0 0
+
+n warehouse_container_large
+p -4.9671 11.6269 0.01124382
+re 90 0 0
+
+n warehouse_wall
+p -5.9 11.7 1.8
+re 90 0 0
+
+n warehouse_container_small_open
+p -10.93411 8.463973 0.01099969
+re -90 0 0
+
+n warehouse_container_small
+p -10.91653 8.452437 1.785798
+re -90 0 0
+
+n warehouse_container_large_open
+p 1.8 17.3639 0.01124382
+re 90 0 0
+
+n warehouse_container_small
+p 1.77 18.1418 1.77
+re -90 0 0
+
+n warehouse_container_small
+p -6.659389 15.33063 0.01124373
+re -90 0 0
+
+n warehouse_fence
+p -4.907266 14.48649 0.01124378
+re 90 0 0
+
+n warehouse_wall
+p -4.82 16.0815 1.76867
+re 90 0 0
+
+n warehouse_wall
+p -3.980163 16.95529 0.01124383
+re 180 0 0
+
+n warehouse_stairs
+p -6.061588 4.007167 0.01124377
+re 90 0 0
+
+n warehouse_container_large
+p -4.67068 4.1688 0.01124382
+re 90 0 0
+
+n warehouse_container_large
+p -5.5471 1.63198 0.01124382
+re 0 0 0
+
+n warehouse_container_large
+p -8.18556 0.759076 0.01124382
+re 90 0 0
+
+n warehouse_container_large
+p -7.33204 -1.87552 0.01124382
+re 0 0 0
+
+n warehouse_container_small
+p -6.426742 -0.1263553 0.01124376
+re 0.0390423 0 0
+
+n warehouse_bridge
+p -3.60458 -1.92492 1.809458
+re 90 0 0
+
+n warehouse_container_large
+p 0 -2.074 0.0112438
+re 0 0 0
+
+n warehouse_container_large_open
+p 0 -3.7955 0.0112438
+re 0 0 0
+
+n warehouse_container_large_open
+p -0.0298496 -1 1.807
+re 90 0 0
+
+n warehouse_container_large_open
+p -0.0298496 2.56 1.807
+re 90 0 0
+
+n warehouse_container_large
+p -0.00185796 4.1688 0.01124382
+re -90 0 0
+
+n warehouse_fence
+p 0 1.47 0.011
+re 180 0 0
+
+n warehouse_sign_a_left
+p 0.45 5.97816 0.0109997
+re 90 0 0
+
+n warehouse_sign_b_right
+p -0.45 5.97816 0.0112438
+re 90 0 0
+
+n warehouse_sign_b_right
+p -9.984179 8.463946 0.01099969
+re 0 0 0
+
+n warehouse_stairs
+p 11.32 7.81 0.0112438
+re 90 0 0
+
+n warehouse_sign_a_left
+p 10.713 7.5304 0.01124383
+re 0 0 0
+
+n warehouse_container_large
+p 11.1207 2.82234 0.01124382
+re 90 0 0
+
+n warehouse_container_small
+p 9.405461 1.976544 0.01124374
+re 90 0 0
+
+n warehouse_container_large
+p 7.70941 2.86303 0.01124382
+re 90 0 0
+
+n warehouse_container_large
+p 5.05211 -2.75 0.01124382
+re -90 0 0
+
+n warehouse_container_large
+p 6.79936 -2.75 0.0112438
+re 90 0 0
+
+n warehouse_container_large
+p 10.9569 -2.75 0.0112438
+re 90 0 0
+
+n warehouse_bridge
+p 8.92571 -1.94 1.813723
+re -90 0 0
+
+n warehouse_wall
+p 5.02252 -1.10995 1.8
+re 90 0 0
+
+n warehouse_container_small
+p 10.9773 -3.6 1.77792
+re 0 0 0
+
+n warehouse_fence
+p 2.506798 4.915437 0.0109997
+re -180 0 0
+
+n warehouse_wall
+p 3.46272 5.82498 0.01124382
+re 90 0 0
+
+n warehouse_stairs
+p -1.48729 12.86039 0.0112438
+re 90 0 0
+
+n warehouse_container_small
+p 11.14238 5.446379 0.01124374
+re 0 0 0
+
+n warehouse_wall
+p -6.75465 11.7 0.0112438
+re -90 0 0
+
+n warehouse_dumpster
+p 1.199 12.1 0.01124382
+re 90 0 0
+
+n warehouse_dumpster
+p -7.564909 2.973638 0.01124383
+re -180 0 0
+
+n warehouse_door
+p -0.7941287 24.26818 1.543546
+re 0 0 0
+
+n warehouse_door
+p 0.7636889 24.25936 1.543546
+re 0 0 0
+
+n warehouse_wall
+p -6.63 16.0815 1.76867
+re -90 0 0
+
+n warehouse_wall
+p -8.57361 11.7 0.01124382
+re -90 0 0
+
+n warehouse_wall
+p -7.72 11.7 1.8
+re -90 0 0
+
+n warehouse_bridge
+p -2.33776 5.1 1.813
+re 90 0 0
+
+n warehouse_fence
+p 0 -0.33 0.011
+re 180 0 0
+
+n warehouse_wall
+p 6.87853 -1.10995 1.8
+re 90 0 0
+
+n warehouse_wall
+p 5.29039 5.82498 0.01099971
+re 90 0 0
+
+n warehouse_container_small
+p 7.69 11.3703 0.0112438
+re 0 0 0
+
+n warehouse_container_small
+p 7.69 13.1101 0.0112438
+re 0 0 0
+
+n warehouse_wall
+p 6.109841 14.06056 0.01124383
+re 90 0 0
+
+n warehouse_wall
+p 4.26719 10.36759 0.01124382
+re 90 0 0
+
+n warehouse_wall
+p 6.089581 10.36652 0.01124383
+re -90 0 0
+
+n warehouse_wall
+p -6.59282 0.659159 1.8
+re -90 0 0
+
+n warehouse_wall
+p -5.619 -0.315 1.8
+re -180 0 0
+
+n warehouse_wall
+p 7.507 18.1296 0.0112437
+re -180 0 0
+
+n warehouse_wall
+p 6.533 17.155 0.0109997
+re -90 0 0
+
+n warehouse_dumpster
+p 0 -5.05 0.0109997
+re 0 0 0
+
+n warehouse_dumpster
+p 11.36631 0.1525153 0.0109997
+re -90 0 0
+
+n glowingdrip
+p 8.894868 16.44225 4.126291
+re -1.274986 -7.240833 10.01414
+
+n warehouse_board
+p 10.7951 21.4035 2.55
+re 90 0 0
+
+n poster
+p 11 21.395 2.52
+re 0 0 90
+
+n warehouse_truck
+p -4.781058 -3.943322 0.001243825
+re -135 0 0
+
+n pelican
+p 0 0 0.0109997
+re 72 0 0
+

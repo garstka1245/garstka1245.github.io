@@ -1,0 +1,1378 @@
+newmtl "dangercanyon_metal_panels_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "metal strips decorative wide"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips decorative wide.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_metal_decorative"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_decorative.tga"
+
+newmtl "dangercanyon_tubes_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_tubes_ext.tga"
+
+newmtl "dangercanyon_decor_strip_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_decor_strip_red.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "dangercanyon_decor_strip_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_decor_strip_blue.tga"
+
+newmtl "dangercanyon_ground"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_ground.tga"
+
+newmtl "dangercanyon_cliff_walls"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_cliff_walls.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_metal_decorative"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_decorative.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_metal_decorative"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_decorative.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_metal_decorative"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_decorative.tga"
+
+newmtl "dangercanyon_decor_strip_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_decor_strip_blue.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_metal_decorative"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_decorative.tga"
+
+newmtl "dangercanyon_decor_strip_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_decor_strip_red.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_decor_strip_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_decor_strip_red.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "dangercanyon_decor_strip_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_decor_strip_blue.tga"
+
+newmtl "dangercanyon_emblem"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_emblem.tga"
+
+newmtl "dangercanyon_metal_panels_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "dangercanyon_decor_strip_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_decor_strip_blue.tga"
+
+newmtl "dangercanyon_ground"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_ground.tga"
+
+newmtl "dangercanyon_cliff_walls"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_cliff_walls.tga"
+
+newmtl "flagstand"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\flagstand.tga"
+
+newmtl "dangercanyon_cliff_walls"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_cliff_walls.tga"
+
+newmtl "dangercanyon_metal_panels_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "dangercanyon_decor_strip_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_decor_strip_red.tga"
+
+newmtl "dangercanyon_cliff_walls"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_cliff_walls.tga"
+
+newmtl "flagstand"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\flagstand.tga"
+
+newmtl "dangercanyon_cliff_walls"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_cliff_walls.tga"
+
+newmtl "dangercanyon_cliff_walls"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_cliff_walls.tga"
+
+newmtl "dangercanyon_metal_panels_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_metal_decorative"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_decorative.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_metal_strips"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "metal plate floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor.tga"
+
+newmtl "dangercanyon_metal_panels"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_metal_panels.tga"
+
+newmtl "dangercanyon_lights_red_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_red_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_red.tga"
+
+newmtl "dangercanyon_lights_blue_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_high"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_lights_blue_low"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_lights_blue.tga"
+
+newmtl "dangercanyon_arrow_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_red.tga"
+
+newmtl "dangercanyon_arrow_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_red.tga"
+
+newmtl "dangercanyon_arrow_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_red.tga"
+
+newmtl "dangercanyon_arrow_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_red.tga"
+
+newmtl "dangercanyon_arrow_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_white.tga"
+
+newmtl "dangercanyon_arrow_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_white.tga"
+
+newmtl "dangercanyon_arrow_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_white.tga"
+
+newmtl "dangercanyon_arrow_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_white.tga"
+
+newmtl "dangercanyon_arrow_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_white.tga"
+
+newmtl "dangercanyon_arrow_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_white.tga"
+
+newmtl "dangercanyon_arrow_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_white.tga"
+
+newmtl "dangercanyon_arrow_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_white.tga"
+
+newmtl "dangercanyon_arrow_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_white.tga"
+
+newmtl "dangercanyon_arrow_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_white.tga"
+
+newmtl "dangercanyon_arrow_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_white.tga"
+
+newmtl "dangercanyon_arrow_white"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_white.tga"
+
+newmtl "dangercanyon_arrow_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_blue.tga"
+
+newmtl "dangercanyon_arrow_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_blue.tga"
+
+newmtl "dangercanyon_arrow_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_blue.tga"
+
+newmtl "dangercanyon_arrow_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\dangercanyon\bitmaps\dangercanyon_arrow_blue.tga"
+
+newmtl "teleporter_shield"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\scenery\teleporter_shield\bitmaps\teleporter_shield_dust.tga"
+
+newmtl "dangercanyon_white_light"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+
+newmtl "dangercanyon_white_light"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+
+newmtl "dangercanyon_white_light"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+
+newmtl "dangercanyon_white_light"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+
+newmtl "dangercanyon_white_light"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+
+newmtl "dangercanyon_white_light"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+
+newmtl "dangercanyon_symbol_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\icefields\bitmaps\icefields_symbol_red.tga"
+
+newmtl "dangercanyon_symbol_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\icefields\bitmaps\icefields_symbol_blue.tga"
+
+newmtl "greenlight"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+

@@ -1,0 +1,200 @@
+newmtl "boardingaction_0"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_0.tga"
+
+newmtl "boardingaction_1"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_1.tga"
+
+newmtl "boardingaction_2"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_2.tga"
+
+newmtl "boardingaction_3"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_3.tga"
+
+newmtl "boardingaction_4"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_4.tga"
+
+newmtl "boardingaction_5"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_5.tga"
+
+newmtl "boardingaction_6"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_6.tga"
+
+newmtl "boardingaction_7"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_7.tga"
+
+newmtl "boardingaction_8"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_8.tga"
+
+newmtl "boardingaction_9"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_9.tga"
+
+newmtl "boardingaction_10"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_10.tga"
+
+newmtl "boardingaction_11"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_11.tga"
+
+newmtl "boardingaction_12"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_12.tga"
+
+newmtl "boardingaction_13"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_13.tga"
+
+newmtl "boardingaction_14"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_14.tga"
+
+newmtl "boardingaction_15"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_15.tga"
+
+newmtl "boardingaction_16"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_16.tga"
+
+newmtl "boardingaction_17"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_17.tga"
+
+newmtl "boardingaction_18"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_18.tga"
+
+newmtl "boardingaction_19"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_19.tga"
+
+newmtl "boardingaction_20"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_20.tga"
+
+newmtl "boardingaction_21"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_21.tga"
+
+newmtl "boardingaction_22"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_22.tga"
+
+newmtl "boardingaction_23"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_23.tga"
+
+newmtl "boardingaction_24"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\boardingaction\boardingaction_24.tga"
+

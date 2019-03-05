@@ -1,0 +1,171 @@
+# Created using Aether
+# Scenery Markers
+# 
+n snowrock
+p 6.9695 -1.95109 0.178312
+re 85.261 0 0
+
+n snowrock
+p -9.637394 -6.691572 0.1835476
+re 67.90694 0 0
+
+n snowrock
+p -12.749 -18.20444 0.2539111
+re 0 0 0
+
+n snowrock
+p 11.1376 7.035413 -2.276869
+re 0 0 0
+
+n snowrock
+p -44.59126 -17.14753 -3.768009
+re 0 0 0
+
+n snowrock
+p -26.06957 16.48345 -3.924512
+re 0 0 0
+
+n mp_tree_pine_snow_tall
+p 22.6929 39.46608 -3.345496
+re 0 0 0
+
+n snowrock
+p 38.92896 -19.53569 -3.428208
+re 84.29483 0 0
+
+n teleporter
+p 32.15 -38.1962 0.569303
+re 0 0 0
+
+n teleporter
+p -33.88 -34.1715 0.569059
+re -178.3697 0 0
+
+n teleporter
+p -41.23257 46.27875 0.168797
+re 65.46725 0 0
+
+n teleporter
+p 41.10176 46.1318 0.168797
+re 114.9905 0 0
+
+n small red beacon
+p -34.14145 -32.35421 2.921575
+re 0 0 0
+
+n small blue beacon
+p 28.5461 -36.5778 2.159303
+re 0 0 0
+
+n small blue beacon
+p 32.14931 -36.62297 2.159303
+re 0 0 0
+
+n small red beacon
+p -34.35526 -32.41014 4.621166
+re 90 0 0
+
+n mp_tree_pine_snow_small
+p -11.29666 -11.80805 0.1759715
+re 0 0 0
+
+n mp_tree_pine_snow_small
+p 11.64965 -4.678888 0.1857253
+re 0 0 0
+
+n mp_tree_pine_snow_tall
+p 20.23876 -8.288612 -3.830959
+re 0 0 0
+
+n mp_tree_pine_snow_small
+p 14.55925 -18.88032 0.1957023
+re 0 0 0
+
+n mp_tree_pine_snow_tall
+p -29.48397 -23.38376 -3.698905
+re 0 0 0
+
+n mp_tree_pine_snow_small
+p -19.45937 -13.99743 -3.770212
+re 0 0 0
+
+n snowrock
+p -37.69995 -4.13913 -3.705326
+re 169.8001 0 0
+
+n mp_tree_pine_snow_small
+p 35.84372 11.23642 -3.592931
+re 0 0 0
+
+n snowrock
+p -39.1334 37.96175 0.1691874
+re -84.04605 0 0
+
+n mp_tree_pine_snow_small
+p -34.00046 13.42183 -3.731311
+re 0 0 0
+
+n snowrock
+p -22.02715 44.26604 -3.830959
+re 0 0 0
+
+n snowrocksmall
+p 8.354606 39.20173 -3.840958
+re 28.08975 0 0
+
+n snowrocksmall
+p -5.176001 45.16951 -3.739113
+re 56.34651 0 0
+
+n snowrocksmall
+p -23.15947 -4.627316 -3.800664
+re -45.62417 0 0
+
+n flag_base
+p -32.0382 -42.0667 -3.830961
+re 45 0 0
+
+n flag_base
+p 30.3515 -46.108 -3.830961
+re 45 0 0
+
+n teleporter
+p -52.33969 22.48666 0.1689433
+re -115 0 0
+
+n teleporter
+p 52.01347 22.70577 0.1689434
+re -65 0 0
+
+n mp_beacon_blue
+p 50.93723 27.86743 0.1689427
+re -62.78775 0 0
+
+n mp_beacon_blue
+p 48.73654 26.79996 0.1691868
+re -65.93562 0 0
+
+n mp_beacon_red
+p -51.25884 27.63024 0.1691867
+re -113.2697 0 0
+
+n mp_beacon_red
+p -49.05835 26.63676 0.1689428
+re 65.55467 0 0
+
+n mp_beacon_red
+p -5.137303 -4.733529 0.1689428
+re 0 0 0
+
+n mp_beacon_red
+p -5.131766 -7.228882 0.1831513
+re 0 0 0
+
+n mp_beacon_blue
+p 3.460057 -7.277591 0.1866967
+re 0 0 0
+
+n mp_beacon_blue
+p 3.42553 -4.719271 0.1708505
+re 0 0 0
+

@@ -1,0 +1,35 @@
+# Created using Aether
+# Scenery Markers
+# 
+n teleporter
+p 8.391806 -7.93376 0.2327469
+re 91.08547 0 0
+
+n teleporter
+p -4.874299 -16.35633 -2.107916
+re -90.25993 0 0
+
+n teleporter
+p 22.43276 -5.758562 -2.104958
+re 0 0 0
+
+n teleporter
+p 8.921906 -26.8552 -3.60129
+re -90.86626 0 0
+
+n c_field_generator
+p 7.999332 -13.77744 -2.896275
+re -101.3059 0 0
+
+n c_field_generator
+p 9.076496 -14.92687 -2.896275
+re 17.22749 0 0
+
+n flag_base
+p -4.22777 -0.855647 -0.5800761
+re 45 0 0
+
+n flag_base
+p 18.613 -22.6526 -3.601291
+re 45 0 0
+

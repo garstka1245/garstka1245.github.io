@@ -1,0 +1,536 @@
+newmtl "beavercreek cliffs"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\beavercreek\bitmaps\beavercreek cliffs.tga"
+
+newmtl "beavercreek boulder"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\beavercreek\bitmaps\beavercreek boulder.tga"
+
+newmtl "beavercreek ground"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\beavercreek\bitmaps\beavercreek ground.tga"
+
+newmtl "metal panels generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic.tga"
+
+newmtl "beavercreek bridge"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\beavercreek\bitmaps\beavercreek bridge.tga"
+
+newmtl "beavercreek ladder"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\beavercreek\bitmaps\beaver ladder.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "metal panels generic ext clean"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext clean.tga"
+
+newmtl "metal panels generic ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "metal panels ext unearthed"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels ext unearthed.tga"
+
+newmtl "beavercreek boulder"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\beavercreek\bitmaps\beavercreek boulder.tga"
+
+newmtl "beavercreek ground"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\beavercreek\bitmaps\beavercreek ground.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal panels generic ext clean"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext clean.tga"
+
+newmtl "metal panels generic ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal plate floor ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "metal strips wide"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips wide.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "metal panels generic ext clean"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext clean.tga"
+
+newmtl "metal panels generic ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "metal strips wide"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips wide.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "metal strips wide"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips wide.tga"
+
+newmtl "metal panels generic ext clean"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext clean.tga"
+
+newmtl "metal panels generic ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips narrow ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow ext.tga"
+
+newmtl "metal plate floor ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal flat generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "metal strips wide"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips wide.tga"
+
+newmtl "bright blue beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright blue beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright blue beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright blue beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright blue beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright blue beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright blue beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright blue beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright blue beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright blue beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright blue beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright yellow beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright yellow beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright yellow beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "bright yellow beaver"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "light bright overhead prisoner"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "light bright overhead prisoner"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "light bright overhead prisoner"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "light bright overhead prisoner"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "light bright overhead prisoner"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "light bright overhead prisoner"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "light bright overhead prisoner"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "light bright overhead prisoner"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "light bright overhead prisoner"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\lights small strips.tga"
+
+newmtl "beaver water"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\beavercreek\bitmaps\beavercreek_flow.tga"
+
+newmtl "greenlight"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+

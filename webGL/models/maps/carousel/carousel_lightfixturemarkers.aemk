@@ -1,0 +1,55 @@
+# Created using Aether
+# Light Fixture Markers
+# 
+n car_spotlight
+p -10.9593 1.87355 -1.272641
+re -90 0 0
+
+n car_spotlight
+p -10.95925 -1.892105 -1.272645
+re -89.99999 0 0
+
+n car_spotlight
+p 1.929595 -11.0153 -1.272646
+re 180 0 0
+
+n car_spotlight
+p -1.836057 -11.0153 -1.272645
+re 180 0 0
+
+n car_spotlight
+p 1.929595 10.99674 -1.272644
+re 180 0 0
+
+n car_spotlight
+p 6.495479 -9.127333 -1.272645
+re -135.0001 0 0
+
+n car_spotlight
+p -6.406663 9.100248 -1.272644
+re -135.0001 0 0
+
+n car_spotlight
+p -9.069381 6.437529 -1.272644
+re -135.0001 0 0
+
+n car_spotlight
+p 9.158198 -6.464615 -1.272645
+re -135.0001 0 0
+
+n car_spotlight
+p 9.158198 6.437528 -1.272644
+re 135.0001 0 0
+
+n car_spotlight
+p -9.069381 -6.464613 -1.272645
+re 135.0001 0 0
+
+n car_spotlight
+p 6.495481 9.100247 -1.272644
+re 135.0001 0 0
+
+n car_spotlight
+p -6.406662 -9.127331 -1.272646
+re 135.0001 0 0
+

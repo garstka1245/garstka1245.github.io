@@ -1,0 +1,784 @@
+newmtl "metal_floorplate_b_"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_floorplate_b_01.tga"
+
+newmtl "metal_floorplate_a_01_yellow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_floorplate_a_01_yellow.tga"
+
+newmtl "ware_metal_floorplate_"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\ware_metal_floorplate_02.tga"
+
+newmtl "metal_b_trim"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_b_trim.tga"
+
+newmtl "concrete_d_bottomtrim"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\concrete_d_bottomtrim.tga"
+
+newmtl "door_frame"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\metal_small_door_unwrap.tga"
+
+newmtl "metal_factory_outerpanel_g"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_factory_outerpanel_g.tga"
+
+newmtl "warehouse_custom_backwall"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\warehouse_custom_backwall.tga"
+
+newmtl "ware_wall_poop"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\metal_factory_outerpanel_i.tga"
+
+newmtl "door_frame"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\metal_small_door_unwrap.tga"
+
+newmtl "metal_factory_outerpanel_g"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_factory_outerpanel_g.tga"
+
+newmtl "metal_doodad_a"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_doodad_a.tga"
+
+newmtl "warehouse_custom_backwall"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\warehouse_custom_backwall.tga"
+
+newmtl "metal_coorigated"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_coorigated.tga"
+
+newmtl "metal_factory_outerpanel_a"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_factory_outerpanel_a.tga"
+
+newmtl "metal_rustbucket_b"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\metal_rustbucket_b.tga"
+
+newmtl "metal_rustbucket_b"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\metal_rustbucket_b.tga"
+
+newmtl "metal_rustbucket_b"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\metal_rustbucket_b.tga"
+
+newmtl "ware_wall_poop"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\metal_factory_outerpanel_i.tga"
+
+newmtl "metal_c_walkway_trim"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_c_walkway_trim.tga"
+
+newmtl "moldy_brick"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\concrete_g_moldybrick.tga"
+
+newmtl "metal_factory_outer_panel_side"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_factory_outerpanel_d.tga"
+
+newmtl "yellow_metal"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\ware_metal_painted_yellow.tga"
+
+newmtl "red_metal"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\hb_metal_red.tga"
+
+newmtl "metal_g_yellowstripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_g_yellowstripes.tga"
+
+newmtl "crane_main_rail"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\ware_crane_mainrail.tga"
+
+newmtl "metal_red_streak_topcrud"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\metal_red_streak_topcrud.tga"
+
+newmtl "metal_e_factory_wall_support"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_e_factory_wall_support.tga"
+
+newmtl "ware_wall_poop"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\metal_factory_outerpanel_i.tga"
+
+newmtl "moldy_brick"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\concrete_g_moldybrick.tga"
+
+newmtl "metal_e_factory_wall_support"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_e_factory_wall_support.tga"
+
+newmtl "metal_j_techstripe"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_j_techstripe.tga"
+
+newmtl "out_voi_corrug"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\out_voi_corrug.tga"
+
+newmtl "metal_j_slatted_door"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_j_slatted_door.tga"
+
+newmtl "metal_strip_k"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_strip_k.tga"
+
+newmtl "metal_g_techstripe"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_g_techstripe.tga"
+
+newmtl "ware_wall_beam"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\ware_wall_beam.tga"
+
+newmtl "ware_glass_crudglass"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\ware_glass_crudglass.tga"
+
+newmtl "ware_glass_crudglass"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\ware_glass_crudglass.tga"
+
+newmtl "ware_glass_crudglass"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\ware_glass_crudglass.tga"
+
+newmtl "ware_glass_crudglass"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\ware_glass_crudglass.tga"
+
+newmtl "ware_glass_crudglass"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\ware_glass_crudglass.tga"
+
+newmtl "ware_glass_crudglass"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\ware_glass_crudglass.tga"
+
+newmtl "hb_metal_pipe_a_rusty"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\hb_metal_pipe_a_rusty.tga"
+
+newmtl "fence"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\fence.tga"
+
+newmtl "foundry_grate"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\ware_grate.tga"
+
+newmtl "metal_doodad_vent"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\metal_doodad_a.tga"
+
+newmtl "glass_overhead_broken"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\glass_overhead_broken.tga"
+
+newmtl "glass_overhead_broken"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\glass_overhead_broken.tga"
+
+newmtl "glass_overhead_broken"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\glass_overhead_broken.tga"
+
+newmtl "glass_overhead_broken"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\glass_overhead_broken.tga"
+
+newmtl "glass_overhead_broken"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\glass_overhead_broken.tga"
+
+newmtl "glass_overhead_broken"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\glass_overhead_broken.tga"
+
+newmtl "caution"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_danger.tga"
+
+newmtl "decal_painted_zero"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_painted_variety_0_diffuse.tga"
+
+newmtl "decal_painted_zero"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_painted_variety_0_diffuse.tga"
+
+newmtl "decal_painted_zero"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_painted_variety_0_diffuse.tga"
+
+newmtl "decal_painted_zero"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_painted_variety_0_diffuse.tga"
+
+newmtl "decal_painted_one"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_painted_variety.tga"
+
+newmtl "decal_painted_one"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_painted_variety.tga"
+
+newmtl "decal_painted_two"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_painted_variety_2_diffuse.tga"
+
+newmtl "decal_painted_two"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_painted_variety_2_diffuse.tga"
+
+newmtl "decal_sign_voi_factory_south"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_voi_factory_south_a.tga"
+
+newmtl "decal_road_stripe_long"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\decal_road_stripe_long.tga"
+
+newmtl "decal_road_stripe_long"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\decal_road_stripe_long.tga"
+
+newmtl "decal_road_stripe_long"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\decal_road_stripe_long.tga"
+
+newmtl "decal_road_stripe_long"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\decal_road_stripe_long.tga"
+
+newmtl "decal_road_stripe_long"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\decal_road_stripe_long.tga"
+
+newmtl "decal_road_stripe_long"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\decal_road_stripe_long.tga"
+
+newmtl "decal_caution_loadingzone"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_caution_loadingzone.tga"
+
+newmtl "decal_caution_loadingzone"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_caution_loadingzone.tga"
+
+newmtl "decal_caution_loadingzone"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_caution_loadingzone.tga"
+
+newmtl "decal_road_stripe_short"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_road_stripe_short.tga"
+
+newmtl "decal_road_stripe_short"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_road_stripe_short.tga"
+
+newmtl "decal_road_stripe_short"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_road_stripe_short.tga"
+
+newmtl "decal_road_loading"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_road_loading.tga"
+
+newmtl "decal_hazard_strip"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_hazard_strip.tga"
+
+newmtl "decal_ware_floorstrip"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_ware_floorstrip.tga"
+
+newmtl "decal_ware_floorstrip"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_ware_floorstrip.tga"
+
+newmtl "decal_ware_floorstrip"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_ware_floorstrip.tga"
+
+newmtl "decal_ware_floorstrip"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_ware_floorstrip.tga"
+
+newmtl "decal_ware_floorstrip"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_ware_floorstrip.tga"
+
+newmtl "decal_ware_floorstrip"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_ware_floorstrip.tga"
+
+newmtl "decal_ware_floorstrip"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_ware_floorstrip.tga"
+
+newmtl "decal_ware_floorstrip"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_ware_floorstrip.tga"
+
+newmtl "decal_ware_floorstrip"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_ware_floorstrip.tga"
+
+newmtl "decal_ware_floorstrip"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\foundry\bitmaps\decals\decal_ware_floorstrip.tga"
+
+newmtl "warelight_reddoors"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+
+newmtl "warelight_whitefixtures"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+
+newmtl "warelight_ambientsides"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+
+newmtl "warelight_ambientsides"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\c10\bitmaps\c10_inv.tga"
+
+newmtl "water_spot_diffused"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\stains\water_spot_diffused.tga"
+
+newmtl "water_spot_diffused"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\stains\water_spot_diffused.tga"
+
+newmtl "water_spot_diffused"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\stains\water_spot_diffused.tga"
+
+newmtl "streak_zero_two"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\stains\streak_02v2.tga"
+
+newmtl "water_zero_six"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\stains\water_06.tga"
+
+newmtl "water_zero_four"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\stains\water_04.tga"
+
+newmtl "ustdamage_heavycorosion"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\bitmaps\foundry\stains\ustdamage_heavycorosion.tga"
+

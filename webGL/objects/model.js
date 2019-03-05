@@ -33,7 +33,7 @@ function model(vertices, indices, uvs, img){
 	gl.bindTexture(gl.TEXTURE_2D, null);
 }
 
-model.prototype.draw = function(program){
+model.prototype.drawFull = function(program){
 	gl.useProgram(program);
 		
 	var positionAttribLocation = gl.getAttribLocation(program, 'vertPosition');
@@ -55,25 +55,76 @@ model.prototype.draw = function(program){
     gl.drawElements(gl.TRIANGLES, this.indices.length, gl.UNSIGNED_SHORT, 0);
 }
 
+model.prototype.drawInit = function(program){
+	gl.useProgram(program);
+		
+	var positionAttribLocation = gl.getAttribLocation(program, 'vertPosition');
+	var texCoordAttribLocation = gl.getAttribLocation(program, 'vertTexCoord');
+	
+	gl.bindBuffer(gl.ARRAY_BUFFER, this.VertexBufferObject);
+
+	gl.enableVertexAttribArray(positionAttribLocation);
+	gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, this.IndexBufferObject);
+	gl.vertexAttribPointer(positionAttribLocation, 3, gl.FLOAT, gl.FALSE, 3 * Float32Array.BYTES_PER_ELEMENT,0);
+	
+	gl.enableVertexAttribArray(texCoordAttribLocation);
+	gl.bindBuffer(gl.ARRAY_BUFFER, this.UvsBufferObject);
+	gl.vertexAttribPointer(texCoordAttribLocation, 2, gl.FLOAT, gl.FALSE, 2 * Float32Array.BYTES_PER_ELEMENT, 0 * Float32Array.BYTES_PER_ELEMENT);
+	
+	gl.bindTexture(gl.TEXTURE_2D, this.texture);
+	gl.activeTexture(gl.TEXTURE0);
+}
+
+model.prototype.drawNext = function(program){
+    gl.drawElements(gl.TRIANGLES, this.indices.length, gl.UNSIGNED_SHORT, 0);
+}
+
 function draw(model, ModelData, s, x, y, z, alpha, beta){
 	mat4.translate(ModelData.translationMatrix, ModelData.viewMatrix, [x, y, z]);
 	mat4.scale(ModelData.scaleMatrix, ModelData.translationMatrix, [s, s, s]);
 	mat4.rotate(ModelData.rotMatrix, ModelData.scaleMatrix, alpha * (Math.PI/180), [0, 1, 0]);
 	mat4.rotate(ModelData.drawMatrix, ModelData.rotMatrix, beta * (Math.PI/180), [1, 0, 0]);
 	gl.uniformMatrix4fv(gl.getUniformLocation(ModelData.program, 'mView'), gl.FALSE, ModelData.drawMatrix);
-	model.draw(ModelData.program);
+	model.drawFull(ModelData.program);
 }
 
-function grid(model, ModelData, spacing, px, py, pz, lx, ly, lz){
-	for(var z = 1; z < lx + 1; z++){
+function gridHollow(model, ModelData, spacing, px, py, pz, lx, ly, lz, ax, ay){
+	model.drawInit(ModelData.program);
+	
+	for(var z = 1; z < lz + 1; z++){
 		for(var y = 1; y < ly + 1; y++){
-			for(var x = 1; x < lz + 1; x++){
-				draw(model, ModelData, 1, x*spacing + px, y*spacing + py, z*spacing + pz, 0, 0);
+			for(var x = 1; x < lx + 1; x++){
+				if((x == 1) || (x == lx) || (y == 1) || (y == ly) || (z == 1) || (z == lz)){
+					mat4.translate(ModelData.translationMatrix, ModelData.viewMatrix, [x*spacing + px, y*spacing + py, z*spacing + pz]);
+					mat4.scale(ModelData.scaleMatrix, ModelData.translationMatrix, [.1, .1, .1]);
+					mat4.rotate(ModelData.rotMatrix, ModelData.scaleMatrix, ax * (Math.PI/180), [0, 1, 0]);
+					mat4.rotate(ModelData.drawMatrix, ModelData.rotMatrix, ay * (Math.PI/180), [1, 0, 0]);
+					gl.uniformMatrix4fv(gl.getUniformLocation(ModelData.program, 'mView'), gl.FALSE, ModelData.drawMatrix);
+					model.drawNext(ModelData.program);
+				}
 			}
 		}
 	}
 }
 
+function gridFull(model, ModelData, spacing, px, py, pz, lx, ly, lz, ax, ay, s){
+	model.drawInit(ModelData.program);
+	
+	for(var z = 1; z < lz + 1; z++){
+		for(var y = 1; y < ly + 1; y++){
+			for(var x = 1; x < lx + 1; x++){
+				if((x == 1) || (x == lx) || (y == 1) || (y == ly) || (z == 1) || (z == lz)){
+					mat4.translate(ModelData.translationMatrix, ModelData.viewMatrix, [x*spacing + px, y*spacing + py, z*spacing + pz]);
+					mat4.scale(ModelData.scaleMatrix, ModelData.translationMatrix, [s, s, s]);
+					mat4.rotate(ModelData.rotMatrix, ModelData.scaleMatrix, ax * (Math.PI/180), [0, 1, 0]);
+					mat4.rotate(ModelData.drawMatrix, ModelData.rotMatrix, ay * (Math.PI/180), [1, 0, 0]);
+					gl.uniformMatrix4fv(gl.getUniformLocation(ModelData.program, 'mView'), gl.FALSE, ModelData.drawMatrix);
+					model.drawNext(ModelData.program);
+				}
+			}
+		}
+	}
+}
 
 
 

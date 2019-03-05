@@ -1,0 +1,1224 @@
+newmtl "timberland_rock_walls"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_ground.tga"
+
+newmtl "timberland_ground"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_ground.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_ground"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_ground.tga"
+
+newmtl "timberland_ground"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_ground.tga"
+
+newmtl "timberland_stream_bed"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_ground.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_strips_narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow.tga"
+
+newmtl "timberland_metal_plate_floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_strips_narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow.tga"
+
+newmtl "timberland_metal_panels_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_metal_panels_generic.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_strips_narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow.tga"
+
+newmtl "timberland_metal_plate_floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "timberland_ladder"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\beavercreek\bitmaps\beaver ladder.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_strips_narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow.tga"
+
+newmtl "timberland_metal_panels_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_metal_panels_generic.tga"
+
+newmtl "timberland_ladder"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\beavercreek\bitmaps\beaver ladder.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_strips_narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow.tga"
+
+newmtl "timberland_ladder"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\beavercreek\bitmaps\beaver ladder.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_strips_narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow.tga"
+
+newmtl "timberland_ladder"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\beavercreek\bitmaps\beaver ladder.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_strips_narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow.tga"
+
+newmtl "timberland_ground"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_ground.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_strips_narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow.tga"
+
+newmtl "timberland_metal_plate_floor"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal plate floor ext.tga"
+
+newmtl "timberland_metal_panels_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_strips_narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow.tga"
+
+newmtl "timberland_metal_panels_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_metal_panels_generic.tga"
+
+newmtl "timberland_metal_panels_ext"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal panels generic ext.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_treesclump_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_treesclump_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_trees_filler"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_trees_filler.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_strips_narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_strips_narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_strips_narrow"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal strips narrow.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_metal_flat_generic"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\b30\bitmaps\metal flat generic.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_lights_red"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_red.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_base_stripes"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_stripes.tga"
+
+newmtl "timberland_stream"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_stream.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_base_lights_blue"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_base_lights_blue.tga"
+
+newmtl "timberland_waterfall"
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 0
+map_Kd "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\data\levels\test\timberland\bitmaps\timberland_waterfall_mask.tga"
+

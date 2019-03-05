@@ -1,0 +1,83 @@
+# Created using Aether
+# Light Fixture Markers
+# 
+n light fixture wall2
+p -17.6809 -6.20511 11.0129
+re -180 0 0
+
+n light fixture wall2
+p -17.68094 -7.740502 11.00591
+re -180 0 0
+
+n light fixture wall2
+p -25.06641 -8.988002 10.51652
+re -180 0 0
+
+n light fixture wall2
+p -25.06503 -4.876266 10.32053
+re -180 0 0
+
+n light fixture floor2
+p -22.89614 -7.761528 9.686274
+re 0 0 0
+
+n light fixture floor2
+p -22.90268 -6.20702 9.687058
+re 0 0 0
+
+n light fixture floor2
+p -20.38371 -7.73665 9.687577
+re 0 0 0
+
+n light fixture floor2
+p -20.36231 -6.186655 9.687577
+re 0 0 0
+
+n light fixture floor2
+p 26.28624 16.8063 8.3053
+re 0 0 0
+
+n light fixture floor2
+p 26.26952 15.27385 8.3053
+re 0 0 0
+
+n light fixture floor2
+p 23.7169 16.79451 8.3053
+re 0 0 0
+
+n light fixture floor2
+p 23.70651 15.26857 8.3053
+re 0 0 0
+
+n light fixture wall2
+p 20.98689 16.77737 9.633485
+re 0 0 0
+
+n light fixture wall2
+p 20.98689 15.26838 9.643464
+re 0 0 0
+
+n light fixture floor2
+p 29.2714 16.84876 8.3053
+re 0 0 0
+
+n light fixture floor2
+p 29.24334 15.23798 8.3053
+re 0 0 0
+
+n light fixture floor2
+p -26.00787 -7.855608 9.673175
+re 0 0 0
+
+n light fixture floor2
+p -26.0203 -6.148835 9.673175
+re 0 0 0
+
+n light fixture wall2
+p 28.37766 13.89476 8.856955
+re 0 0 0
+
+n light fixture wall2
+p 28.37766 18.11326 8.868657
+re 0 0 0
+

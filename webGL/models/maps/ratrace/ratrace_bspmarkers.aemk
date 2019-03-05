@@ -1,0 +1,23 @@
+# Created using Aether
+# BSP Markers
+# 
+n spotlight1
+p 16.66945 0.4212508 0.1239376
+rq 0 0 0 0
+
+n spotlight2
+p 20.70581 0.4125521 0.1239376
+rq 0 0 0 0
+
+n spotlight03
+p 7.662718 -11.03517 -0.6818905
+rq 0 0 0 0
+
+n spotlight04
+p 9.995616 -11.03517 -0.6818906
+rq 0 0 0 0
+
+n spotlight05
+p -6.427848 -0.9007283 1.625786
+rq 0 0 0 0
+

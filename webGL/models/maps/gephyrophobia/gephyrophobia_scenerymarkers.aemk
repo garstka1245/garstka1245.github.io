@@ -1,0 +1,75 @@
+# Created using Aether
+# Scenery Markers
+# 
+n c_field_generator
+p -17.19176 -34.03519 -1.253891
+re 50.2295 0 0
+
+n c_field_generator
+p -15.14013 -29.52483 -1.253891
+re 89.65413 0 0
+
+n c_field_generator
+p -18.77256 -109.5378 -1.253891
+re 72.3932 0 0
+
+n c_field_generator
+p -18.76569 -104.5806 -1.253891
+re 108.6745 0 0
+
+n c_field_generator
+p 65.66015 -114.2667 -1.061455
+re -76.25053 0 0
+
+n c_field_generator
+p 65.98766 -109.4019 -1.061455
+re -122.8025 0 0
+
+n c_field_generator
+p 65.85578 -34.83999 -1.061455
+re -104.5965 0 0
+
+n c_field_generator
+p 65.67822 -39.66935 -1.061455
+re -69.58298 0 0
+
+n flag_base
+p 26.88313 -144.7157 -16.03914
+re 0 0 0
+
+n flag_base
+p 26.71614 0.1832066 -16.03835
+re 0 0 0
+
+n teleporter
+p 28.59172 8.193943 -16.61804
+re 90 0 0
+
+n teleporter
+p 24.89062 8.189504 -16.61804
+re 90 0 0
+
+n teleporter
+p 28.67324 -152.7694 -16.60123
+re -90 0 0
+
+n teleporter
+p 24.98426 -152.7543 -16.60123
+re -90 0 0
+
+n teleporter
+p 76.00179 -112.7759 -1.051455
+re -3.722271 0 0
+
+n teleporter
+p 76.00714 -38.17426 -1.052211
+re -2.924842 0 0
+
+n teleporter
+p -29.09272 -107.1973 -1.24389
+re -179.9907 0 0
+
+n teleporter
+p -25.64198 -27.57169 -1.24389
+re 155.5041 0 0
+

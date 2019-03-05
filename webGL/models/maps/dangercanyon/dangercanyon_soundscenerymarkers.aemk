@@ -1,0 +1,63 @@
+# Created using Aether
+# Sound Scenery Markers
+# 
+n birds1_detail
+p 25.2054 -9.48893 -2
+re 0 0 0
+
+n birds1_detail
+p 3.85317 -12.7491 -2
+re 0 0 0
+
+n birds1_detail
+p 22.7044 0.702035 -2
+re 0 0 0
+
+n birds1_detail
+p 51.5247 7.17537 -2
+re 0 0 0
+
+n birds1_detail
+p 36.639 36.2321 -6
+re 0 0 0
+
+n birds1_detail
+p 11.7689 51.0972 -6
+re 0 0 0
+
+n birds1_detail
+p -19.2775 36.2349 -6
+re 0 0 0
+
+n birds1_detail
+p -41.6971 22.6826 -6
+re 0 0 0
+
+n birds1_detail
+p -39.499 7.44927 -1
+re 0 0 0
+
+n birds1_detail
+p -21.9117 0.0962045 -2
+re 0 0 0
+
+n birds1_detail
+p -4.24137 -12.5153 -2
+re 0 0 0
+
+n birds1_detail
+p -3.53314 0.875228 -2
+re 0 0 0
+
+n birds1_detail
+p -30.2812 -7.84621 -1
+re 0 0 0
+
+n birds1_detail
+p -12.53694 53.08209 0.3555891
+re 0 0 0
+
+n teleporter_loop
+p -0.4874 57.3582 0.8
+re 0 0 0
+

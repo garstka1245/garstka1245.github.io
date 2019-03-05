@@ -1,0 +1,119 @@
+# Created using Aether
+# Scenery Markers
+# 
+n teleporter
+p 18.19389 -9.062781 -4.767933
+re 0 0 0
+
+n teleporter
+p 18.21481 8.433448 -4.767933
+re 0 0 0
+
+n teleporter
+p 21.19718 8.197609 5.228578
+re 0 0 0
+
+n teleporter
+p 22.71936 -8.896144 5.228578
+re 0 0 0
+
+n teleporter
+p -1.168844 -8.179914 5.228578
+re 179.3727 0 0
+
+n teleporter
+p 1.848949 -8.443245 -4.767933
+re -179.6398 0 0
+
+n teleporter
+p 1.813777 9.033865 -4.767933
+re 176.8928 0 0
+
+n teleporter
+p -2.678447 8.907475 5.228578
+re 179.9279 0 0
+
+n h_barricade_large_gap
+p 19.61054 -16.26062 0.2309457
+re -16.26601 0 0
+
+n h_barricade_small
+p 15.88711 -3.311086 0.2309457
+re 0 0 0
+
+n h_barricade_large
+p 1.71921 -15.14584 -2.270475
+re 153.73 0 0
+
+n h_barricade_large_gap
+p 0.6021255 16.71976 0.2309458
+re -176.746 0 0
+
+n h_barricade_large
+p 0.5191399 17.57322 5.228578
+re 172.1714 0 0
+
+n h_barricade_large
+p 3.877651 -1.424352 0.2309457
+re 166.5103 0 0
+
+n h_barricade_small
+p 15.89328 1.441882 0.2309457
+re 0 0 0
+
+n h_barricade_large_gap
+p 0.6917855 -1.967027 5.228578
+re -178.1433 0 0
+
+n h oxy tank
+p 19.90406 -18.29064 5.228578
+re 42.95057 0 0
+
+n h oxy tank
+p 21.45372 -15.9922 5.228578
+re 67.18362 0 0
+
+n h oxy tank
+p 22.25647 -3.681803 5.228578
+re 46.47676 0 0
+
+n h oxy tank
+p 22.79382 4.948633 2.731187
+re 0 0 0
+
+n h oxy tank
+p 22.13706 7.034105 2.731187
+re 47.78228 0 0
+
+n h oxy tank
+p -2.721367 -6.738738 2.731187
+re 52.02425 0 0
+
+n h oxy tank
+p -1.725683 -5.036832 2.731187
+re -39.45547 0 0
+
+n h oxy tank
+p 0.1340466 10.55746 5.228578
+re 0 0 0
+
+n h oxy tank
+p -1.179322 6.618724 5.228578
+re 0 0 0
+
+n h_barricade_large_gap
+p 20.47321 -6.88882 5.228578
+re 0 0 0
+
+n h_barricade_large
+p 19.02268 17.0382 -2.270475
+re 0 0 0
+
+n flag_base
+p 18.204 -0.536841 0.4314309
+re 45 0 0
+
+n flag_base
+p 1.72311 0.478116 0.4311869
+re 45 0 0
+

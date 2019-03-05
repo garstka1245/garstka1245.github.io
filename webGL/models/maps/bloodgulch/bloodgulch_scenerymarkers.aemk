@@ -1,0 +1,191 @@
+# Created using Aether
+# Scenery Markers
+# 
+n boulder
+p 37.9339 -88.6921 0.0875717
+re 135.277 6.41428 5.82836
+
+n boulder_crouch
+p 48.98555 -81.37447 0.0918152
+re -124.9124 0 0
+
+n boulder_doublewide
+p 43.88544 -69.09088 0.3110537
+re -97.14606 0 0
+
+n boulder_large_grey
+p 94.55153 -97.66623 3.750867
+re -172.2906 0 0
+
+n boulder_doublewide
+p 85.17335 -158.7776 0.02317957
+re -38.22832 0 0
+
+n boulder_doublewide
+p 97.2749 -139.5083 0.1541011
+re 44.21567 0 0
+
+n boulder_doublewide
+p 64.05898 -169.2204 3.270962
+re -42.27271 -16.64413 14.59453
+
+n boulder_crouch
+p 85.76998 -150.0677 -0.01314827
+re -128.8631 5.275408 -4.237359
+
+n boulder_crouch
+p 105.0181 -163.0689 -0.004496167
+re -42.70855 0 0
+
+n plant fern
+p 70.70632 -95.02055 1.591679
+re 0 0 0
+
+n plant_broadleaf_short
+p 70.03914 -126.6593 0.7317122
+re -12.16988 0 0
+
+n shrub_large
+p 70.43192 -125.4854 0.4573345
+re 119.31 0 0
+
+n shrub_large
+p 41.94694 -131.0782 0.5991502
+re -80.57291 0 0
+
+n boulder_crouch
+p 38.73824 -119.2242 2.537807
+re -136.2573 0 0
+
+n plant_broadleaf_short
+p 26.78858 -98.92204 1.733005
+re 0 0 0
+
+n plant fern
+p 25.76167 -98.73627 1.755816
+re 0 0 0
+
+n plant fern
+p 27.39095 -98.19363 1.575778
+re 0 0 -2.752514
+
+n plant_broadleaf_short
+p 70.88411 -74.42295 2.168506
+re 0 0 0
+
+n plant fern
+p 67.50684 -76.27032 2.17414
+re 100.8917 0 0
+
+n tree_desert_whitebark
+p 39.09384 -96.01458 -0.208731
+re -135.2723 0 0
+
+n tree_desert_dead
+p 80.73332 -149.4571 0.0945667
+re 0 0 0
+
+n boulder_crouch
+p 94.24405 -168.5385 0.1391261
+re 63.38644 0 0
+
+n boulder_large_grey
+p 106.3605 -108.5112 1.807683
+re 0 0 0
+
+n teleporter_base
+p 82.83385 -114.5618 0.7113549
+re 0 0 0
+
+n teleporter_base
+p 43.77062 -126.2586 0.25123
+re 0 0 0
+
+n boulder_crouch
+p 31.22463 -80.89188 0.001639341
+re -53.3823 0 0
+
+n small red beacon
+p 95.55098 -157.1359 1.06558
+re 0 0 -180
+
+n small red beacon
+p 95.5364 -162.0177 1.06558
+re 0 0 180
+
+n small blue beacon
+p 40.0989 -81.46409 1.06558
+re 0 0 180
+
+n small blue beacon
+p 40.13774 -76.68784 1.06558
+re 0 0 180
+
+n floor_arrow
+p 37.85111 -81.30516 -0.2759852
+re -100.1164 0 0
+
+n floor_arrow
+p 42.37408 -81.38828 -0.2729852
+re 95.0164 0 0
+
+n floor_arrow
+p 37.94843 -76.8719 -0.2729852
+re -79.19666 0 0
+
+n floor_arrow
+p 42.3414 -76.8464 -0.2729852
+re 77.64344 0 0
+
+n floor_arrow
+p 97.79114 -157.2957 -0.2729852
+re 80.81522 0 0
+
+n floor_arrow
+p 93.3004 -157.2811 -0.2729852
+re -79.55796 0 0
+
+n floor_arrow
+p 93.31116 -161.8 -0.2729852
+re -97.4804 0 0
+
+n floor_arrow
+p 97.66893 -161.7838 -0.2729852
+re 96.69488 0 0
+
+n plant fern
+p 33.68063 -90.53792 0.2681227
+re 0 0 0
+
+n shrub_large
+p 103.0416 -141.8557 1.069023
+re 0 0 0
+
+n plant fern
+p 102.2761 -141.7131 1.063434
+re 0 0 3.89581
+
+n plant fern
+p 103.2587 -142.6342 0.9443737
+re 0 0 0
+
+n shrub_large
+p 67.48189 -95.95004 1.483003
+re 0 0 0
+
+n a50_rock_large
+p 84.87477 -126.907 0.5431015
+re -122.4416 0 0
+
+n flag_base
+p 95.6879 -159.449 -0.2759851
+re 0 0 0
+
+n flag_base
+p 40.2405 -79.1232 -0.2759851
+re 0 0 0
+
+n shrub_large
+p 68.8996 -127.1883 0.7984109
+re 0 0 0
+

@@ -1,0 +1,19 @@
+# Created using Aether
+# Scenery Markers
+# 
+n h_barricade_large_gap
+p 11.1455 -8.88463 -0.589
+re 89.387 0 0
+
+n h_barricade_large_gap
+p -12.93015 -20.14935 -0.5890001
+re -84.94881 0 0
+
+n flag_base
+p -12.7919 -21.6423 -0.5890001
+re 45 0 0
+
+n flag_base
+p 11.0347 -7.58756 -0.5890001
+re 45 0 0
+

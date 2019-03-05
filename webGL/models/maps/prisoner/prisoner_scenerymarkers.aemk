@@ -1,0 +1,11 @@
+# Created using Aether
+# Scenery Markers
+# 
+n flag_base
+p -9.36846 -4.94816 5.603479
+re 0 0 0
+
+n flag_base
+p 9.36645 5.11942 5.603479
+re 0 0 0
+

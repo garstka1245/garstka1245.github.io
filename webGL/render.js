@@ -40,12 +40,12 @@ var TextureIndex = 1;
 
 var startProg = function(){
 	Promise.all([
-	loadObj("basic/cube_textured"),loadObj("animals/cat"),loadObj("animals/deer"),loadObj("animals/fox"),loadObj("animals/spider"),loadObj("animals/wolf")
-	,loadImg("fur"),loadImg("black_square"),loadImg("square_illusion")
+	loadObj("basic/cube_textured"),loadObj("animals/cat"),loadObj("animals/deer"),loadObj("animals/fox"),loadObj("animals/spider"),loadObj("animals/wolf"),loadObj("maps/beavercreek/beavercreek")
+	,loadImg("fur"),loadImg("black_square"),loadImg("square_illusion"),loadImg("chillout_metal_flat")
 	]).then(function(){
 		//Successfully loaded
 		console.log("Assets loaded.");
-		startGL(loadedVertices, loadedFaces, loadedUvs, loadedImgs[TextureIndex]);
+		startGL(loadedVertices, loadedFaces, loadedUvs, loadedImgs);
 	}, function(){	
 		//One or more failed
 		console.log("Failed loading assets, please refresh or try a different browser? *shrug*");
@@ -53,7 +53,7 @@ var startProg = function(){
 }
 
 var refreshProg = function(){
-	startGL(loadedVertices, loadedFaces, loadedUvs, loadedImgs[TextureIndex]);
+	startGL(loadedVertices, loadedFaces, loadedUvs, loadedImgs);
 }
 
 var startGL = function (loadV, loadF, loadUV, loadedImg){
@@ -141,9 +141,10 @@ gl = canvas.getContext("webgl");
 		drawMatrix: new Float32Array(16)
 		};
 	
-	var Draw1 = new model(loadV[0], loadF[0], loadUV[0], loadedImg);
-	var Draw2 = new model(loadV[2], loadF[2], loadUV[2], loadedImg);
-	var Draw3 = new model(loadV[5], loadF[5], loadUV[5], loadedImg);
+	var Cube = new model(loadV[0], loadF[0], loadUV[0], loadedImg[0]);
+	var Draw2 = new model(loadV[2], loadF[2], loadUV[2], loadedImg[0]);
+	var Draw3 = new model(loadV[5], loadF[5], loadUV[5], loadedImg[0]);
+	var HaloMap = new model(loadV[6], loadF[6], loadUV[6], loadedImg[3]);
 	
 	
 //Loop
@@ -170,16 +171,19 @@ var loop = function(){
 	gl.clearDepth(1.0);                 // Clear depth  
 	gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT); // Clear buffer
 
-	angle = performance.now() / 40;
+	angle = performance.now() / 20;
 	
-	draw(Draw1, ModelData, 1, 0, 0, 20, 0, 0);
+	//draw(Cube, ModelData, 1, 0, 0, 20, 0, 0);
 	
-	draw(Draw2, ModelData, 0.015, -3, 0, 20, 180, 0);
+	//draw(Draw2, ModelData, 0.015, -3, 0, 20, 180, 0);
 	
-	draw(Draw3, ModelData, 0.005, 3, 0, 20, 90, 0);
+	draw(Draw3, ModelData, 0.005, 25, -3, -3, 180, 0);
 	
-	//grid(Draw1, ModelData, 2, 0, 0, 30, 20, 1, 20);
+	//gridFull(Cube, ModelData, .3, 0, 0, 30, 10, 10, 10, angle, angle, Math.sin(angle/100)/10);
 
+	draw(HaloMap, ModelData, .01, 0, -5, 10, 0, -90);
+	
+	//light(x,y,z,rad) // spot lighting?
 	
 	
   //Loops after drawn

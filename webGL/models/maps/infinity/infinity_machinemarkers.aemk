@@ -1,0 +1,11 @@
+# Created using Aether
+# Machine Markers
+# 
+n beam emitter_blue
+p -1.9114 22.3203 8.61736
+re 0 0 0
+
+n beam emitter_red
+p 0.6357284 -139.3233 10.50113
+re 0 0 0
+

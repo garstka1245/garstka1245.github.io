@@ -1,0 +1,19 @@
+# Created using Aether
+# Sound Scenery Markers
+# 
+n teleporter_loop
+p -1.23124 23.131 1.2
+re 0 0 0
+
+n teleporter_loop
+p -50.4146 41.9285 1.2
+re 0 0 0
+
+n teleporter_loop
+p -43.7651 47.8249 9.2
+re 0 0 0
+
+n teleporter_loop
+p -7.92487 17.2751 9.2
+re 0 0 0
+

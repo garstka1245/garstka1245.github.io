@@ -202,10 +202,13 @@ function refreshControls(){
 		}
 	}
 	// Touch Movement
-	if(TouchXS < window.innerWidth/2 && TouchXS < window.innerHeight/2 && touchdown){
+for(i = 0; i <= 1; i++){ 
+	if(TouchXS[i] < window.innerWidth/2 && TouchXS[i] < window.innerHeight/2 && touchdown){
 		movementRad = Math.atan2(movementZ, movementX);
 		zCameraPos -= Math.cos(alphaCameraRot+movementRad)*cameraSpeed;
 		xCameraPos += Math.sin(alphaCameraRot+movementRad)*cameraSpeed;
+		yCameraPos += Math.sin(betaCameraRot)*movementRad*cameraSpeed;
+	}
 	}
 }
 //Change camera speed
@@ -223,8 +226,8 @@ document.addEventListener("wheel", function (e) {
     }*/
 });
 //Touch control
-var TouchXS = 0;
-var TouchYS = 0;
+var TouchXS = [];
+var TouchYS = [];
 var movementX = 0;
 var movementZ = 0;
 var lookX = 0;
@@ -233,13 +236,12 @@ var touchdown = false;
 
 glCanvas.addEventListener("touchstart", function (e) {
 	touchdown = true;
-	//Multiple fingers
-if(e.touches.length > 1){
-
+for(i = 0; i <= 1; i++){ 
+	if(e.touches[i]){
+		TouchXS[i] = e.touches[i].screenX;
+		TouchYS[i] = e.touches[i].screenY;
+	}
 }
-//One
-TouchXS = e.touches[0].screenX;
-TouchYS = e.touches[0].screenY;
 //Upper left corner
 if(e.touches[0].screenX < window.innerWidth/2 && e.touches[0].screenY < window.innerHeight/2){
 //Fullscreen
@@ -252,18 +254,20 @@ else{
 
 glCanvas.addEventListener("touchmove", function (e) {
 //Movement controls
-if(TouchXS < window.innerWidth/2 && TouchXS < window.innerHeight/2){
-	movementX = (Math.min(Math.max((TouchXS - e.touches[0].screenX), -100), 100)* MouseSensitivity)/ 10000;
-	movementZ = (Math.min(Math.max((TouchYS - e.touches[0].screenY), -100), 100)* MouseSensitivity)/ 10000;
-}
-//Look controls
-else{
-	lookX = Math.min(Math.max((TouchXS - e.touches[0].screenX), -100), 100);
-	lookY = Math.min(Math.max((TouchYS - e.touches[0].screenY), -100), 100);
-	alphaCameraRot -= (lookX)/(1000*(1/MouseSensitivity));
-	betaCameraRot += (lookY)/(1000*(1/MouseSensitivity));
-	TouchXS = e.touches[0].screenX;
-	TouchYS = e.touches[0].screenY;
+for(i = 0; i <= 1; i++){ 
+	if(TouchXS[i] < window.innerWidth/2 && TouchXS[i] < window.innerHeight/2){
+		movementX = (Math.min(Math.max((TouchXS[i] - e.touches[i].screenX), -100), 100)* MouseSensitivity)/ 10000;
+		movementZ = (Math.min(Math.max((TouchYS[i] - e.touches[i].screenY), -100), 100)* MouseSensitivity)/ 10000
+	}
+	//Look controls
+	else if(!(TouchXS[i] < window.innerWidth/2 && TouchXS[i] < window.innerHeight/2) && (e.touches[i])){
+		lookX = Math.min(Math.max((TouchXS[i] - e.touches[i].screenX), -100), 100);
+		lookY = Math.min(Math.max((TouchYS[i] - e.touches[i].screenY), -100), 100);
+		alphaCameraRot -= (lookX)/(1000*(1/MouseSensitivity));
+		betaCameraRot += (lookY)/(1000*(1/MouseSensitivity));
+		TouchXS[i] = e.touches[i].screenX;
+		TouchYS[i] = e.touches[i].screenY;
+	}
 }
 });
 

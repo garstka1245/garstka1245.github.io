@@ -1,0 +1,7 @@
+newmtl "black_square"
+map_Kd "black_square"
+
+newmtl "illusion_square"
+map_Kd "illusion_square"
+
+

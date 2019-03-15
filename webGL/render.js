@@ -19,10 +19,14 @@ var vertexShaderText = `
 // Fragment shader
 var fragmentShaderText = `
 	precision mediump float;
+	
+	uniform sampler2D img;
+
 	varying vec2 fragTexCoord;
-	uniform sampler2D sampler;
+	
 	void main(void) {
-    gl_FragColor = texture2D(sampler, fragTexCoord);
+	vec4 color = texture2D(img, fragTexCoord);
+    gl_FragColor = color;
 	}
   `;
  // Fragment shader w/o texture
@@ -40,8 +44,8 @@ var TextureIndex = 1;
 
 var startProg = function(){
 	Promise.all([
-	loadObj("basic/cube_textured"),loadObj("animals/cat"),loadObj("animals/deer"),loadObj("animals/fox"),loadObj("animals/spider"),loadObj("animals/wolf"),loadObj("maps/beavercreek/beavercreek")
-	,loadImg("fur"),loadImg("black_square"),loadImg("square_illusion"),loadImg("chillout_metal_flat")
+	loadObj("basic/cube_textured"),loadObj("animals/cat"),loadObj("animals/deer"),loadObj("maps/beavercreek/beavercreek")//,loadObj("animals/spider")//,loadObj("animals/fox"),loadObj("animals/wolf"),loadObj("maps/beavercreek/beavercreek")
+	,loadImg("black_square"),loadImg("square_illusion"),loadImg("fur"),loadImg("chillout_metal_flat")
 	]).then(function(){
 		//Successfully loaded
 		console.log("Assets loaded.");
@@ -140,11 +144,13 @@ gl = canvas.getContext("webgl");
 		rotMatrix: new Float32Array(16),
 		drawMatrix: new Float32Array(16)
 		};
+		
+	var Material = [loadedImg[0],loadedImg[1],loadedImg[2]];
 	
-	var Cube = new model(loadV[0], loadF[0], loadUV[0], loadedImg[0]);
-	var Draw2 = new model(loadV[2], loadF[2], loadUV[2], loadedImg[0]);
-	var Draw3 = new model(loadV[5], loadF[5], loadUV[5], loadedImg[0]);
-	var HaloMap = new model(loadV[6], loadF[6], loadUV[6], loadedImg[3]);
+	var Cube = new model(loadV[0], loadF[0], loadUV[0], Material);//1
+	//var Draw2 = new model(loadV[2], loadF[2], loadUV[2], loadedImg[0]);//0
+	//var Draw3 = new model(loadV[5], loadF[5], loadUV[5], Material);//0
+	//var HaloMap = new model(loadV[6], loadF[6], loadUV[6], Material);//3
 	
 	
 //Loop
@@ -173,15 +179,15 @@ var loop = function(){
 
 	angle = performance.now() / 20;
 	
-	//draw(Cube, ModelData, 1, 0, 0, 20, 0, 0);
+	draw(Cube, ModelData, 1, 2, 2, 0, 0, 0);
 	
 	//draw(Draw2, ModelData, 0.015, -3, 0, 20, 180, 0);
 	
-	draw(Draw3, ModelData, 0.005, 25, -3, -3, 180, 0);
+	//draw(Draw3, ModelData, 0.005, 25, -3, -3, 180, 0);
 	
 	//gridFull(Cube, ModelData, .3, 0, 0, 30, 10, 10, 10, angle, angle, Math.sin(angle/100)/10);
 
-	draw(HaloMap, ModelData, .01, 0, -5, 10, 0, -90);
+	//draw(HaloMap, ModelData, .01, 0, -5, 10, 0, -90);
 	
 	//light(x,y,z,rad) // spot lighting?
 	

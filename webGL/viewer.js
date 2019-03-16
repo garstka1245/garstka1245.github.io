@@ -33,6 +33,7 @@ var controls=[];
 
 //Mouse controls
 var MouseSensitivity = 3;
+var MaxMouseSensitivity = 30;
 
 var havePointerLock = 'pointerLockElement' in document ||
     'mozPointerLockElement' in document ||
@@ -57,9 +58,10 @@ document.addEventListener('webkitpointerlockchange', outOfFocus(), false);
 // Hook mouse move events
 document.addEventListener("mousemove", function (e){
 	if(document.pointerLockElement === glCanvas || document.mozPointerLockElement === glCanvas){
-		alphaCameraRot += e.movementX/(1000*(1/MouseSensitivity));
-		betaCameraRot -= e.movementY/(1000*(1/MouseSensitivity));
-	}
+		// I need to not use e.movementX because apperently it's very inconsistent with pointerlock... pointerlock in general is inconsistent :/
+		alphaCameraRot += Math.min(Math.max(e.movementX, -MaxMouseSensitivity), MaxMouseSensitivity)/(1000*(1/MouseSensitivity));
+		betaCameraRot -= Math.min(Math.max(e.movementY, -MaxMouseSensitivity), MaxMouseSensitivity)/(1000*(1/MouseSensitivity));
+		}
 }, false);
 
 var glcanvas = document.getElementById("glCanvas");

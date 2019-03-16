@@ -181,6 +181,8 @@ var loop = function(){
 	
 	draw(Cube, ModelData, 1, 2, 2, 0, 0, 0);
 	
+	draw(Cube, ModelData, 100, 0, -110, 0, 0, 0);
+	
 	//draw(Draw2, ModelData, 0.015, -3, 0, 20, 180, 0);
 	
 	//draw(Draw3, ModelData, 0.005, 25, -3, -3, 180, 0);

@@ -32,7 +32,7 @@
 <div class="app-title">
 	<h2>Community Resource Guide</h2>
 </div>
-<div class="container" onclick="menuButton(this)">
+<div id="menuButton" class="container" onclick="menuButton(this)">
   <div class="bar1"></div>
   <div class="bar2"></div>
   <div class="bar3"></div>
@@ -108,6 +108,7 @@
 	  
 	  
 <script>  
+$('#menuButton').toggleClass("change");
 function menuButton(x) {
   x.classList.toggle("change");
   $('#sidebar').toggleClass('active');

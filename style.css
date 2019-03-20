@@ -9,6 +9,7 @@
 	position: absolute;
 	top:0%;
 	left:20%;
+	min-width: 1000px;
 }
 
 .title {
@@ -42,6 +43,7 @@
 a {
     color: pink;
 }
+
 
 
 

@@ -44,8 +44,8 @@ particles.prototype.draw = function(){
 	ctx.fillStyle = "#f9b5b3";
 	ctx.strokeStyle = "#f9b5b3";
 	for(var i = 0; i < this.particle.length; i++){
-		ctx.fillRect(this.particle[i].x + (Math.random() - 0.5), this.y + this.particle[i].y + Math.random() + 10, 2, 2);
-		this.y += 1;
+		ctx.fillRect(this.particle[i].x + (Math.random() - 0.5), this.particle[i].y + Math.random() + 10, 2, 2);
+		this.particle[i].y += 1;
 		this.particle[i].x += this.particle[i].deltaX;
 		this.particle[i].life -= 2 + 2*Math.random();
 	}
@@ -57,16 +57,24 @@ function star(x, y){
 	this.on = true;
 }
 star.prototype.draw = function(){
-	//if(this.on){
-	ctx.fillStyle = "#d8d8d8";
-	ctx.strokeStyle = "#d8d8d8";
-	ctx.fillRect(this.x + 4, this.y, 2, 10);
-	ctx.fillRect(this.x, this.y + 4, 10, 2);
-	ctx.fillStyle = "#eaeaea";
-	ctx.strokeStyle = "#eaeaea";
-	ctx.fillRect(this.x + 3, this.y + 3, 4, 4);
-	
-	//}
+	if(this.on){
+		ctx.fillStyle = "#e8da99";//"#d8d8d8";
+		ctx.strokeStyle = "#e8da99";//"#d8d8d8";
+		ctx.fillRect(this.x + 4, this.y, 2, 10);
+		ctx.fillRect(this.x, this.y + 4, 10, 2);
+		ctx.fillStyle = "#efe19b"//"#eaeaea";
+		ctx.strokeStyle = "#efe19b"//"#eaeaea";
+		ctx.fillRect(this.x + 3, this.y + 3, 4, 4);
+	}
+	else{
+		ctx.fillStyle = "#8e865e";//"#565656";
+		ctx.strokeStyle = "#8e865e";//"#565656";
+		ctx.fillRect(this.x + 4, this.y, 2, 10);
+		ctx.fillRect(this.x, this.y + 4, 10, 2);
+		ctx.fillStyle = "#bcb27c"//"#8e8e8e";
+		ctx.strokeStyle = "#bcb27c";//"#8e8e8e";
+		ctx.fillRect(this.x + 3, this.y + 3, 4, 4);
+	}
 }	
 }
 //---
@@ -95,8 +103,9 @@ genStars();
 setInterval(function(){
 	clear();
 	for(var i = 0; i < stars; i++){	
-		if(starArray[i].y < 0){
-			pop(starArray[i].x, 0);
+		if(starArray[i].y < 0 || (starArray[i].y < 175 && starArray[i].x > 300 && starArray[i].x < 1170) || (starArray[i].y < 220 && starArray[i].x > 445 && starArray[i].x < 1025) || (starArray[i].y < 485 && starArray[i].x > 510 && starArray[i].x < 955)){
+			ctx.line
+			pop(starArray[i].x, starArray[i].y);
 			starArray[i].y += Canvas.height;
 		}
 
@@ -129,9 +138,14 @@ setInterval(function(){
 			starArray[i].on = false;
 		}
 	}	
-},200);
+},1000);
 
 }
+
+
+Canvas.addEventListener ("mousedown", function (e) {
+	console.log("x: " + e.x + "   y: " + e.y);
+});
 
 	
 

@@ -15,6 +15,8 @@ var starArray = [];
 var stars = 20;
 var starSpeed = 1;
 var starChance = 50;
+//vaporlines
+var linesY = [0,1,2,3,4];
 }
 //---
 //Objects
@@ -81,17 +83,44 @@ star.prototype.draw = function(){
 //Functions
 {
 function clear(){
-ctx.fillStyle = "black";
-ctx.strokeStyle = "black";	
-ctx.fillRect(0,0,Canvas.width, Canvas.height);
+	ctx.fillStyle = "black";
+	ctx.strokeStyle = "black";	
+	ctx.fillRect(0,0,Canvas.width, Canvas.height);
 }
 	
 function genStars(){
-for(var i = 0; i < stars; i++){
-starArray[i] = new star(Math.random()*Canvas.width, Canvas.height + (Math.random()*Canvas.height));
-}
+	for(var i = 0; i < stars; i++){
+		starArray[i] = new star(Math.random()*Canvas.width, Canvas.height + (Math.random()*Canvas.height));
+	}
 }
 }	
+
+function drawVaporGrid(){
+	ctx.strokeStyle = "#0a0235";
+	ctx.fillStyle = "#361149";
+	ctx.fillRect(0, 550, Canvas.width, Canvas.height);
+	ctx.fillRect(0, 550, Canvas.width, Canvas.height);
+	
+	ctx.strokeStyle = "#f049fc";
+	ctx.lineWidth = "3";
+	ctx.beginPath();
+	ctx.moveTo(0, 550);
+	ctx.lineTo(Canvas.width, 550);
+	for(var i = -10; i < 10; i++){
+		ctx.moveTo(Canvas.width/3 + 100*i, 550);
+		ctx.lineTo(Canvas.width/3 + 1000*i, 1000);
+	}
+	for(var i = 0; i < linesY.length; i++){
+		ctx.moveTo(0, 550 + Math.pow(3, (linesY[i])));
+		ctx.lineTo(Canvas.width, 550 + Math.pow(3, (linesY[i])));
+		linesY[i] += 0.01;
+		if(Math.pow(3, (linesY[i])) > 200){
+			linesY[i] = 0;
+		}
+	}
+	ctx.stroke();
+	ctx.lineWidth = "1";
+}
 //---
 //Calls
 clear();
@@ -125,7 +154,10 @@ setInterval(function(){
 		if (particleArray[i].particle.length <= 0){
 			particleArray.splice(i, 1)
 		}
-	}	
+	}
+
+	drawVaporGrid();
+	
 },20);
 
 //Flicker on/off timer

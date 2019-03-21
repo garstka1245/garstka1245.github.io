@@ -103,7 +103,7 @@ genStars();
 setInterval(function(){
 	clear();
 	for(var i = 0; i < stars; i++){	
-		if(starArray[i].y < 0 || (starArray[i].y < 175 && starArray[i].x > 300 && starArray[i].x < 1170) || (starArray[i].y < 220 && starArray[i].x > 445 && starArray[i].x < 1025) || (starArray[i].y < 485 && starArray[i].x > 510 && starArray[i].x < 955)){
+		if(starArray[i].y < 0 || (starArray[i].y < 175 && starArray[i].x > 60 && starArray[i].x < 935) || (starArray[i].y < 220 && starArray[i].x > 205 && starArray[i].x < 790) || (starArray[i].y < 485 && starArray[i].x > 275 && starArray[i].x < 720)){
 			ctx.line
 			pop(starArray[i].x, starArray[i].y);
 			starArray[i].y += Canvas.height;
@@ -143,7 +143,7 @@ setInterval(function(){
 }
 
 
-Canvas.addEventListener ("mousedown", function (e) {
+document.addEventListener ("mousedown", function (e) {
 	console.log("x: " + e.x + "   y: " + e.y);
 });
 

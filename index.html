@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8" name="viewport" content="width=device-width, user-scalable=no">
   <link rel="stylesheet" href="style.css">
-  <div class="background">
-    <canvas id="background" width=100% height=100%">
+  <div class="background" >
+    <canvas id="background" width="1000px" height="500px" style="width:1000px; height:500px;">
     </canvas>
   </div>
 	<script src="background.js">
@@ -21,8 +21,8 @@
   </div>
   
   <div class="desc">
-	<p> My name's <i><b>Christian</b></i>, This is a small website to host projects that I work on as a hobby, or for class. <a href="https://github.com/drago15243/drago15243.github.io">Source.</a></p>
-	<p> Currently I know HTML <sub>(Obviously)</sub>, Javascript, Arduino, CSS, and Java. <br/> Taking a Proper Java class next year \o/</p>
+		<p> My name's <i><b>Christian</b></i>, This is a small website to host projects that I work on as a hobby, or for class. <a href="https://github.com/drago15243/drago15243.github.io">Source.</a></p>
+		<p> Currently I know HTML <sub>(Obviously)</sub>, Javascript, Arduino, CSS, and Java. <br/> Taking a Proper Java class next year \o/</p>
   </div>
   
   <div class="projects">
@@ -30,15 +30,18 @@
     <h>Some Projects:</h>
   </div>
   <div>
-	<button class = "button" type="button" onclick="canvasRenderer()">canvasRenderer</button>
-	<button class = "button" type="button" onclick="webGL()">webGL</button>
-	<button class = "button" type="button" onclick="java()">Java</button>
+		<button class = "button" type="button" onclick="canvasRenderer()">canvasRenderer</button>
+		<button class = "button" type="button" onclick="webGL()">webGL</button>
+		<button class = "button" type="button" onclick="java()">Java</button>
   </div>
   <div>
-	<button class = "button" type="button" onclick="twodplat()">2D Plat</button>
-	<button class = "button" type="button" onclick="textmanip()">Text Manip</button>
-	<button class = "button" type="button" onclick="hamburger()">Hamburger</button>
-  </div>
+		<button class = "button" type="button" onclick="twodplat()">2D Plat</button>
+		<button class = "button" type="button" onclick="textmanip()">Text Manip</button>
+		<button class = "button" type="button" onclick="hamburger()">Hamburger</button>
+		<button class = "button" type="button" onclick="socketioserver()">SocketIO</button>
+	</div>
+
+</div>
 	<script>
 	function canvasRenderer(){
 	window.location.href = "canvasRenderer/index.html";
@@ -58,9 +61,10 @@
 	function hamburger(){
 	window.location.href = "hamburger/index.html";
 	}
-	</script>
-
+	function socketioserver(){
+	window.location.href = "http://65.60.191.45:4000/";
+	}
 	
-</div>
+	</script>
   </body>
 </html>

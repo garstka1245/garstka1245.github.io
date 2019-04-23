@@ -1,6 +1,7 @@
 .background {
 	top:0px;
-	left:0px;
+	left: 50%;
+  transform: translateX(-50%);
 	position: absolute;
 }
 
@@ -8,7 +9,8 @@
 	color: white;
 	position: absolute;
 	top:0%;	
-	left:0%;
+	left: 50%;
+  transform: translateX(-50%);
 	min-width: 1000px;
 }
 

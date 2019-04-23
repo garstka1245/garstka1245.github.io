@@ -4,7 +4,6 @@ function model(vertices, indices, uvs, img){
 	this.uvs = uvs;
 	this.allindices = [];
 	this.indices = indices;
-	//console.log(indices);
 	for(var i = 0; i < indices.length; i++){
 	this.allindices = this.allindices.concat(indices[i]);
 	}
@@ -61,7 +60,7 @@ model.prototype.drawFull = function(program){
 	
 	for(var i = 0; i < this.indices.length-1; i++){
 	gl.bindTexture(gl.TEXTURE_2D, this.texture[i]);
-	
+	//console.log(this.indices);
 	addativeIdex += this.indices[i].length; 
 	
     gl.drawElements(gl.TRIANGLES, this.indices[i+1].length, gl.UNSIGNED_SHORT, 2*addativeIdex);

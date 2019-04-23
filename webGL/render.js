@@ -44,7 +44,7 @@ var TextureIndex = 1;
 
 var startProg = function(){
 	Promise.all([
-	loadObj("basic/cube_textured"),loadObj("animals/cat"),loadObj("animals/deer"),loadObj("maps/beavercreek/beavercreek")//,loadObj("animals/spider")//,loadObj("animals/fox"),loadObj("animals/wolf"),loadObj("maps/beavercreek/beavercreek")
+	loadObj("maps/beavercreek/beavercreek")//,loadObj("basic/cube_textured"),loadObj("animals/cat"),loadObj("animals/deer")//,loadObj("animals/spider")//,loadObj("animals/fox"),loadObj("animals/wolf"),loadObj("maps/beavercreek/beavercreek")
 	,loadImg("black_square"),loadImg("square_illusion"),loadImg("fur"),loadImg("chillout_metal_flat")
 	]).then(function(){
 		//Successfully loaded
@@ -145,12 +145,23 @@ gl = canvas.getContext("webgl");
 		drawMatrix: new Float32Array(16)
 		};
 		
-	var Material = [loadedImg[0],loadedImg[1],loadedImg[2]];
 	
-	var Cube = new model(loadV[0], loadF[0], loadUV[0], Material);//1
-	//var Draw2 = new model(loadV[2], loadF[2], loadUV[2], loadedImg[0]);//0
+	/*
+		Replace this with actually reading material names
+		1. array from .mtl for all materials
+		2. "enum" for name > to loaded image int
+		3. read name off, new materials object for each object to hold image array
+		thus making this correctly vVv
+	*/	
+	var Material = [loadedImg[0],loadedImg[1],loadedImg[2]];
+	for(var i = 0; i < 100; i++){
+		Material.push(loadedImg[0]);
+	}
+	
+	//var Cube = new model(loadV[0], loadF[0], loadUV[0], Material);//1
+	//var Draw2 = new model(loadV[1], loadF[1], loadUV[1], Material);//0
 	//var Draw3 = new model(loadV[5], loadF[5], loadUV[5], Material);//0
-	//var HaloMap = new model(loadV[6], loadF[6], loadUV[6], Material);//3
+	var HaloMap = new model(loadV[0], loadF[0], loadUV[0], Material);//3
 	
 	
 //Loop
@@ -179,9 +190,9 @@ var loop = function(){
 
 	angle = performance.now() / 20;
 	
-	draw(Cube, ModelData, 1, 2, 2, 0, 0, 0);
+	//draw(Cube, ModelData, 1, 2, 2, 0, 0, 0);
 	
-	draw(Cube, ModelData, 100, 0, -110, 0, 0, 0);
+	//draw(Cube, ModelData, 100, 0, -110, 0, 0, 0);
 	
 	//draw(Draw2, ModelData, 0.015, -3, 0, 20, 180, 0);
 	
@@ -189,7 +200,7 @@ var loop = function(){
 	
 	//gridFull(Cube, ModelData, .3, 0, 0, 30, 10, 10, 10, angle, angle, Math.sin(angle/100)/10);
 
-	//draw(HaloMap, ModelData, .01, 0, -5, 10, 0, -90);
+	draw(HaloMap, ModelData, .01, 0, -5, 10, 0, -90);
 	
 	//light(x,y,z,rad) // spot lighting?
 	

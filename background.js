@@ -1,7 +1,8 @@
 //CanvasSetup
-Canvas = document.getElementById('background'),
-Canvas.width = window.innerWidth;
-Canvas.height = window.innerHeight;
+Canvas = document.getElementById('background');
+Canvas.style.width = window.innerWidth + "px";
+Canvas.style.height = window.innerHeight + "px";
+//if mobile, window.innerHeight - 200 + "px";
 ctx = Canvas.getContext('2d');
 ctx.miterLimit = 1;//edges of paths don't freak out on sharp turns
 
@@ -17,6 +18,7 @@ var starSpeed = 1;
 var starChance = 50;
 //vaporlines
 var linesY = [0,1,2,3,4];
+var vaporTop = Canvas.height*3/4;
 }
 //---
 //Objects
@@ -93,26 +95,38 @@ function genStars(){
 		starArray[i] = new star(Math.random()*Canvas.width, Canvas.height + (Math.random()*Canvas.height));
 	}
 }
-}	
+}
+
+console.log((Canvas.width/2)-189);
+
+function upMainIntersection(i){
+//Theres 3 "boxes for intersections going up, for quick change im listing those coords in arrays
+var yShift = (parseInt(Canvas.style.height) - 330) * (Canvas.height/(parseInt(Canvas.style.height)-18))
+var upMainIY = [178 + yShift,222 + yShift,500 + yShift];
+var upMainIXL = [Canvas.width/2-281,Canvas.width/2-189,Canvas.width/2-143];
+var upMainIXR = [Canvas.width/2+281,Canvas.width/2+189,Canvas.width/2+143];
+return (starArray[i].y < upMainIY[0] && starArray[i].x > upMainIXL[0] && starArray[i].x < upMainIXR[0]) || (starArray[i].y < upMainIY[1] && starArray[i].x > upMainIXL[1] && starArray[i].x < upMainIXR[1]) || (starArray[i].y < upMainIY[2] && starArray[i].x > upMainIXL[2] && starArray[i].x < upMainIXR[2]);
+}
 
 function drawVaporGrid(){
 	ctx.strokeStyle = "#0a0235";
 	ctx.fillStyle = "#361149";
-	ctx.fillRect(0, 550, Canvas.width, Canvas.height);
-	ctx.fillRect(0, 550, Canvas.width, Canvas.height);
+	ctx.fillRect(0, vaporTop, Canvas.width, Canvas.height);
+	ctx.fillRect(0, vaporTop, Canvas.width, Canvas.height);
 	
 	ctx.strokeStyle = "#f049fc";
 	ctx.lineWidth = "3";
 	ctx.beginPath();
-	ctx.moveTo(0, 550);
-	ctx.lineTo(Canvas.width, 550);
+	ctx.moveTo(0, vaporTop);
+	ctx.lineTo(Canvas.width, vaporTop);
+	
 	for(var i = -10; i < 10; i++){
-		ctx.moveTo(Canvas.width/3 + 100*i, 550);
-		ctx.lineTo(Canvas.width/3 + 1000*i, 1000);
+		ctx.moveTo(Canvas.width/2 + 50*i, vaporTop);
+		ctx.lineTo(Canvas.width/2 + 250*i, Canvas.height);
 	}
 	for(var i = 0; i < linesY.length; i++){
-		ctx.moveTo(0, 550 + Math.pow(3, (linesY[i])));
-		ctx.lineTo(Canvas.width, 550 + Math.pow(3, (linesY[i])));
+		ctx.moveTo(0, vaporTop + Math.pow(3, (linesY[i])));
+		ctx.lineTo(Canvas.width, vaporTop + Math.pow(3, (linesY[i])));
 		linesY[i] += 0.01;
 		if(Math.pow(3, (linesY[i])) > 200){
 			linesY[i] = 0;
@@ -132,12 +146,11 @@ genStars();
 setInterval(function(){
 	clear();
 	for(var i = 0; i < stars; i++){	
-		if(starArray[i].y < 0 || (starArray[i].y < 175 && starArray[i].x > 60 && starArray[i].x < 935) || (starArray[i].y < 220 && starArray[i].x > 205 && starArray[i].x < 790) || (starArray[i].y < 485 && starArray[i].x > 275 && starArray[i].x < 720)){
-			ctx.line
+		if(starArray[i].y < 0 || upMainIntersection(i)){
 			pop(starArray[i].x, starArray[i].y);
 			starArray[i].y += Canvas.height;
 		}
-
+ 
 		starArray[i].draw();
 		starArray[i].y -= starSpeed;
 		starArray[i].x += Math.random() - 0.5;
@@ -176,10 +189,8 @@ setInterval(function(){
 
 
 document.addEventListener ("mousedown", function (e) {
-	console.log("x: " + e.x + "   y: " + e.y);
+	console.log("x: " + e.clientX * (Canvas.width/parseInt(Canvas.style.width)) + "   y: " + e.pageY * (Canvas.height/parseInt(Canvas.style.height)));
 });
-
-	
 
 	
 	

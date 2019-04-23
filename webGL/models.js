@@ -109,14 +109,24 @@ async function loadObj(name) {
 		   //vertex normals
 	  }
 	  else if(lines[i].substr(0,7) == "USEMTL "){
+			if(lines[i].substr(0,8) == 'USEMTL "'){
 		   //materials
 		   mtlIndex++;
 		   MTL = lines[i].substr(6,obj.length).split('"')[1];
 		   //order matters, the faces after the material are put together
 		   loadedFaces[modelIndex][mtlIndex] = new Array();
 		   loadedMtls.push(MTL);
-		   console.log(loadedMtls[mtlIndex-1]);
-		   console.log(loadedFaces[modelIndex][mtlIndex]);
+			 console.log(MTL);
+		   //console.log(loadedMtls[mtlIndex-1]);
+		   //console.log(loadedFaces[modelIndex][mtlIndex]);
+			}
+			else{
+				mtlIndex++;
+				MTL = lines[i].substr(7,obj.length);
+				console.log(MTL);
+				loadedFaces[modelIndex][mtlIndex] = new Array();
+				loadedMtls.push(MTL);
+			}
 	  }
 	  else{
 		//invalid model line
@@ -134,6 +144,7 @@ async function loadObj(name) {
 		  //mapping texture
 		  DIR = mtllines[i].substr(6,mtl.mtllines).split('"')[1];
 		  MTLdir.push(DIR);
+			
 	  }
 	  //decode material names to textures when loading model, so i don't have to include a texture constant
   }

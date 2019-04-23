@@ -8,7 +8,7 @@ var faces = [];
 setInterval(function() {
  ctx.fillStyle = "black";
  ctx.fillRect(0,0,Canvas.width,Canvas.height);
-//rotate();
+ //rotate();
 
 
 for(i=0;i<faces.length;i++){

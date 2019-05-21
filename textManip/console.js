@@ -28,7 +28,7 @@ var a=0;
 function parse(m){
 	console.log("Parsing: " + m);
 	if(m.substr(0,4) == "help"){
-		print(availableCommands,"green");
+		printm(availableCommands,"green");
 	}
 	else if(m.substr(0,4) == "type"){
 		type(m.substr(5,m.length));
@@ -45,9 +45,9 @@ function parse(m){
 ////  Functions
 
 
-function print(msg,c){
+function printm(msg,c){
 if(a < msg.length){
-	setTimeout(function(){a++;print(msg);},1000);
+	setTimeout(function(){a++;printm(msg);},1000);
 	document.getElementById("output").value = msg[a];
 	document.getElementById("output").style.color = c;
 	if(msg[a]!=""){
@@ -64,7 +64,7 @@ return m.substr(after,m.length).split(' ')[space]
 
 
 function invalid(){
-	print(invalidMsg,"red");
+	printm(invalidMsg,"red");
 }
 
 function type(subm){

@@ -1,7 +1,7 @@
 //CanvasSetup
 Canvas = document.getElementById('background');
-Canvas.style.width = window.innerWidth + "px";
-Canvas.style.height = window.innerHeight + "px";
+Canvas.style.width = window.innerWidth - 20 + "px";
+Canvas.style.height = window.innerHeight - 20 + "px";
 //if mobile, window.innerHeight - 200 + "px";
 ctx = Canvas.getContext('2d');
 ctx.miterLimit = 1;//edges of paths don't freak out on sharp turns
@@ -97,17 +97,6 @@ function genStars(){
 }
 }
 
-console.log((Canvas.width/2)-189);
-
-function upMainIntersection(i){
-//Theres 3 "boxes for intersections going up, for quick change im listing those coords in arrays
-var yShift = (parseInt(Canvas.style.height) - 330) * (Canvas.height/(parseInt(Canvas.style.height)-18))
-var upMainIY = [178 + yShift,222 + yShift,500 + yShift];
-var upMainIXL = [Canvas.width/2-281,Canvas.width/2-189,Canvas.width/2-143];
-var upMainIXR = [Canvas.width/2+281,Canvas.width/2+189,Canvas.width/2+143];
-return (starArray[i].y < upMainIY[0] && starArray[i].x > upMainIXL[0] && starArray[i].x < upMainIXR[0]) || (starArray[i].y < upMainIY[1] && starArray[i].x > upMainIXL[1] && starArray[i].x < upMainIXR[1]) || (starArray[i].y < upMainIY[2] && starArray[i].x > upMainIXL[2] && starArray[i].x < upMainIXR[2]);
-}
-
 function drawVaporGrid(){
 	ctx.strokeStyle = "#0a0235";
 	ctx.fillStyle = "#361149";
@@ -146,7 +135,7 @@ genStars();
 setInterval(function(){
 	clear();
 	for(var i = 0; i < stars; i++){	
-		if(starArray[i].y < 0 || upMainIntersection(i)){
+		if(starArray[i].y < 0){
 			pop(starArray[i].x, starArray[i].y);
 			starArray[i].y += Canvas.height;
 		}
@@ -192,5 +181,13 @@ document.addEventListener ("mousedown", function (e) {
 	console.log("x: " + e.clientX * (Canvas.width/parseInt(Canvas.style.width)) + "   y: " + e.pageY * (Canvas.height/parseInt(Canvas.style.height)));
 });
 
-	
+window.onresize = function(e) {
+	refreshSize();
+}
+
+function refreshSize(){
+	Canvas.style.width = window.innerWidth - 20 + "px";
+	Canvas.style.height = window.innerHeight - 20 + "px";
+
+}
 	

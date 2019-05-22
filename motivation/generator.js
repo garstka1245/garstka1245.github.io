@@ -1,3 +1,6 @@
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
 var quotes = ["test","you shouldnt be able to read this haha... did i fail"]
 var text = 
 `1. Life is about making an impact, not making an income. --Kevin Kruse
@@ -13,8 +16,8 @@ var text =
 11. Life isn't about getting and having, it's about giving and being. –Kevin Kruse
 12. Life is what happens to you while you’re busy making other plans. –John Lennon
 13. We become what we think about. –Earl Nightingale
-14.Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover. –Mark Twain
-15.Life is 10% what happens to me and 90% of how I react to it. –Charles Swindoll
+14. Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover. –Mark Twain
+15. Life is 10% what happens to me and 90% of how I react to it. –Charles Swindoll
 16. The most common way people give up their power is by thinking they don’t have any. –Alice Walker
 17. The mind is everything. What you think you become.  –Buddha
 18. The best time to plant a tree was 20 years ago. The second best time is now. –Chinese Proverb
@@ -109,14 +112,61 @@ function load(){
 	quotes = text.split(/\r?\n/);
 }
 load();
+ctx.fillStyle = "#ffffff";
+ctx.font = "30px Arial";
 
 
 function pick(){
-	document.getElementById("motivationalQuote").innerHTML = quotes[Math.floor(Math.random() * quotes.length)]
+	string = quotes[Math.floor(Math.random() * quotes.length)];
+	ctx.clearRect(0,0,canvas.width,canvas.height);
+
+	var lines = fragmentText(string, 1000);
+	for(var i = 0; i < lines.length; i++){
+		ctx.fillText(lines[i], 2 , (1+i) * 30);
+	}
 }
 
+// src: http://jsfiddle.net/9PvMU/1/
+// Returns an array split at when the text is longer than x pixels.
+function fragmentText(text, maxWidth) {
+    var words = text.split(' '),
+        lines = [],
+        line = "";
+    if (ctx.measureText(text).width < maxWidth) {
+        return [text];
+    }
+    while (words.length > 0) {
+        while (ctx.measureText(words[0]).width >= maxWidth) {
+            var tmp = words[0];
+            words[0] = tmp.slice(0, -1);
+            if (words.length > 1) {
+                words[1] = tmp.slice(-1) + words[1];
+            } else {
+                words.push(tmp.slice(-1));
+            }
+        }
+        if (ctx.measureText(line + words[0]).width < maxWidth) {
+            line += words.shift() + " ";
+        } else {
+            lines.push(line);
+            line = "";
+        }
+        if (words.length === 0) {
+            lines.push(line);
+        }
+    }
+    return lines;
+}
 
+// src: https://stackoverflow.com/questions/29911143/how-can-i-animate-the-drawing-of-text-on-a-web-page# , Apr 28 '15 5:42 by Akshay
 
-
+var vara = new Vara("#container", "https://rawcdn.githack.com/akzhy/Vara/ed6ab92fdf196596266ae76867c415fa659eb348/fonts/Satisfy/SatisfySL.json", [{
+  text: "Hello World!",
+  fontSize: 34,
+  color:"#f44336"
+}], {
+  strokeWidth: 2,
+  textAlign:"center"
+});
 
 

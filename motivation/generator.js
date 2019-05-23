@@ -112,18 +112,45 @@ function load(){
 	quotes = text.split(/\r?\n/);
 }
 load();
-ctx.fillStyle = "#ffffff";
-ctx.font = "30px Arial";
+ctx.strokeStyle = ctx.fillStyle = "#ffffff";
+ctx.font = "30px Courier New";
+var dashLen = 220, dashOffset = dashLen, speed = 5,
+    txt = "STROKE-ON CANVAS";
 
 
 function pick(){
 	string = quotes[Math.floor(Math.random() * quotes.length)];
 	ctx.clearRect(0,0,canvas.width,canvas.height);
+	
+	ctx.strokeStyle = ctx.fillStyle = getRandomColor();
 
-	var lines = fragmentText(string, 1000);
-	for(var i = 0; i < lines.length; i++){
-		ctx.fillText(lines[i], 2 , (1+i) * 30);
+	var lines = fragmentText(string, 950);
+	for(var line = 0; line < lines.length; line++){
+		//ctx.fillText(lines[i], 2 , (1+i) * 30);
+		console.log(lines[line]);
+		
+		// src: https://stackoverflow.com/questions/29911143/how-can-i-animate-the-drawing-of-text-on-a-web-page#
+		
+		var x = 2;
+		
+		for(var letter = 0; letter < lines[line].length; letter++){
+			ctx.strokeText(lines[line][letter], x, (1+line) * 30);
+			ctx.fillText(lines[line][letter], x, (1+line) * 30);
+			dashOffset = dashLen;                                      // prep next char
+			x += ctx.measureText(lines[line][letter]).width + ctx.lineWidth * Math.random();
+			ctx.setTransform(1, 0, 0, 1, 0, 0.25 * Math.random());        // random y-delta
+			ctx.rotate(Math.random() * 0.005); 													// random angle
+			
+			
+				for(var dashOffset = dashLen; dashOffset > 0; dashOffset -= speed){
+					
+					ctx.setLineDash([dashLen - dashOffset, dashOffset - speed]); // create a long dash mask
+				}
+			}
+	
+
 	}
+
 }
 
 // src: http://jsfiddle.net/9PvMU/1/
@@ -158,15 +185,12 @@ function fragmentText(text, maxWidth) {
     return lines;
 }
 
-// src: https://stackoverflow.com/questions/29911143/how-can-i-animate-the-drawing-of-text-on-a-web-page# , Apr 28 '15 5:42 by Akshay
-
-var vara = new Vara("#container", "https://rawcdn.githack.com/akzhy/Vara/ed6ab92fdf196596266ae76867c415fa659eb348/fonts/Satisfy/SatisfySL.json", [{
-  text: "Hello World!",
-  fontSize: 34,
-  color:"#f44336"
-}], {
-  strokeWidth: 2,
-  textAlign:"center"
-});
-
-
+// src: https://stackoverflow.com/questions/1484506/random-color-generator
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor((Math.random() * 8 ) + 8)];
+  }
+  return color;
+}

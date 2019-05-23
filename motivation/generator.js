@@ -112,11 +112,15 @@ function load(){
 	quotes = quotesString.split(/\r?\n/);
 }
 load();
-
+pick();
 
 function pick(){
 	// pick random quote
 	quote = quotes[Math.floor(Math.random() * quotes.length)];
+	drawQuote();
+}
+
+function drawQuote(){
 	ctx.clearRect(0,0,canvas.width,canvas.height);
 	
 	ctx.font = "30px Courier New";
@@ -184,3 +188,16 @@ function getRandomColor() {
   }
   return color;
 }
+
+setInterval(function(){
+	raveSwitch = document.getElementById("raveSwitch").checked;
+	if(raveSwitch){
+			ctx.strokeStyle = ctx.fillStyle = getRandomColor();
+			drawQuote();
+	}
+	
+},100);
+
+
+
+

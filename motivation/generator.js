@@ -117,6 +117,7 @@ pick();
 function pick(){
 	// pick random quote
 	quote = quotes[Math.floor(Math.random() * quotes.length)];
+	console.log(quote);
 	drawQuote();
 }
 
@@ -129,7 +130,6 @@ function drawQuote(){
 	var lines = cutText(quote, 950);
 	
 	for(var line = 0; line < lines.length; line++){
-		console.log(lines[line]);
 		
 		// leftmost starting position for a letter
 		var x = 2;
@@ -190,9 +190,8 @@ function getRandomColor() {
 }
 
 setInterval(function(){
-	raveSwitch = document.getElementById("raveSwitch").checked;
-	if(raveSwitch){
-			ctx.strokeStyle = ctx.fillStyle = getRandomColor();
+	partySwitch = document.getElementById("partySwitch").checked;
+	if(partySwitch){
 			drawQuote();
 	}
 	

@@ -1,8 +1,8 @@
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 
-var quotes = ["test","you shouldnt be able to read this haha... did i fail"]
-var text = 
+var quotes;
+var quotesString = 
 `1. Life is about making an impact, not making an income. --Kevin Kruse
 2. Whatever the mind of man can conceive and believe, it can achieve. –Napoleon Hill
 3. Strive not to be a success, but rather to be of value. –Albert Einstein
@@ -109,53 +109,42 @@ var text =
 
 
 function load(){
-	quotes = text.split(/\r?\n/);
+	quotes = quotesString.split(/\r?\n/);
 }
 load();
-ctx.strokeStyle = ctx.fillStyle = "#ffffff";
-ctx.font = "30px Courier New";
-var dashLen = 220, dashOffset = dashLen, speed = 5,
-    txt = "STROKE-ON CANVAS";
 
 
 function pick(){
-	string = quotes[Math.floor(Math.random() * quotes.length)];
+	// pick random quote
+	quote = quotes[Math.floor(Math.random() * quotes.length)];
 	ctx.clearRect(0,0,canvas.width,canvas.height);
 	
+	ctx.font = "30px Courier New";
 	ctx.strokeStyle = ctx.fillStyle = getRandomColor();
 
-	var lines = fragmentText(string, 950);
+	var lines = cutText(quote, 950);
+	
 	for(var line = 0; line < lines.length; line++){
-		//ctx.fillText(lines[i], 2 , (1+i) * 30);
 		console.log(lines[line]);
 		
-		// src: https://stackoverflow.com/questions/29911143/how-can-i-animate-the-drawing-of-text-on-a-web-page#
-		
+		// leftmost starting position for a letter
 		var x = 2;
-		
 		for(var letter = 0; letter < lines[line].length; letter++){
+			// draw letter
 			ctx.strokeText(lines[line][letter], x, (1+line) * 30);
 			ctx.fillText(lines[line][letter], x, (1+line) * 30);
-			dashOffset = dashLen;                                      // prep next char
+			// shift over and randomize position a bit
 			x += ctx.measureText(lines[line][letter]).width + ctx.lineWidth * Math.random();
 			ctx.setTransform(1, 0, 0, 1, 0, 0.25 * Math.random());        // random y-delta
 			ctx.rotate(Math.random() * 0.005); 													// random angle
 			
-			
-				for(var dashOffset = dashLen; dashOffset > 0; dashOffset -= speed){
-					
-					ctx.setLineDash([dashLen - dashOffset, dashOffset - speed]); // create a long dash mask
-				}
-			}
-	
-
+		}
 	}
-
 }
 
 // src: http://jsfiddle.net/9PvMU/1/
 // Returns an array split at when the text is longer than x pixels.
-function fragmentText(text, maxWidth) {
+function cutText(text, maxWidth) {
     var words = text.split(' '),
         lines = [],
         line = "";
@@ -186,6 +175,7 @@ function fragmentText(text, maxWidth) {
 }
 
 // src: https://stackoverflow.com/questions/1484506/random-color-generator
+// returns random hex color, greater than #888888, so it's visible on black
 function getRandomColor() {
   var letters = '0123456789ABCDEF';
   var color = '#';

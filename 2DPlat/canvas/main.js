@@ -66,8 +66,8 @@ square.prototype.draw = function (){
 		ctx.strokeWidth = 2;
 		ctx.strokeStyle = "#000000";
 		ctx.fillStyle = "#fff0f0";
-		ctx.fillRect(this.x ,c.height - this.w - this.y, this.w , this.h);
-		ctx.strokeRect(this.x ,c.height - this.w - this.y, this.w , this.h);
+		ctx.fillRect(this.x ,c.height - this.h - this.y, this.w , this.h);
+		ctx.strokeRect(this.x ,c.height - this.h - this.y, this.w , this.h);
 	}
 	else{
 		ctx.drawImage(this.texture, this.x, c.height - this.y - this.h, this.w, this.h);
@@ -297,7 +297,7 @@ c.addEventListener("mousedown", function(e) {
 	if(document.getElementById("square").disabled){
 		 SquaresList.push(new gsquare(mouse.downX, mouse.downY, 10, 10));
 	}
-	if(document.getElementById("move").disabled){
+	if(document.getElementById("move").disabled || document.getElementById("resize").disabled){
 		for(var i = 0; i < world.length; i++){
 			if(collidesPoint(mouse.downX, mouse.downY, world[i])){
 				world[i].selected = true;
@@ -312,14 +312,28 @@ c.addEventListener("mousedown", function(e) {
 c.addEventListener("mousemove", function(e) {
 	if(editor){
 	mouse.x = e.pageX;
-	mouse.y = c.height - e.pageY;	
+	mouse.y = c.height - e.pageY;
+	mouse.differenceX = mouse.x - mouse.downX;
+	mouse.differenceY = mouse.y - mouse.downY;
 	
-	for(var i = 0; i < world.length; i++){
-		//if selected items
-		if(world[i].selected){
-			world[i].x = mouse.x + world[i].selectX;
-			world[i].y = mouse.y + world[i].selectY;
-			
+	if(document.getElementById("move").disabled){
+		for(var i = 0; i < world.length; i++){
+			//if selected items
+			if(world[i].selected){
+				world[i].x = mouse.x + world[i].selectX;
+				world[i].y = mouse.y + world[i].selectY;
+				
+			}
+		}
+	}
+	else if(document.getElementById("resize").disabled){
+				for(var i = 0; i < world.length; i++){
+			//if selected items
+			if(world[i].selected){
+				world[i].w = Math.max(mouse.differenceX - world[i].selectX, 10);
+				world[i].h = Math.max(mouse.differenceY - world[i].selectY, 10);
+				
+			}
 		}
 	}
 	}

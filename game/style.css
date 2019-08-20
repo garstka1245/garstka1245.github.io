@@ -1,0 +1,29 @@
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.chat{
+	position: relative;
+  margin:10px;
+	opacity:0.7;
+}
+
+textarea {
+   resize: none;
+}
+
+
+
+
+

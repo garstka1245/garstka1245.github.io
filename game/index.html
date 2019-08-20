@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, user-scalable=no">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#fff; width:100%; height:100%; margin:0px; border:0;">
+	
+<script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-auth.js"></script>
+<script src="https://cdn.firebase.com/libs/firebaseui/4.1.0/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/4.1.0/firebaseui.css" />
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAxdp8nVHGYyb-gtN7aoD4Kq_9QsJ7-L9E",
+    authDomain: "website-94f15.firebaseapp.com",
+    databaseURL: "https://website-94f15.firebaseio.com",
+    projectId: "website-94f15",
+    storageBucket: "website-94f15.appspot.com",
+    messagingSenderId: "1066644979486",
+    appId: "1:1066644979486:web:db11e4b8d4ced3b2"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+	
+	
+<div id="firebaseui-auth-container"></div>
+
+	
+	
+<script src="login.js"></script>
+
+</body>
+</html>

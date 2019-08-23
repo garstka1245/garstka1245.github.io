@@ -23,7 +23,16 @@ textarea {
    resize: none;
 }
 
-
-
+#login-container{
+	position: absolute;
+	margin:50px;
+	left: 35%;
+}
+#username-input{
+	margin:10px;
+}
+#password-input{
+	margin:10px;
+}
 
 

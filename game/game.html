@@ -26,6 +26,12 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
+
+	<button onclick="signOutButton()" style="margin:5px">Logout</button>
+	
+	
+	
+	
 	
 	<div id="chatTop" class="chat">
 		<textarea readonly id="chatOut" name="chat" type="text" rows="5" cols="100"></textarea>
@@ -34,8 +40,9 @@
 		<input id="chatInput" name="chat" type="text" size="133"></input>
 	</div>
 
-	
-		<script src="main.js"></script>
+	<script src="main.js"></script>
+	<script src="login.js"></script>
+	<script>page = "game";</script>
 
 </body>
 </html>

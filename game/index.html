@@ -30,11 +30,21 @@
 </script>
 	
 	
-<div id="firebaseui-auth-container"></div>
+<div id="login-container">
+	<p>Welcome to the wonderful login and menu </p>
+	<div> 
+		<input id="username-input" type="email" size="50" ></input>
+	</div>
+	<div>
+		<input id="password-input" type="password" size="50"></input>
+	</div>
+	<button onclick="signInButton()">Login</button>
+	<button onclick="signOutButton()" style="visibility: hidden">Logout</button>
+</div>
 
 	
 	
 <script src="login.js"></script>
-
+<script>page = "login";</script>
 </body>
 </html>

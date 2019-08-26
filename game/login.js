@@ -39,6 +39,15 @@ function signOutButton(){
 	signOut();
 }
 
+window.addEventListener('keypress', function (e) {
+    if (e.keyCode == 13) {
+			if(document.getElementById("password-input") === document.activeElement){
+				signInButton();
+			}
+    }
+}, false);
+
+
 // User Info Functions
 function getUserInfo(){
 var user = firebase.auth().currentUser;

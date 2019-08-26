@@ -15,7 +15,8 @@ function sendChat(msg) {
   });
 }
 	
-  firebase.database().ref('chatlog/' + date.getTime() + ":" + username).set({
+  firebase.database().ref('chatlog/' + date.getTime() + "" + username).set({
+		name: username,
     msg: msg
   });
 	console.log("Sent message: " + msg);
@@ -28,22 +29,20 @@ function retrieveMessages(){
 	chatlogref.orderByChild("msg").once("value", function(snap) {
 	var msgs = [];
 		
-  console.log(snap.val());
+	var chatlog = Object.values(snap.val());
 	
-	for(var i = 0; i < snap.val().length; i++){
-		msgs.push(snap.val()[i].msg);
-		 
+	for(var i = 0; i < chatlog.length; i++){
+		msgs.push(chatlog[i].name + ": " + chatlog[i].msg);
 	}
 	
 	
-	document.getElementById("chatOut").value = "msgs";
+	document.getElementById("chatOut").value = msgs.join('\n');
 });
 }
 
 // Refresh when a new message is added
 chatlogref.on("child_added", function(snapshot, prevChildKey) {
-  var messageObject = snapshot.val();
-  //console.log("Msg: " + messageObject.msg);
+  retrieveMessages();
 });
 
 

@@ -1,6 +1,28 @@
 // Base Signing in functions
-function createUser(email, password){
-firebase.auth().createUserWithEmailAndPassword(email, password);
+function signUp(email, password){
+	var user = firebase.auth().currentUser;
+
+	if (user == null) {
+		// sign up user
+		firebase.auth().createUserWithEmailAndPassword(email, password).then(function(){
+		
+		}).catch(function(error) {
+			var errorCode = error.code;
+			var errorMessage = error.message;
+			
+			console.log(errorMessage);
+			document.getElementById("error").innerHTML = errorMessage;
+			document.getElementById("error").style.visibility = "visible"; 
+		});
+	}
+	else{
+		//setting displayName
+		var dispName = document.getElementById("usernameElement").value;
+		if(dispName != ""){
+			setUserInfo(dispName);
+			
+		}
+	}
 }
 
 function signOut(){
@@ -9,19 +31,50 @@ function signOut(){
 
 function signIn(email, password){
 	firebase.auth().signInWithEmailAndPassword(email, password).then(function(){
-		window.location.href = 'game.html';
+		document.getElementById("error").style.visibility = "hidden"
+	}).catch(function(error) {
+  var errorCode = error.code;
+  var errorMessage = error.message;
+	
+	console.log(errorMessage);
+	document.getElementById("error").innerHTML = errorMessage;
+	document.getElementById("error").style.visibility = "visible"; 
 	});
+	
 }
 
 // Automatic redirect if you are already logged in / are not
 var page;
 
 firebase.auth().onAuthStateChanged(function(user) {
-  if(user) {
+  if(user != null) {
 		if(page == "login"){
-			window.location.href = 'game.html';
+			if(user.displayName){
+				window.location.href = 'game.html';
+			}
+			else{
+				var usernameLabel = document.createElement("label");
+				var usernameElement = document.createElement("input");
+				usernameLabel.innerHTML = "Display Name:";
+				usernameLabel.setAttribute('id', "usernameLabel");
+				usernameElement.setAttribute('id', "usernameElement");
+				document.getElementById("inputs").appendChild(usernameLabel); 
+				document.getElementById("inputs").appendChild(usernameElement);
+				document.getElementById("signOutButton").style.visibility = "visible";
+				document.getElementById("signInButton").style.visibility = "hidden";
+			}
 		}
   } else {
+		if(page == "login" && document.getElementById("usernameLabel") != null){
+			var labelElement = document.getElementById("usernameLabel");
+			var usernameElement = document.getElementById("usernameElement");
+			labelElement.parentNode.removeChild(labelElement);
+			usernameElement.parentNode.removeChild(usernameElement);
+			document.getElementById("signOutButton").style.visibility = "hidden";
+			document.getElementById("signInButton").style.visibility = "visible";
+			console.log("bye");
+		}
+		
 		if(page == "game"){
 			window.location.href = 'index.html';
 		}
@@ -29,6 +82,12 @@ firebase.auth().onAuthStateChanged(function(user) {
 });
 
 // Html Buttons
+function signUpButton(){
+	var email = document.getElementById("username-input").value;
+	var pass = document.getElementById("password-input").value;
+	signUp(email, pass);
+}
+
 function signInButton(){
 	var email = document.getElementById("username-input").value;
 	var pass = document.getElementById("password-input").value;

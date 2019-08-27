@@ -35,4 +35,8 @@ textarea {
 	margin:10px;
 }
 
+label {
+  display: inline-block;
+  text-align: right;
+}​
 

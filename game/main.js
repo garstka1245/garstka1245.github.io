@@ -9,9 +9,9 @@ function sendChat(msg) {
 	var date = new Date();
 	
 	if (user != null) {
-		user.providerData.forEach(function (profile) {
-			console.log("  Name: " + profile.displayName);
-			username = profile.displayName;
+		user.providerData.forEach(function (user) {
+			console.log("  Name: " + user.displayName);
+			username = user.displayName;
   });
 }
 	

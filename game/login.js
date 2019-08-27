@@ -19,8 +19,11 @@ function signUp(email, password){
 		//setting displayName
 		var dispName = document.getElementById("usernameElement").value;
 		if(dispName != ""){
-			setUserInfo(dispName);
-			
+			user.updateProfile({
+				displayName: dispName
+			}).then(function(){
+				window.location.href = 'game.html';
+			});
 		}
 	}
 }
@@ -72,7 +75,6 @@ firebase.auth().onAuthStateChanged(function(user) {
 			usernameElement.parentNode.removeChild(usernameElement);
 			document.getElementById("signOutButton").style.visibility = "hidden";
 			document.getElementById("signInButton").style.visibility = "visible";
-			console.log("bye");
 		}
 		
 		if(page == "game"){

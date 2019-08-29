@@ -1,8 +1,9 @@
+var page;
+var currentUser;
+
 // Base Signing in functions
 function signUp(email, password){
-	var user = firebase.auth().currentUser;
-
-	if (user == null) {
+	if (currentUser == null) {
 		// sign up user
 		firebase.auth().createUserWithEmailAndPassword(email, password).then(function(){
 		
@@ -19,7 +20,7 @@ function signUp(email, password){
 		//setting displayName
 		var dispName = document.getElementById("usernameElement").value;
 		if(dispName != ""){
-			user.updateProfile({
+			currentUser.updateProfile({
 				displayName: dispName
 			}).then(function(){
 				window.location.href = 'game.html';
@@ -47,12 +48,12 @@ function signIn(email, password){
 }
 
 // Automatic redirect if you are already logged in / are not
-var page;
 
-firebase.auth().onAuthStateChanged(function(user) {
-  if(user != null) {
+firebase.auth().onAuthStateChanged(function() {
+	currentUser = firebase.auth().currentUser;
+  if(currentUser != null) {
 		if(page == "login"){
-			if(user.displayName){
+			if(currentUser.displayName){
 				window.location.href = 'game.html';
 			}
 			else{
@@ -111,10 +112,8 @@ window.addEventListener('keypress', function (e) {
 
 // User Info Functions
 function getUserInfo(){
-var user = firebase.auth().currentUser;
-
-if (user != null) {
-  user.providerData.forEach(function (profile) {
+if (currentUser != null) {
+  currentUser.providerData.forEach(function (profile) {
     console.log("Sign-in provider: " + profile.providerId);
     console.log("  Provider-specific UID: " + profile.uid);
     console.log("  Name: " + profile.displayName);
@@ -125,24 +124,25 @@ if (user != null) {
 }
 
 function setUserInfo(displayName, photoURL){
-	var user = firebase.auth().currentUser;
+	currentUser = firebase.auth().currentUser;
 
-	user.updateProfile({
+	currentUser.updateProfile({
   displayName: displayName,
   photoURL: photoURL
 });	
 }
 function setUserInfo(displayName){
-	var user = firebase.auth().currentUser;
-
-	user.updateProfile({
+	currentUser = firebase.auth().currentUser;
+	 
+	currentUser.updateProfile({
   displayName: displayName
 });	
 }
 
 function loggedIn(){
-	var user = firebase.auth().currentUser;
-	if(user !=  null) {
+	currentUser = firebase.auth().currentUser;
+	
+	if(currentUser !=  null) {
 		return true;
 	}
 }

@@ -35,8 +35,10 @@ function retrieveMessages(){
 		msgs.push(chatlog[i].name + ": " + chatlog[i].msg);
 	}
 	
-	
+	var chatOut = document.getElementById("chatOut"); 
 	document.getElementById("chatOut").value = msgs.join('\n');
+  chatOut.scrollTop = chatOut.scrollHeight;
+	
 });
 }
 

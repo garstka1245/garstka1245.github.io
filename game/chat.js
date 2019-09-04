@@ -60,6 +60,7 @@ window.addEventListener('keypress', function (e) {
 
 window.onresize = function(e) {
 	refreshSize();
+	refreshGameWindow();
 }
 refreshSize();
 function refreshSize(){

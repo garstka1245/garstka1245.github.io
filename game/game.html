@@ -26,22 +26,28 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
-
-	<button onclick="signOutButton()" style="margin:5px">Logout</button>
-	
-	
-	
-	
-	
-	<div id="chatTop" class="chat">
-		<textarea readonly id="chatOut" name="chat" type="text" rows="5" cols="100"></textarea>
-	</div>
-	<div id="chatBot" class="chat">
-		<input id="chatInput" name="chat" type="text" size="133"></input>
+	<div id="gamecontainer">
+		<canvas id="glCanvas" width="1920" height="1080"></canvas>
+		<div id="hud">
+			<button onclick="signOutButton()" style="margin:5px">Logout</button>
+			
+			
+			<div id="chatTop" class="chat">
+				<textarea readonly id="chatOut" name="chat" type="text" rows="5" cols="100"></textarea>
+			</div>
+			<div id="chatBot" class="chat">
+				<input id="chatInput" name="chat" type="text" size="133"></input>
+			</div>
+		</div>
 	</div>
 
 	<script src="chat.js"></script>
 	<script src="login.js"></script>
+	<script src="game/game.js"></script>
+	<script src="game/actions.js"></script>
+	<script src="game/inputs.js"></script>
+	<script src="game/render.js"></script>
+
 	<script>page = "game";</script>
 
 </body>

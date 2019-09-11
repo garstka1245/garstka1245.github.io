@@ -1,6 +1,4 @@
 function render(){
-
-gl.clear(gl.COLOR_BUFFER_BIT);
-	
-	
+	player1.loop();
+	renderer.render( scene, camera );
 }

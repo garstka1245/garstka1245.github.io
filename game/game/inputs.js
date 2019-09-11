@@ -10,7 +10,11 @@ document.addEventListener("keydown", e => {
   }
 });
 
-canvas.onmousedown = function(e){
+renderer.domElement.onmousedown = function(e){
+	move(e);
+}
+
+renderer.domElement.onmousemove = function(e){
 	move(e);
 }
 

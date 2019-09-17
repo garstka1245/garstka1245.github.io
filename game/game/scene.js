@@ -11,14 +11,27 @@ function initScene(){
 	scene = new THREE.Scene();
 
 	//default lighting
-	var skyColor = 0xFFFFFF;  // light blue
-	var groundColor = 0x000000;  // brownish orange	
+	var skyColor = 0xFFFFFF;
+	var groundColor = 0x000000;
 	var intensity = 1;
 	var light = new THREE.HemisphereLight(skyColor, groundColor, intensity);
 	scene.add(light);
 	
 	//link three.js renderer to the webgl canvas
 	renderer = new THREE.WebGLRenderer(  { canvas: canvas, context: gl }  );
+	
+	// Camera controls
+	var controls = new THREE.OrbitControls(camera, renderer.domElement);
+	controls.mouseButtons = {
+		LEFT: null,
+		MIDDLE: THREE.MOUSE.DOLLY,
+		RIGHT: THREE.MOUSE.ROTATE
+	}
+	// threex interactions
+	domEvents	= new THREEx.DomEvents(camera, renderer.domElement)
+	
+
+	
 }
 
 var player1, plane;
@@ -35,13 +48,10 @@ function debugScene(){
 	//
 	player1 = new player(0, 0.5, 0)
 	
-	var myObjects = new THREE.Object3D();
-    myObjects.add( player1.mesh);
-    myObjects.add( plane);
-    myObjects.name = 'MyObj_s';
-	scene.add(myObjects);
+	scene.add(player1.mesh, plane);
 	
 }
+
 
 
 

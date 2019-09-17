@@ -18,10 +18,12 @@ player.prototype.loop = function (){
 	this.mesh.position.x = this.x;
 	this.mesh.position.y = this.y;
 	this.mesh.position.z = this.z;
-	
 }
-
-
+player.prototype.move = function (x,y,z){
+		player1.x = x;
+		player1.y = y + 0.1;
+		player1.z = z;
+}
 
 
 

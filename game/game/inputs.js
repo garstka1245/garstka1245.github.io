@@ -11,11 +11,11 @@ document.addEventListener("keydown", e => {
 });
 
 renderer.domElement.onmousedown = function(e){
-	move(e);
+	//move(e);
 }
 
 renderer.domElement.onmousemove = function(e){
-	move(e);
+	//move(e);
 }
 
 document.oncontextmenu = function() {

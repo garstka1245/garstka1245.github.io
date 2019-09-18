@@ -25,7 +25,7 @@ function initScene(){
 	controls.mouseButtons = {
 		LEFT: null,
 		MIDDLE: THREE.MOUSE.DOLLY,
-		RIGHT: THREE.MOUSE.ROTATE
+		RIGHT: THREE.MOUSE.PAN
 	}
 	// threex interactions
 	domEvents	= new THREEx.DomEvents(camera, renderer.domElement)
@@ -47,7 +47,6 @@ function debugScene(){
 	plane.rotation.x += Math.PI/2;
 	//
 	player1 = new player(0, 0.5, 0)
-	
 	scene.add(player1.mesh, plane);
 	
 }

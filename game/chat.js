@@ -1,5 +1,5 @@
 var database = firebase.database();
-chatlogref = database.ref("chatlog/");
+var chatlogref = database.ref("chatlog/");
 
 
 
@@ -13,7 +13,7 @@ function sendChat(msg) {
 			console.log("  Name: " + user.displayName);
 			username = user.displayName;
   });
-}
+	}
 	
   firebase.database().ref('chatlog/' + date.getTime() + "" + username).set({
 		name: username,

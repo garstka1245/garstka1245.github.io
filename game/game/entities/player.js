@@ -23,7 +23,11 @@ player.prototype.move = function (x,y,z){
 		player1.x = x;
 		player1.y = y + 0.1;
 		player1.z = z;
+		sendPos(player1.x, player1.y, player1.z);
 }
-
-
+player.prototype.updateMove = function (x,y,z){
+		player1.x = x;
+		player1.y = y + 0.1;
+		player1.z = z;
+}
 

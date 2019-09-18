@@ -6,7 +6,6 @@ var keymap = {
 
 document.addEventListener("keydown", e => {
   if (e.keyCode === keymap.jump) {
-    jump();
   }
 });
 

@@ -1,5 +1,5 @@
 
-function player(x, y, z){
+function player(x, y, z, name){
 	this.x = x;
 	this.y = y;
 	this.z = z;
@@ -7,7 +7,7 @@ function player(x, y, z){
 	var vec_box = new THREE.BoxGeometry( 0.2, 0.2, 0.2 );
 	
 	this.mesh = new THREE.Mesh( vec_box, cyan_mat );
-	
+	this.name = name; 
 }
 
 player.prototype.init = function (){
@@ -20,14 +20,14 @@ player.prototype.loop = function (){
 	this.mesh.position.z = this.z;
 }
 player.prototype.move = function (x,y,z){
-		player1.x = x;
-		player1.y = y + 0.1;
-		player1.z = z;
-		sendPos(player1.x, player1.y, player1.z);
+		this.x = x;
+		this.y = y + 0.1;
+		this.z = z;
+		sendPos(this.x, this.y, this.z);
 }
 player.prototype.updateMove = function (x,y,z){
-		player1.x = x;
-		player1.y = y + 0.1;
-		player1.z = z;
+		this.x = x;
+		this.y = y + 0.1;
+		this.z = z;
 }
 

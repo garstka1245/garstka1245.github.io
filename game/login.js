@@ -67,6 +67,8 @@ firebase.auth().onAuthStateChanged(function() {
 				document.getElementById("signOutButton").style.visibility = "visible";
 				document.getElementById("signInButton").style.visibility = "hidden";
 			}
+		} else {
+			userLoggedIn();
 		}
   } else {
 		if(page == "login" && document.getElementById("usernameLabel") != null){
@@ -131,6 +133,7 @@ function setUserInfo(displayName, photoURL){
   photoURL: photoURL
 });	
 }
+
 function setUserInfo(displayName){
 	currentUser = firebase.auth().currentUser;
 	 

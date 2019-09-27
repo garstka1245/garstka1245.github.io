@@ -1,4 +1,5 @@
-	
+var controls;
+
 function initScene(){
 	//initializing camera and position
 	camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 10 );
@@ -21,16 +22,16 @@ function initScene(){
 	renderer = new THREE.WebGLRenderer(  { canvas: canvas, context: gl }  );
 	
 	// Camera controls
-	var controls = new THREE.OrbitControls(camera, renderer.domElement);
-	controls.mouseButtons = {
-		LEFT: null,
-		MIDDLE: THREE.MOUSE.DOLLY,
-		RIGHT: THREE.MOUSE.PAN
-	}
+	controls = new THREE.OrbitControls(camera, renderer.domElement);
+	controls.enableZoom = true;
+	controls.enablePan = false;
+	controls.mouseButtons = { 
+		LEFT: 2,
+		MIDDLE: null,
+		RIGHT: 0
+		};
 	// threex interactions
 	domEvents	= new THREEx.DomEvents(camera, renderer.domElement)
-	
-
 	
 }
 
@@ -46,9 +47,8 @@ function debugScene(){
 	plane = new THREE.Mesh( vec_plane, green_mat_plane );
 	plane.rotation.x += Math.PI/2;
 	//
-	player1 = new player(0, 0.5, 0)
-	scene.add(player1.mesh, plane);
 	
+	scene.add(plane);
 }
 
 

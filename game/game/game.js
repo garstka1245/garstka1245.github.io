@@ -27,6 +27,10 @@ function refreshGameWindow(){
 // have to cancel on mouse move
 domEvents.addEventListener(plane, 'click', function(event){
 	// check if mouse has moved since click
-player1.move(event.intersect.point.x,event.intersect.point.y,event.intersect.point.z);
+	for(var i = 0; i < serverplayers.length; i++){
+			if(serverplayers[i].name == username){
+				serverplayers[i].move(event.intersect.point.x,event.intersect.point.y,event.intersect.point.z);
+			}
+		}
 }, false);
 

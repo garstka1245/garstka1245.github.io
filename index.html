@@ -6,7 +6,7 @@
 <title>Chris's Website yayay</title>
   <link rel="stylesheet" href="style.css">
   <div class="background" >
-    <canvas id="background" width="1000px" height="500px" style="width:1000px; height:500px;">
+    <canvas id="background" width="1000px" height="500px" style="width: 1516px; height: 480px;">
     </canvas>
   </div>
 	<script src="background.js">
@@ -32,49 +32,52 @@
     <h>Some Projects:</h>
   </div>
   <div>
-		<button class = "button" type="button" onclick="canvasRenderer()">canvasRenderer</button>
-		<button class = "button" type="button" onclick="webGL()">webGL</button>
-		<button class = "button" type="button" onclick="java()">Java</button>
+		<button class = "button" type="button" onclick="canvasRenderer()">3D Canvas</button>
+		<button class = "button" type="button" onclick="webGL()">WebGL</button>
+		<button class = "button" type="button" onclick="motivationalQuoteGen()">Motivation</button>
   </div>
   <div>
-		<button class = "button" type="button" onclick="twodplat()">2D Plat</button>
-		<button class = "button" type="button" onclick="textmanip()">Text Manip</button>
-		<button class = "button" type="button" onclick="hamburger()">Hamburger</button>
+		<button class = "button" type="button" onclick="canvasBase()">Canvas Tests</button>
+		<button class = "button" type="button" onclick="textmanip()">Javascript Tests</button>
+		<button class = "button" type="button" onclick="bootstrapMenu()">Bootstrap Menu</button>
 	</div>
 	<div>
 		<button class = "button" type="button" onclick="socketioserver()">SocketIO</button>
-		<button class = "button" type="button" onclick="motivation()">Motivation</button>
-		<button class = "button" type="button" onclick="gameLogin()">Game Login</button>
+		<button class = "button" type="button" onclick="java()">Java</button>
+		<button class = "button" type="button" onclick="firebaseLogin()">Firebase Login</button>
 	</div>
 
 </div>
 	<script>
 	function canvasRenderer(){
-	window.location.href = "canvasRenderer/index.html";
+	window.location.href = "projects/canvasRenderer/index.html";
 	}
 	function webGL(){
-	window.location.href = "webGL/index.html";
+	window.location.href = "projects/webGL/index.html";
 	}
+	function motivationalQuoteGen(){
+	window.location.href = "projects/motivationalQuoteGen/index.html";
+	}
+	
+	function canvasBase(){
+	window.location.href = "projects/canvasBase/indexCanvas.html";
+	}
+	function textmanip(){
+	window.location.href = "projects/textManip/index.html";
+	}
+	function bootstrapMenu(){
+	window.location.href = "projects/bootstrapMenu/index.html";
+	}
+	
+	function firebaseLogin(){
+	window.location.href = "projects/firebaseLogin/index.html";
+	}
+	// Outside of website
 	function java(){
 	window.location.href = "https://drive.google.com/drive/folders/1Z-ZH8gkBabaqM_QvYl66F-tM2Atgh0ZD?usp=sharing";
 	}
-	function twodplat(){
-	window.location.href = "2DPlat/indexCanvas.html";
-	}
-	function textmanip(){
-	window.location.href = "textManip/index.html";
-	}
-	function hamburger(){
-	window.location.href = "hamburger/index.html";
-	}
 	function socketioserver(){
 	window.location.href = "http://socket.chriswiz.tk:4000";
-	}
-	function motivation(){
-	window.location.href = "motivation/index.html";
-	}
-	function gameLogin(){
-	window.location.href = "game/index.html";
 	}
 	</script>
   </body>

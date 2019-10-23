@@ -1,10 +1,7 @@
 //CanvasSetup
 Canvas = document.getElementById('background');
-Canvas.style.width = window.innerWidth - 20 + "px";
-Canvas.style.height = window.innerHeight - 20 + "px";
-//if mobile, window.innerHeight - 200 + "px";
 ctx = Canvas.getContext('2d');
-ctx.miterLimit = 1;//edges of paths don't freak out on sharp turns
+ctx.miterLimit = 1; // Edges of paths don't freak out on sharp turns
 
 //---
 //Global Variables
@@ -95,7 +92,7 @@ function genStars(){
 		starArray[i] = new star(Math.random()*Canvas.width, Canvas.height + (Math.random()*Canvas.height));
 	}
 }
-}
+
 
 function drawVaporGrid(){
 	ctx.strokeStyle = "#0a0235";
@@ -123,6 +120,7 @@ function drawVaporGrid(){
 	}
 	ctx.stroke();
 	ctx.lineWidth = "1";
+}
 }
 //---
 //Calls
@@ -175,19 +173,24 @@ setInterval(function(){
 },1000);
 
 }
-
-
+//---
+//Resizing
+{
+/* 
+//Debug mouse position
 document.addEventListener ("mousedown", function (e) {
 	console.log("x: " + e.clientX * (Canvas.width/parseInt(Canvas.style.width)) + "   y: " + e.pageY * (Canvas.height/parseInt(Canvas.style.height)));
 });
+*/
 
 window.onresize = function(e) {
 	refreshSize();
 }
 
-function refreshSize(){
+refreshSize();
+function refreshSize
+	// This gets so confusing, I give up.
 	Canvas.style.width = window.innerWidth - 20 + "px";
 	Canvas.style.height = window.innerHeight - 20 + "px";
-
 }
-	
+}

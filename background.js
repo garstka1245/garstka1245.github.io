@@ -188,7 +188,7 @@ window.onresize = function(e) {
 }
 
 refreshSize();
-function refreshSize
+function refreshSize(){
 	// This gets so confusing, I give up.
 	Canvas.style.width = window.innerWidth - 20 + "px";
 	Canvas.style.height = window.innerHeight - 20 + "px";

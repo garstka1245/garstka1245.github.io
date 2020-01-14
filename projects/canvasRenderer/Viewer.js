@@ -161,4 +161,10 @@ yC = -100;
 asyncCall(200,"basic/level4");
 }
 
+function Bulb(){
+refresh();
+xC = 500;
+yC = -100;
+asyncCall(2,"animals/bulbasaur");
+}
 

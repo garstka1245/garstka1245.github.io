@@ -8,6 +8,8 @@ body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+
+
 /* Font sizes for different parts */
 .large {
 	font-size: 50px;
@@ -17,11 +19,17 @@ body {
 	font-size: 20px;
 }
 
+.hat {
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+
 /* Wizard hat positioning for the hazy image effect */
 .haze {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
+	filter: blur(6px) opacity(0.5);
 }
 
 /* Black square buttons */

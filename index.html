@@ -11,14 +11,14 @@
 </head>
 
 
-<body style="background-color:#000; width:100%; height:100%; margin:0px; border:0;">
+<body style="background-color:#000; width:100%; height:100%; padding:0px; margin:0px; border:0px;">
 <!-- Body with the actual website layout -->
 
 	<!-- Wizard hat w/ hazy effect -->
 	<div class="large">
-		<div>
-			<img src="resources/wizard_cap.png" height="190" width="280" style="image-rendering: crisp-edges;" >
-			<img class="haze" src="resources/wizard_cap.png" height="190" width="280" style="image-rendering: crisp-edges; filter: blur(6px) opacity(0.5);" >
+		<div class="hat">
+			<img src="resources/wizard_cap.png" height="190" width="280">
+			<img class="haze" src="resources/wizard_cap.png" height="190" width="280">
 		</div>
 		<!-- Large text "Christian" -->
 		<div>
@@ -59,9 +59,10 @@
 			<button onclick="firebaseLogin()">Firebase Login</button>
 		</div>
 	</div>
-
-	<script>
 	
+	<!-- Scripts to connect the buttons to another html page location -->
+	<script>
+		// Other pages on the github
 		function canvasRenderer(){
 			window.location.href = "projects/canvasRenderer/index.html";
 		}

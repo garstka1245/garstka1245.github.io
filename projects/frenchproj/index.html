@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Header w/ title, imports, and website details -->
+	<meta charset="utf-8" name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="description" content="French project in web format">
+	<title>Chris's French Project</title>
+	<link rel="icon" href="../../resources/wizard_cap_square32x32.png" sizes="32x32">
+	<link rel="stylesheet" href="style.css">
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Texturina:wght@100;300&display=swap" rel="stylesheet"> 
+</head>
+
+
+<body style="background-color:#000; width:100%; height:100%; padding:0px; margin:0px; border:0px;">
+	
+	<div style="overflow: hidden;">
+		<img id="background" src="assets/background.png" width=500% height=100% style="position: relative">
+	</div>
+	
+	<p id="text_0" class="text" style="visibility: visible;"> 
+		C'ést la nuit d'Halloween, et mon premiere fois friandises ou bêtises!<br>
+		Mon family me laisse vais seulement avec mon amis ce an.<br>
+		Nous allions nous promener dans tout le quartier,<br>
+		que pensez-vous que nous trouverons?
+	</p>
+	
+	<p id="text_1" class="text"> 
+		La première maison a l'air très effrayante!<br>
+		Qui habite ici dans l'ancien manoir?<br>
+		Personne n'ouvrira la porte?
+	</p>
+		
+	<p id="text_2" class="text"> 
+		Un vampire!<br>
+		Ils adorent les bonbons rouges.<br>
+		Starbursts, twizzlers, jellybeans et ...pommes?!<br>
+		Nous détestons les pommes!
+	</p>
+		
+	<p id="text_3" class="text"> 
+		Cette maison a l'air encore plus effrayante...<br>
+		il y a des toiles d'araignées partout!<br>
+		Pourquoi y a-t-il un tel désordre?
+	</p>
+		
+	<p id="text_4" class="text"> 
+		Une araignée!<br>
+		Ils adorent le chewing-gum, parce que elle est extensible.<br>
+		Quel est ton bonbon préféré?
+	</p>
+		
+	<p id="text_5" class="text"> 
+		La tombe est là-haut ... nous avons peur.<br>
+		Je pense voir quelqu'un?
+	</p>
+		
+	<p id="text_6" class="text"> 
+		Un zombie!<br>
+		Ils adorent manger du chocolat!<br>
+		Prenez-le et courez vite!
+	</p>
+	
+	<p id="text_7" class="text"> 
+		Où est la dernière maison?<br>
+		Quelle heure est-il?<br>
+		Je pense qu'il est tard, aussi c'est la dernière maison!
+	</p>
+		
+	<p id="text_8" class="text"> 
+		Un fantôme!<br>
+		Pourquoi ce quartier est-il si effrayant!<br>
+		Où sont mes parents?
+	</p>
+		
+	<p id="text_9" class="text"> 
+		Oh, c'est ma famille!<br>
+		C'est ma maison!<br>
+		Merci d'être venu avec moi, joyeux Halloween!
+	</p>
+	
+	
+	
+	<button onclick="nextPage()" style="position: absolute; bottom: 50px; right: 50px;">Prochain</button>
+	
+	<img src="assets/ghost.png" width=200 height=200 style="position: absolute; bottom: 100px; right: 40%;">
+	
+	<img id="vamp" src="assets/vamp.png" width=200 height=240 style="position: absolute; bottom: 100px; right: 70%; visibility: hidden">
+	
+	<img id="spid" src="assets/spid.png" width=191 height=97 style="position: absolute; bottom: 100px; right: 70%; visibility: hidden">
+	
+	<img id="zom" src="assets/zom.png" width=200 height=150 style="position: absolute; bottom: 100px; right: 70%; visibility: hidden">
+	
+	<img id="gho" src="assets/ghost_parent.png" width=200 height=200 style="position: absolute; bottom: 100px; right: 60%; visibility: hidden">
+	<img id="gho2" src="assets/ghost_parent.png" width=200 height=200 style="position: absolute; bottom: 100px; right: 70%; visibility: hidden">
+
+</body>		
+
+<script>
+	var page = 0;
+	
+	function nextPage(){
+		var text_id = "text_" + page
+		var text = document.getElementById(text_id);
+		var img = document.getElementById("background");
+		text.style.visibility = "hidden";
+		
+		if(page < 9){
+			page++;
+		}
+		else page = 0;
+		
+		
+		// Animation
+		var pos = (page-1) * -50;
+		var id = setInterval(frame, 5);
+	    function frame() {
+	 	  if (pos <= page * -50){
+	 	    clearInterval(id);
+	 	  } else {
+	 	    pos-=1; 
+	 	    img.style.left = pos + "%"; 
+	 	  }
+	    }
+		
+		// Characters
+		var vamp = document.getElementById("vamp");
+		var spid = document.getElementById("spid");
+		var zom = document.getElementById("zom");
+		var gho = document.getElementById("gho");
+		var gho2 = document.getElementById("gho2");
+		
+		if(page == 2) vamp.style.visibility = "visible";
+		else vamp.style.visibility = "hidden";
+		if(page == 4) spid.style.visibility = "visible";
+		else spid.style.visibility = "hidden";
+		if(page == 6) zom.style.visibility = "visible";
+		else zom.style.visibility = "hidden";
+		if(page == 8 || page == 9) gho.style.visibility = "visible";
+		else gho.style.visibility = "hidden";
+		if(page == 9) gho2.style.visibility = "visible";
+		else gho2.style.visibility = "hidden";
+		
+		
+		text_id = "text_" + page
+		text = document.getElementById(text_id);
+		text.style.visibility = "visible";
+	
+	}
+	
+
+
+</script>
+
+
+
+
+
+
+
+
+
+

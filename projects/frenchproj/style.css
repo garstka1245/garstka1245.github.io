@@ -1,0 +1,65 @@
+/* Defaults, whole web page has there properties */
+body {
+	color: white;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 32px;
+}
+
+
+
+/* Font sizes for different parts */
+.large {
+	font-size: 50px;
+}
+
+.desc {	
+	font-size: 20px;
+}
+
+/* Black square buttons */
+button {
+	border-radius: 4px;
+    background-color: #222222;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+	font-family: 'Texturina', serif;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Regular text */
+p {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Link text */
+a {
+    color: pink;
+}
+
+.text {
+position: absolute; 
+top: 50px;
+right: 50px;	
+visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+

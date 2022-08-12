@@ -1,16 +1,14 @@
 
+// Listen for enter
+document.onkeypress = function (e) {
+    e = e || window.event;
+    if (e.keyCode === 13) {
+    	var command = document.getElementById("input").value.toLowerCase();
+  		parse(command);
+    }
+};
 
-document.getElementById("input").addEventListener("keydown", function(event) {
-if (event.keyCode === 13) {
-	m = document.getElementById("input").value;
-	m = m.toLowerCase();
-    parse(m);
-}
-});
-	
-var m;
-
-//Text returned to Console.
+// Text returned to Console.
 var availableCommands = ["lvl [subcommand]","canvas [subcommand]","edit [true/false]",""]
 var lvlsub = ["phys","clear",""];
 var editsub = ["true","false",""];
@@ -18,19 +16,19 @@ var invalidMsg = ["Invalid command, try again",""]
 
 ////
 var a=0;
-function print(msg,c){
-if(a < msg.length){
-	setTimeout(function(){a++;print(msg);},1000);
-	document.getElementById("input").disabled = true;
-	document.getElementById("input").value = msg[a];
-	document.getElementById("input").style.color = c;
-	if(msg[a]!=""){
-	console.log("Returned: " + msg[a]);
+function print(msg, c){
+	if(a < msg.length){
+		setTimeout(function(){a++;print(msg);},1000);
+		document.getElementById("input").disabled = true;
+		document.getElementById("input").value = msg[a];
+		document.getElementById("input").style.color = c;
+		if(msg[a]!=""){
+			console.log("Returned: " + msg[a]);
+		}
+		else{document.getElementById("input").style.color = "black";
+				document.getElementById("input").disabled = false;}
 	}
-	else{document.getElementById("input").style.color = "black";
-			document.getElementById("input").disabled = false;}
-}
-else{a=0;}
+	else{a=0;}
 }
 
 function spaceString(m,after,space){

@@ -6,32 +6,14 @@ var loadedFaces = [];
 var loadedUvs = [];
  
 var loadedImgs = [];
- 
-function getObj(path) {
-    return new Promise(function(resolve, reject) {
-        var xhr = new XMLHttpRequest();
-		xhr.overrideMimeType("text/plain")
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState == 4) {
-                if (xhr.status == 200) {
-                    resolve(xhr.responseText);//work
-                } else {
-                    reject(xhr);//bork
-                }
-             }
-        };
-        xhr.open("GET", path);
-        xhr.send();
-    });
-}
 
 var a,x,y,A,B,C,D,E,F,Color,U,V,r,g,b;
 var textured = [];
 
 async function loadObj(name) {
-  var result = await getObj("webgl/models/" + name + ".obj");
+  var result = await fetch("webgl/models/" + name + ".obj");
   //Parsing attempt
-  var lines = result.toUpperCase().substr(0,result.length).split(/\r?\n/);
+  var lines = result.text().toUpperCase().substr(0,result.length).split(/\r?\n/);
   loadedVertices[a] = new Array();
   loadedFaces[a] = new Array();
   loadedUvs[a] = new Array();

@@ -1,0 +1,17 @@
+#?
+o tetrahedron
+
+#Vertices
+v -1 -1 -1
+v 1 -1 -1
+v 0 1 -1
+v 0 0 1
+
+#Faces
+f 1 2 3
+f 4 2 1
+
+f 1 3 4 
+f 2 4 3 
+
+

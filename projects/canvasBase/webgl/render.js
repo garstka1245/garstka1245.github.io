@@ -35,7 +35,7 @@ var fragmentShaderText = `
   `;
   
 var gl;
-var ModelIndex = 0;
+var ModelIndex = 1;
 
 var startProg = function(){
 	Promise.all([loadObj("basic/triangle"),loadObj("basic/cube")]).then(function(){

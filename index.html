@@ -11,7 +11,7 @@
 </head>
 
 
-<body style="background-color:#000; width:100%; height:100%; padding:0px; margin:0px; border:0px;">
+<body style="background-color:#050505; width:100%; height:100%; padding:0px; margin:0px; border:0px;">
 <!-- Body with the actual website layout -->
 
 	<!-- Wizard hat w/ hazy effect -->
@@ -36,31 +36,47 @@
 	</div>
   
 	<!-- Large text "Some Projects:" -->
-	<div class="large"> 
+	<div> 
 		<div>
-			<p>Some Projects:</p>
+			<p class="large">Some Projects:</p>
+		</div>
+
+		<div class="project Centipede">
+			<figure class="project_pic">
+				<a href="projects/centipede/index.html"><img src="resources/centipede.png" style="display: block;"></a>
+			</figure>
+			<figcaption class="project_caption">
+				<div class="title"><a href="projects/centipede/index.html">Centipede Game</a></div>
+				<p>This is a recreation of the 1980's arcade game Centipede, built in C++ with SFML and a very light "engine" giving us a basic game loop.</p>
+			</figcaption>
 		</div>
 		
-		<!-- Buttons sectioned off in threes -->
-		<!-- Note: Would be cool to add a little icon for each project -->
+		<p class="large">Older Projects:</p>
+
 		<div>
-			<button onclick="canvasRenderer()">3D Canvas</button>
-			<button onclick="webGL()">WebGL</button>
-			<button onclick="motivationalQuoteGen()">Motivation</button>
+			<!-- Buttons sectioned off in threes -->
+			<!-- Note: Would be cool to add a little icon for each project -->
+			<div>
+				<button onclick="canvasRenderer()">3D Canvas</button>
+				<button onclick="webGL()">WebGL</button>
+				<button onclick="motivationalQuoteGen()">Motivation</button>
+			</div>
+			<div>
+				<button onclick="canvasBase()">Canvas Tests</button>
+				<button onclick="textmanip()">Javascript Tests</button>
+				<button onclick="bootstrapMenu()">Bootstrap Menu</button>
+			</div>
+			<div>
+				<!-- <button class="button" type="button" onclick="socketioserver()">SocketIO</button> -->
+				<button onclick="java()">Java</button>
+				<button onclick="firebaseLogin()">Firebase Login</button>
+				<button onclick="crystalCave()">Crystal Cave</button>
+			</div>
 		</div>
-		<div>
-			<button onclick="canvasBase()">Canvas Tests</button>
-			<button onclick="textmanip()">Javascript Tests</button>
-			<button onclick="bootstrapMenu()">Bootstrap Menu</button>
-		</div>
-		<div>
-			<!-- <button class="button" type="button" onclick="socketioserver()">SocketIO</button> -->
-			<button onclick="java()">Java</button>
-			<button onclick="firebaseLogin()">Firebase Login</button>
-			<button onclick="crystalCave()">Crystal Cave</button>
-		</div>
+
+		<p class="bottom_text">Created by Christian Garstka 2022<br> Inspired by Joeb Rogers</p>
+
 	</div>
-	
 	<!-- Scripts to connect the buttons to another html page location -->
 	<script>
 		// Other pages on the github

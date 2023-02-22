@@ -1,51 +1,67 @@
 <!DOCTYPE html>
+<html>
+    <head>
+    	<title>Render</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="top_bar">
+            <div class="model_menu">
+                <button class="models_button">Models</button>
+                <div class="model_types_list">
+                    <div class="basic_menu">
+                        <button class="basic_button">Basic</button>
+                        <div class="basic_list">
+                            <button onclick="setModel(0)">Bean</button>
+                            <button onclick="setModel(1)">Cube</button>
+                            <button onclick="setModel(2)">Cube Ind.</button>
+                            <button onclick="setModel(3)">Sphere 4</button>
+                            <button onclick="setModel(4)">Sphere 5</button>
+                            <button onclick="setModel(5)">Sphere 6</button>
+                            <button onclick="setModel(6)">Monkey</button>
+                            <button onclick="setModel(7)">Hole Rect.</button>
+                            <button onclick="setModel(8)">Pyramid</button>
+                            <button onclick="setModel(9)">Tetrahedron</button>
+                        </div>
+                    </div>
+                    <div class="animal_menu">
+                    <button class="animal_button">Animals</button>
+                        <div class="animal_list">
+                            <button onclick="setModel(10)">Bulbasaur</button>
+                            <button onclick="setModel(11)">Cat</button>
+                            <button onclick="setModel(12)">Deer</button>
+                            <button onclick="setModel(13)">Fox</button>
+                            <button onclick="setModel(14)">Spider</button>
+                            <button onclick="setModel(15)">Wolf</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="color" id="colorpicker" value="#660000">
+            <input type="range" id="scale" min="0.25" max="75">
+            <input type="checkbox" id="wireframe">
+        </div>
 
-<head>
-    <meta charset="utf-8">
-    <title>3D</title>
-    <style>
-    html, body {
-      width: 100%;
-      height: 100%;
-      margin: 0px;
-      border: 0px;
-      overflow: hidden; /*  Disable scrollbars */
-      display: block;  /* No floating content on sides */
-    }
-    </style>
-</head>
-
-<body style="background-color:#000">
-
-    <!--<input type="text" id="input" value=""> </input>
-	<style>
-	#input {
-    width: 1000px;
-	position:absolute;
-    }
-	</style>-->
-	
-	<button type="button" onclick="Cube()">Cube</button>
-	<button type="button" onclick="Monkey()">Monkey</button>
-	<button type="button" onclick="Wolf()">Wolf</button>
-	<button type="button" onclick="Sphere()">Sphere</button>
-
-    <canvas id='game' style='position:absolute; left:0px; top:40px; width:100%; height:100%;'>
-    </canvas>
-	<script>
-	document.addEventListener('contextmenu', event => event.preventDefault());//Dis-Rightclick
-	Canvas = document.getElementById('game'),
-	Canvas.width = window.innerWidth;
-	Canvas.height = window.innerHeight;
-	ctx = Canvas.getContext('2d');
-	ctx.miterLimit = 1;//edges of paths don't freak out on sharp turns
-	</script>
-	
-	<script language="javascript" src="Coordinate.js"></script>
-	<script language="javascript" src="Render.js"></script>
-	<script language="javascript" src="Models.js"></script>
-	<script language="javascript" src="Viewer.js"></script>
-
-</body> 
-
+        <div>
+            <canvas id="canvas" width="720" height="480" ></canvas>
+        </div>
+    	<script src="models.js"></script>
+        <script src="parsing.js"></script>
+        <script src="math.js"></script>
+        <script src="drawing.js"></script>
+    	<script src="loop.js"></script>
+    </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+

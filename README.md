@@ -1,2 +1,2 @@
 # Project Website
-www.chriswiz.tk
+www.chriss.quest
